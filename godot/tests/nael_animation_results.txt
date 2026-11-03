@@ -1,0 +1,28 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+
+PASS: 24 imported bones
+PASS: Imported Nael_Idle_Breathe
+PASS: Skeletal tracks for Nael_Idle_Breathe
+PASS: Imported Nael_Walk
+PASS: Skeletal tracks for Nael_Walk
+PASS: Imported Nael_Run
+PASS: Skeletal tracks for Nael_Run
+PASS: Imported Nael_Jump
+PASS: Skeletal tracks for Nael_Jump
+PASS: Imported Nael_FrontFlip
+PASS: Skeletal tracks for Nael_FrontFlip
+PASS: Imported Nael_FrontFlip_InPlace
+PASS: Skeletal tracks for Nael_FrontFlip_InPlace
+PASS: Idle when grounded and stationary
+PASS: Walking state
+PASS: Walking moves the body
+PASS: Sprinting state
+PASS: Space triggers front flip
+PASS: Physics drives aerial height
+PASS: Landing after front flip
+PASS: Returns to breathing after landing
+PASS: Nael_Idle_Breathe loops
+PASS: Nael_Walk loops
+PASS: Nael_Run loops
+PASS: Flip does not loop
+ANIMATION_TEST_RESULT: 0 failure(s)

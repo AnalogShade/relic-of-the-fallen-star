@@ -1,0 +1,9 @@
+[gd_scene format=3 uid="uid://ck03fiof4aj8i"]
+
+[ext_resource type="Script" uid="uid://c7vbejhvaq0cf" path="res://tests/vigie_validation.gd" id="1_003ve"]
+[ext_resource type="PackedScene" uid="uid://bbcte6fxoyjyg" path="res://scenes/world/open_world.tscn" id="2_0yeib"]
+
+[node name="VigieValidation" type="Node3D" unique_id=1734864341]
+script = ExtResource("1_003ve")
+
+[node name="World" parent="." unique_id=1454694496 instance=ExtResource("2_0yeib")]

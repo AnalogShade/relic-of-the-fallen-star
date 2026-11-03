@@ -1,0 +1,31 @@
+{
+	"collision_triangles": 21,
+	"samples": [
+		{
+			"contacts": 600,
+			"max_us": 47,
+			"median_us": 12,
+			"name": "Camp_Banc_Bois_01",
+			"p95_us": 13
+		},
+		{
+			"contacts": 600,
+			"max_us": 17,
+			"median_us": 13,
+			"name": "Camp_Banc_Bois_03",
+			"p95_us": 14
+		},
+		{
+			"contacts": 600,
+			"max_us": 133,
+			"median_us": 103,
+			"name": "Camp_Banniere_Socle_Rocheux",
+			"p95_us": 110
+		}
+	],
+	"shape_types": {
+		"BoxShape3D": 14,
+		"ConcavePolygonShape3D": 5,
+		"CylinderShape3D": 3
+	}
+}

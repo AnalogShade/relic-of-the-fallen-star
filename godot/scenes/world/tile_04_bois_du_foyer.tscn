@@ -1,0 +1,58 @@
+[gd_scene format=3 uid="uid://d3tun8w1qfdhw"]
+
+[ext_resource type="PackedScene" path="res://assets/environment/maison_maelor/tile_04_cour_preservee.glb" id="1_j7vi5"]
+[ext_resource type="PackedScene" path="res://assets/environment/maison_maelor/maison_maelor_structure.glb" id="maison"]
+[ext_resource type="PackedScene" path="res://assets/environment/maison_maelor/maison_maelor_porte.glb" id="3_f5ydh"]
+[ext_resource type="Script" path="res://scripts/cabin_portal.gd" id="4_4w5jh"]
+[ext_resource type="Script" path="res://scripts/castle_chimney_smoke.gd" id="chimney_smoke"]
+
+[sub_resource type="BoxShape3D" id="PorteShape"]
+size = Vector3(2.1581, 4.637, 0.3144)
+
+[sub_resource type="Shader" id="NoirShader"]
+code = "shader_type spatial;
+render_mode unshaded, cull_disabled, fog_disabled;
+void fragment() { ALBEDO = vec3(0.0); }
+"
+
+[sub_resource type="ShaderMaterial" id="NoirAbsolu"]
+shader = SubResource("NoirShader")
+
+[sub_resource type="QuadMesh" id="EntreeMesh"]
+size = Vector2(1.06, 2.15)
+
+[node name="Tile_04_bois_du_foyer" type="Node3D" unique_id=521634769]
+
+[node name="Art" parent="." unique_id=1010976797 instance=ExtResource("1_j7vi5")]
+
+[node name="MaisonMaelor" parent="." instance=ExtResource("maison")]
+position = Vector3(-55.45, 11.6442, 0.4384)
+scale = Vector3(0.43, 0.43, 0.43)
+
+[node name="CabinDoorArt" type="Node3D" parent="."]
+position = Vector3(-55.28875, 13.1707, 1.78)
+scale = Vector3(0.43, 0.43, 0.43)
+metadata/open_angle = 1.15
+
+[node name="Porte" parent="CabinDoorArt" instance=ExtResource("3_f5ydh")]
+position = Vector3(-0.375, -3.55, -3.12)
+
+[node name="Collision" type="StaticBody3D" parent="CabinDoorArt"]
+
+[node name="Forme" type="CollisionShape3D" parent="CabinDoorArt/Collision"]
+position = Vector3(1.0686, 0.3227, 0)
+shape = SubResource("PorteShape")
+
+[node name="EntreeNoire" type="MeshInstance3D" parent="."]
+position = Vector3(-54.8296, 13.3095, 1.645)
+cast_shadow = 0
+mesh = SubResource("EntreeMesh")
+material_override = SubResource("NoirAbsolu")
+
+[node name="CabinEntrance" type="Node3D" parent="."]
+position = Vector3(-54.8296, 12.94, 2.1)
+script = ExtResource("4_4w5jh")
+
+[node name="ChimneySmoke" type="Node3D" parent="."]
+script = ExtResource("chimney_smoke")
+layout_path = "res://assets/environment/maison_maelor/chimney_smoke.json"

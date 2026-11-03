@@ -1,0 +1,14 @@
+[gd_scene load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/cave_depths.gd" id="1"]
+[ext_resource type="PackedScene" path="res://assets/environment/cave_depths/cave_depths.glb" id="2"]
+[ext_resource type="PackedScene" path="res://scenes/player.tscn" id="3"]
+
+[node name="CaveDepths" type="Node3D" groups=["cave_music"]]
+script = ExtResource("1")
+
+[node name="Architecture" parent="." instance=ExtResource("2")]
+
+[node name="Player" parent="." instance=ExtResource("3")]
+position = Vector3(27, 8.6, -35)
+world_bounds = Rect2(-45, -48, 90, 96)

@@ -1,0 +1,20 @@
+[gd_scene format=3 uid="uid://bwib53tsm8ra0"]
+
+[ext_resource type="PackedScene" path="res://assets/environment/world/vigie.glb" id="1_2822q"]
+
+[ext_resource type="Script" path="res://scripts/vigie_ascent.gd" id="2_ascent"]
+
+[ext_resource type="PackedScene" path="res://scenes/world/marches_naturelles.tscn" id="3_marches"]
+
+[ext_resource type="PackedScene" path="res://scenes/world/ruine_sommet.tscn" id="4_ruine"]
+
+[node name="Vigie" type="Node3D" unique_id=697600887]
+
+script = ExtResource("2_ascent")
+
+[node name="Art" parent="." unique_id=171551901 instance=ExtResource("1_2822q")]
+
+[node name="MarchesNaturelles" parent="." instance=ExtResource("3_marches")]
+
+[node name="RuineSommet" parent="." instance=ExtResource("4_ruine")]
+

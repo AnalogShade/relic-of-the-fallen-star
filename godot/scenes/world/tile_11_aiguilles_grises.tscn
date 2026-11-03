@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="PackedScene" path="res://assets/environment/world/tile_11_aiguilles_grises.glb" id="1"]
+
+[node name="Tile_11_Aiguilles_grises" type="Node3D"]
+
+[node name="Art" parent="." instance=ExtResource("1")]

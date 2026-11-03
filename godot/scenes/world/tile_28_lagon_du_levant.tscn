@@ -1,0 +1,7 @@
+[gd_scene format=3 uid="uid://c54i8nr400gq5"]
+
+[ext_resource type="PackedScene" uid="uid://p5y3xnpg3f5t" path="res://assets/environment/world/tile_28_lagon_du_levant.glb" id="1_4n5fp"]
+
+[node name="Tile_28_lagon_du_levant" type="Node3D" unique_id=1077229169]
+
+[node name="Model" parent="." unique_id=1072504479 instance=ExtResource("1_4n5fp")]

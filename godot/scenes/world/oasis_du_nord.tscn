@@ -1,0 +1,36 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="PackedScene" path="res://assets/environment/world/oasis_du_nord.glb" id="1"]
+[ext_resource type="PackedScene" path="res://scenes/truite.tscn" id="2_truite"]
+
+[node name="OasisDuNord" instance=ExtResource("1")]
+
+[node name="Truites" type="Node3D" parent="."]
+
+[node name="Truite1" parent="Truites" instance=ExtResource("2_truite")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7, 5, -213)
+fish_scale = 1.0
+
+[node name="Truite2" parent="Truites" instance=ExtResource("2_truite")]
+transform = Transform3D(0.707107, 0, 0.707107, 0, 1, 0, -0.707107, 0, 0.707107, 13, 5.1, -210)
+fish_scale = 0.65
+
+[node name="Truite3" parent="Truites" instance=ExtResource("2_truite")]
+transform = Transform3D(-0.5, 0, 0.866025, 0, 1, 0, -0.866025, 0, -0.5, 3, 4.85, -215)
+fish_scale = 1.45
+
+[node name="Truite4" parent="Truites" instance=ExtResource("2_truite")]
+transform = Transform3D(0.866025, 0, -0.5, 0, 1, 0, 0.5, 0, 0.866025, 15, 4.95, -214)
+fish_scale = 0.75
+
+[node name="Truite5" parent="Truites" instance=ExtResource("2_truite")]
+transform = Transform3D(-0.866025, 0, -0.5, 0, 1, 0, 0.5, 0, -0.866025, 9, 5.15, -207)
+fish_scale = 1.15
+
+[node name="Truite6" parent="Truites" instance=ExtResource("2_truite")]
+transform = Transform3D(0, 0, -1, 0, 1, 0, 1, 0, 0, 1, 5, -211)
+fish_scale = 0.85
+
+[node name="Truite7" parent="Truites" instance=ExtResource("2_truite")]
+transform = Transform3D(-1, 0, 0, 0, 1, 0, 0, 0, -1, 5, 4.75, -218)
+fish_scale = 1.6

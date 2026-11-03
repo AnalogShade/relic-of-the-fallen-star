@@ -1,0 +1,7 @@
+[gd_scene format=3 uid="uid://hq15p7n6vib0"]
+
+[ext_resource type="PackedScene" uid="uid://ibal68bb0koa" path="res://assets/environment/world/tile_08_hauts_pres.glb" id="1_gt7ak"]
+
+[node name="Tile_08_hauts_pres" type="Node3D" unique_id=117544405]
+
+[node name="Art" parent="." unique_id=367467146 instance=ExtResource("1_gt7ak")]

@@ -1,0 +1,1646 @@
+{
+	"hidden": [
+		"ForetMalefique/ArbresMacabres/arbre_macabre_moyen_62",
+		"ForetMalefique/ArbresMacabres/arbre_macabre_moyen_67",
+		"ForetMalefique/ArbresMacabres/arbre_macabre_grand_69",
+		"ForetMalefique/SapinsCorrompus/sapin_squelettique_tordu_03"
+	],
+	"meshes": [
+		{
+			"collision": "res://assets/environment/scene_cleanup/mesh_00_collision.res",
+			"mesh": "res://assets/environment/scene_cleanup/mesh_00.res",
+			"path": "Sectors/Tile_01_cretes_des_brumes/Art/Wood"
+		},
+		{
+			"collision": "",
+			"mesh": "res://assets/environment/scene_cleanup/mesh_01.res",
+			"path": "Sectors/Tile_01_cretes_des_brumes/Art/Leaves"
+		},
+		{
+			"collision": "res://assets/environment/scene_cleanup/mesh_02_collision.res",
+			"mesh": "res://assets/environment/scene_cleanup/mesh_02.res",
+			"path": "Sectors/Tile_02_vallee_des_sources/Art/Wood"
+		},
+		{
+			"collision": "",
+			"mesh": "res://assets/environment/scene_cleanup/mesh_03.res",
+			"path": "Sectors/Tile_02_vallee_des_sources/Art/Leaves"
+		},
+		{
+			"collision": "res://assets/environment/scene_cleanup/mesh_04_collision.res",
+			"mesh": "res://assets/environment/scene_cleanup/mesh_04.res",
+			"path": "Sectors/Tile_03_monts_de_schiste/Art/Wood"
+		},
+		{
+			"collision": "",
+			"mesh": "res://assets/environment/scene_cleanup/mesh_05.res",
+			"path": "Sectors/Tile_03_monts_de_schiste/Art/Leaves"
+		},
+		{
+			"collision": "res://assets/environment/scene_cleanup/mesh_06_collision.res",
+			"mesh": "res://assets/environment/scene_cleanup/mesh_06.res",
+			"path": "Sectors/Tile_04_bois_du_foyer/Art/Wood"
+		},
+		{
+			"collision": "",
+			"mesh": "res://assets/environment/scene_cleanup/mesh_07.res",
+			"path": "Sectors/Tile_04_bois_du_foyer/Art/Leaves"
+		},
+		{
+			"collision": "res://assets/environment/scene_cleanup/mesh_08_collision.res",
+			"mesh": "res://assets/environment/scene_cleanup/mesh_08.res",
+			"path": "Sectors/Tile_05_collines_du_levant/Art/Wood"
+		},
+		{
+			"collision": "",
+			"mesh": "res://assets/environment/scene_cleanup/mesh_09.res",
+			"path": "Sectors/Tile_05_collines_du_levant/Art/Leaves"
+		},
+		{
+			"collision": "res://assets/environment/scene_cleanup/mesh_10_collision.res",
+			"mesh": "res://assets/environment/scene_cleanup/mesh_10.res",
+			"path": "Sectors/Tile_06_vallons_des_fougeres/Art/Wood"
+		},
+		{
+			"collision": "",
+			"mesh": "res://assets/environment/scene_cleanup/mesh_11.res",
+			"path": "Sectors/Tile_06_vallons_des_fougeres/Art/Leaves"
+		},
+		{
+			"collision": "res://assets/environment/scene_cleanup/mesh_12_collision.res",
+			"mesh": "res://assets/environment/scene_cleanup/mesh_12.res",
+			"path": "Sectors/Tile_07_meandres_du_sud/Art/Wood"
+		},
+		{
+			"collision": "",
+			"mesh": "res://assets/environment/scene_cleanup/mesh_13.res",
+			"path": "Sectors/Tile_07_meandres_du_sud/Art/Leaves"
+		},
+		{
+			"collision": "res://assets/environment/scene_cleanup/mesh_14_collision.res",
+			"mesh": "res://assets/environment/scene_cleanup/mesh_14.res",
+			"path": "Sectors/Tile_08_hauts_pres/Art/Wood"
+		},
+		{
+			"collision": "",
+			"mesh": "res://assets/environment/scene_cleanup/mesh_15.res",
+			"path": "Sectors/Tile_08_hauts_pres/Art/Leaves"
+		},
+		{
+			"collision": "res://assets/environment/scene_cleanup/mesh_16_collision.res",
+			"mesh": "res://assets/environment/scene_cleanup/mesh_16.res",
+			"path": "Sectors/WesternPlains/Tile_35_dunes_des_pres_3/Wood"
+		},
+		{
+			"collision": "",
+			"mesh": "res://assets/environment/scene_cleanup/mesh_17.res",
+			"path": "Sectors/WesternPlains/Tile_35_dunes_des_pres_3/Leaves"
+		},
+		{
+			"collision": "res://assets/environment/scene_cleanup/mesh_18_collision.res",
+			"mesh": "res://assets/environment/scene_cleanup/mesh_18.res",
+			"path": "Sectors/WesternPlains/Tile_36_prairies_du_sud_1/Wood"
+		},
+		{
+			"collision": "",
+			"mesh": "res://assets/environment/scene_cleanup/mesh_19.res",
+			"path": "Sectors/WesternPlains/Tile_36_prairies_du_sud_1/Leaves"
+		},
+		{
+			"collision": "res://assets/environment/scene_cleanup/mesh_20_collision.res",
+			"mesh": "res://assets/environment/scene_cleanup/mesh_20.res",
+			"path": "Sectors/WesternPlains/Tile_38_prairies_du_sud_3/Wood"
+		},
+		{
+			"collision": "",
+			"mesh": "res://assets/environment/scene_cleanup/mesh_21.res",
+			"path": "Sectors/WesternPlains/Tile_38_prairies_du_sud_3/Leaves"
+		},
+		{
+			"collision": "res://assets/environment/scene_cleanup/mesh_22_collision.res",
+			"mesh": "res://assets/environment/scene_cleanup/mesh_22.res",
+			"path": "Sectors/WesternPlains/Tile_44_pres_des_hauteurs_3/Wood"
+		},
+		{
+			"collision": "",
+			"mesh": "res://assets/environment/scene_cleanup/mesh_23.res",
+			"path": "Sectors/WesternPlains/Tile_44_pres_des_hauteurs_3/Leaves"
+		},
+		{
+			"collision": "res://assets/environment/scene_cleanup/mesh_24_collision.res",
+			"mesh": "res://assets/environment/scene_cleanup/mesh_24.res",
+			"path": "Sectors/WesternPlains/Tile_47_collines_occidentales_3/Wood"
+		},
+		{
+			"collision": "",
+			"mesh": "res://assets/environment/scene_cleanup/mesh_25.res",
+			"path": "Sectors/WesternPlains/Tile_47_collines_occidentales_3/Leaves"
+		},
+		{
+			"collision": "res://assets/environment/scene_cleanup/mesh_26_collision.res",
+			"mesh": "res://assets/environment/scene_cleanup/mesh_26.res",
+			"path": "Sectors/OasisDuNord/OasisRocks"
+		},
+		{
+			"collision": "res://assets/environment/scene_cleanup/mesh_27_collision.res",
+			"mesh": "res://assets/environment/scene_cleanup/mesh_27.res",
+			"path": "Sectors/Tile_03_monts_de_schiste/Art/Rocks"
+		}
+	],
+	"nodes": [
+		{
+			"path": "ForetMalefique/RochesMalefiques/RochePlateau_15",
+			"y": 11.0361139732244
+		},
+		{
+			"path": "ForetMalefique/RochesMalefiques/RocheEclats_25",
+			"y": 11.648720141618
+		}
+	],
+	"rocks": [
+		{
+			"collision": "RochesBlender/Collisions_Roches_-1_-1/Roche_0501",
+			"dy": -0.19889887993376,
+			"index": 2.0,
+			"path": "RochesBlender/Roche_Moussue_Galet_Plat_Petit_01_-1_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_-1_-1/Roche_0613",
+			"dy": -0.124830985798439,
+			"index": 6.0,
+			"path": "RochesBlender/Roche_Moussue_Galet_Plat_Petit_01_-1_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_-1_-1/Roche_0001",
+			"dy": -0.316698531415815,
+			"index": 0.0,
+			"path": "RochesBlender/Roche_Bloc_Pointu_Moyen_01_-1_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_-1_-1/Roche_0035",
+			"dy": -0.777753156897654,
+			"index": 1.0,
+			"path": "RochesBlender/Roche_Bloc_Pointu_Moyen_01_-1_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_-1_-1/Roche_0066",
+			"dy": -0.154217869884809,
+			"index": 3.0,
+			"path": "RochesBlender/Roche_Bloc_Pointu_Moyen_01_-1_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_-1_-1/Roche_0115",
+			"dy": -0.169970458653479,
+			"index": 4.0,
+			"path": "RochesBlender/Roche_Bloc_Pointu_Moyen_01_-1_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_-1_-1/Roche_0002",
+			"dy": -0.164353874577585,
+			"index": 0.0,
+			"path": "RochesBlender/Roche_Moussue_Bloc_Massif_Grand_01_-1_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_-1_-1/Roche_0009",
+			"dy": -0.175327366070003,
+			"index": 1.0,
+			"path": "RochesBlender/Roche_Moussue_Bloc_Massif_Grand_01_-1_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_-1_-1/Roche_0018",
+			"dy": -0.179540019075975,
+			"index": 2.0,
+			"path": "RochesBlender/Roche_Moussue_Bloc_Massif_Grand_01_-1_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_-1_-1/Roche_0039",
+			"dy": -0.636810824297697,
+			"index": 3.0,
+			"path": "RochesBlender/Roche_Moussue_Bloc_Massif_Grand_01_-1_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_-1_-1/Roche_0072",
+			"dy": -0.275250258589324,
+			"index": 4.0,
+			"path": "RochesBlender/Roche_Moussue_Bloc_Massif_Grand_01_-1_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_-1_-1/Roche_0003",
+			"dy": -0.426959526954719,
+			"index": 0.0,
+			"path": "RochesBlender/Roche_Bloc_Massif_Grand_01_-1_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_-1_-1/Roche_0012",
+			"dy": -0.115689481485267,
+			"index": 1.0,
+			"path": "RochesBlender/Roche_Bloc_Massif_Grand_01_-1_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_-1_-1/Roche_0015",
+			"dy": -0.25887283679436,
+			"index": 2.0,
+			"path": "RochesBlender/Roche_Bloc_Massif_Grand_01_-1_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_-1_-1/Roche_0017",
+			"dy": -0.760722977999323,
+			"index": 3.0,
+			"path": "RochesBlender/Roche_Bloc_Massif_Grand_01_-1_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_-1_-1/Roche_0019",
+			"dy": -0.52215238910418,
+			"index": 4.0,
+			"path": "RochesBlender/Roche_Bloc_Massif_Grand_01_-1_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_-1_-1/Roche_0023",
+			"dy": -0.141582518471091,
+			"index": 5.0,
+			"path": "RochesBlender/Roche_Bloc_Massif_Grand_01_-1_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_-1_-1/Roche_0026",
+			"dy": -0.267181149045451,
+			"index": 6.0,
+			"path": "RochesBlender/Roche_Bloc_Massif_Grand_01_-1_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_-1_-1/Roche_0027",
+			"dy": -0.288305026214652,
+			"index": 7.0,
+			"path": "RochesBlender/Roche_Bloc_Massif_Grand_01_-1_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_-1_-1/Roche_0041",
+			"dy": -0.717281111542532,
+			"index": 8.0,
+			"path": "RochesBlender/Roche_Bloc_Massif_Grand_01_-1_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_-1_-1/Roche_0045",
+			"dy": -0.152317534729953,
+			"index": 9.0,
+			"path": "RochesBlender/Roche_Bloc_Massif_Grand_01_-1_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_-1_-1/Roche_0140",
+			"dy": -0.18520427826334,
+			"index": 11.0,
+			"path": "RochesBlender/Roche_Bloc_Massif_Grand_01_-1_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_-1_-1/Roche_0500",
+			"dy": -0.170377863730421,
+			"index": 12.0,
+			"path": "RochesBlender/Roche_Bloc_Massif_Grand_01_-1_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_-1_-1/Roche_0004",
+			"dy": -0.265537678443373,
+			"index": 0.0,
+			"path": "RochesBlender/Roche_Moussue_Bloc_Pointu_Moyen_01_-1_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_-1_-1/Roche_0020",
+			"dy": -0.32940683412236,
+			"index": 1.0,
+			"path": "RochesBlender/Roche_Moussue_Bloc_Pointu_Moyen_01_-1_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_-1_-1/Roche_0025",
+			"dy": -0.231072868961915,
+			"index": 2.0,
+			"path": "RochesBlender/Roche_Moussue_Bloc_Pointu_Moyen_01_-1_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_-1_-1/Roche_0029",
+			"dy": -0.545286220885981,
+			"index": 3.0,
+			"path": "RochesBlender/Roche_Moussue_Bloc_Pointu_Moyen_01_-1_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_-1_-1/Roche_0073",
+			"dy": -0.203254691160515,
+			"index": 6.0,
+			"path": "RochesBlender/Roche_Moussue_Bloc_Pointu_Moyen_01_-1_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_-1_-1/Roche_0144",
+			"dy": -0.211664786930168,
+			"index": 10.0,
+			"path": "RochesBlender/Roche_Moussue_Bloc_Pointu_Moyen_01_-1_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_-1_-1/Roche_0005",
+			"dy": -0.147064178214077,
+			"index": 0.0,
+			"path": "RochesBlender/Roche_Galet_Anguleux_Petit_01_-1_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_-1_-1/Roche_0006",
+			"dy": -0.177224036445273,
+			"index": 1.0,
+			"path": "RochesBlender/Roche_Galet_Anguleux_Petit_01_-1_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_-1_-1/Roche_0031",
+			"dy": -0.210319756383021,
+			"index": 2.0,
+			"path": "RochesBlender/Roche_Galet_Anguleux_Petit_01_-1_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_-1_-1/Roche_0007",
+			"dy": -0.473337741368429,
+			"index": 0.0,
+			"path": "RochesBlender/Roche_Dalle_Fissuree_Grande_01_-1_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_-1_-1/Roche_0131",
+			"dy": -0.598232699796296,
+			"index": 1.0,
+			"path": "RochesBlender/Roche_Dalle_Fissuree_Grande_01_-1_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_-1_-1/Roche_0016",
+			"dy": -0.282517837996438,
+			"index": 3.0,
+			"path": "RochesBlender/Roche_Bloc_Anguleux_Moyen_01_-1_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_-1_-1/Roche_0042",
+			"dy": -0.435906205636565,
+			"index": 5.0,
+			"path": "RochesBlender/Roche_Bloc_Anguleux_Moyen_01_-1_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_-1_-1/Roche_0077",
+			"dy": -0.214973025015976,
+			"index": 9.0,
+			"path": "RochesBlender/Roche_Bloc_Anguleux_Moyen_01_-1_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_-1_-1/Roche_0544",
+			"dy": -0.183942600909402,
+			"index": 11.0,
+			"path": "RochesBlender/Roche_Bloc_Anguleux_Moyen_01_-1_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_-1_-1/Roche_0010",
+			"dy": -0.558132687455158,
+			"index": 0.0,
+			"path": "RochesBlender/Roche_Moussue_Bloc_Oblong_Moyen_01_-1_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_-1_-1/Roche_0013",
+			"dy": -0.440535048001373,
+			"index": 0.0,
+			"path": "RochesBlender/Roche_Moussue_Galet_Arrondi_Petit_01_-1_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_-1_-1/Roche_0116",
+			"dy": -0.43784891316139,
+			"index": 1.0,
+			"path": "RochesBlender/Roche_Moussue_Galet_Arrondi_Petit_01_-1_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_-1_-1/Roche_0021",
+			"dy": -0.211215660347142,
+			"index": 0.0,
+			"path": "RochesBlender/Roche_Moussue_Bloc_Rectangulaire_Moyen_01_-1_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_-1_-1/Roche_0126",
+			"dy": -0.286935686164867,
+			"index": 2.0,
+			"path": "RochesBlender/Roche_Moussue_Bloc_Rectangulaire_Moyen_01_-1_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_-1_-1/Roche_0553",
+			"dy": -0.102371601245163,
+			"index": 3.0,
+			"path": "RochesBlender/Roche_Moussue_Bloc_Rectangulaire_Moyen_01_-1_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_-1_-1/Roche_0022",
+			"dy": -0.194654004360793,
+			"index": 0.0,
+			"path": "RochesBlender/Roche_Galet_Arrondi_Petit_01_-1_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_-1_-1/Roche_0068",
+			"dy": -0.106902740641485,
+			"index": 2.0,
+			"path": "RochesBlender/Roche_Galet_Arrondi_Petit_01_-1_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_-1_-1/Roche_0147",
+			"dy": -0.275659830700036,
+			"index": 7.0,
+			"path": "RochesBlender/Roche_Galet_Arrondi_Petit_01_-1_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_-1_-1/Roche_0536",
+			"dy": -0.122359718206202,
+			"index": 9.0,
+			"path": "RochesBlender/Roche_Galet_Arrondi_Petit_01_-1_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_-1_-1/Roche_0593",
+			"dy": -0.188520704092789,
+			"index": 11.0,
+			"path": "RochesBlender/Roche_Galet_Arrondi_Petit_01_-1_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_-1_-1/Roche_0024",
+			"dy": -0.439406715413514,
+			"index": 0.0,
+			"path": "RochesBlender/Roche_Bloc_Anguleux_Petit_01_-1_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_-1_-1/Roche_0034",
+			"dy": -0.153051924221767,
+			"index": 1.0,
+			"path": "RochesBlender/Roche_Bloc_Anguleux_Petit_01_-1_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_-1_-1/Roche_0036",
+			"dy": -0.157448698141407,
+			"index": 2.0,
+			"path": "RochesBlender/Roche_Bloc_Anguleux_Petit_01_-1_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_-1_-1/Roche_0124",
+			"dy": -0.140171162428066,
+			"index": 5.0,
+			"path": "RochesBlender/Roche_Bloc_Anguleux_Petit_01_-1_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_-1_-1/Roche_0133",
+			"dy": -0.146249084384397,
+			"index": 6.0,
+			"path": "RochesBlender/Roche_Bloc_Anguleux_Petit_01_-1_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_-1_-1/Roche_0412",
+			"dy": -0.364599565408895,
+			"index": 7.0,
+			"path": "RochesBlender/Roche_Bloc_Anguleux_Petit_01_-1_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_-1_-1/Roche_0559",
+			"dy": -0.133986441976415,
+			"index": 8.0,
+			"path": "RochesBlender/Roche_Bloc_Anguleux_Petit_01_-1_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_-1_-1/Roche_0570",
+			"dy": -0.116435693909789,
+			"index": 9.0,
+			"path": "RochesBlender/Roche_Bloc_Anguleux_Petit_01_-1_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_-1_-1/Roche_0028",
+			"dy": -0.434824215650121,
+			"index": 0.0,
+			"path": "RochesBlender/Roche_Bloc_Arrondi_Grand_01_-1_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_-1_-1/Roche_0032",
+			"dy": -0.352732615074006,
+			"index": 0.0,
+			"path": "RochesBlender/Roche_Galet_Allonge_Petit_01_-1_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_-1_-1/Roche_0040",
+			"dy": -0.211700550560172,
+			"index": 0.0,
+			"path": "RochesBlender/Roche_Moussue_Bloc_Allonge_Grand_01_-1_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_-1_-1/Roche_0060",
+			"dy": -0.28481421890066,
+			"index": 1.0,
+			"path": "RochesBlender/Roche_Moussue_Bloc_Allonge_Grand_01_-1_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_-1_-1/Roche_0139",
+			"dy": -0.208632253041865,
+			"index": 2.0,
+			"path": "RochesBlender/Roche_Moussue_Bloc_Allonge_Grand_01_-1_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_-1_-1/Roche_0623",
+			"dy": -0.157712412908502,
+			"index": 6.0,
+			"path": "RochesBlender/Roche_Moussue_Bloc_Allonge_Grand_01_-1_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_0_-1/Roche_0080",
+			"dy": -0.366676638759158,
+			"index": 1.0,
+			"path": "RochesBlender/Roche_Bloc_Anguleux_Moyen_01_0_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_0_-1/Roche_0081",
+			"dy": -0.284415042476957,
+			"index": 2.0,
+			"path": "RochesBlender/Roche_Bloc_Anguleux_Moyen_01_0_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_0_-1/Roche_0087",
+			"dy": -0.770707507129357,
+			"index": 3.0,
+			"path": "RochesBlender/Roche_Bloc_Anguleux_Moyen_01_0_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_0_-1/Roche_0111",
+			"dy": -0.144755417936748,
+			"index": 5.0,
+			"path": "RochesBlender/Roche_Bloc_Anguleux_Moyen_01_0_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_0_-1/Roche_0159",
+			"dy": -0.109296802863174,
+			"index": 6.0,
+			"path": "RochesBlender/Roche_Bloc_Anguleux_Moyen_01_0_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_0_-1/Roche_0185",
+			"dy": -0.181570688186784,
+			"index": 7.0,
+			"path": "RochesBlender/Roche_Bloc_Anguleux_Moyen_01_0_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_0_-1/Roche_0542",
+			"dy": -0.101923875235459,
+			"index": 8.0,
+			"path": "RochesBlender/Roche_Bloc_Anguleux_Moyen_01_0_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_-1_-1/Roche_0048",
+			"dy": -0.246984789936449,
+			"index": 0.0,
+			"path": "RochesBlender/Roche_Moussue_Dalle_Ovale_Moyenne_01_-1_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_0_-1/Roche_0049",
+			"dy": -0.143746162004484,
+			"index": 0.0,
+			"path": "RochesBlender/Roche_Moussue_Bloc_Pointu_Moyen_01_0_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_0_-1/Roche_0104",
+			"dy": -0.173630013048954,
+			"index": 4.0,
+			"path": "RochesBlender/Roche_Moussue_Bloc_Pointu_Moyen_01_0_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_0_-1/Roche_0191",
+			"dy": -0.484983982464062,
+			"index": 6.0,
+			"path": "RochesBlender/Roche_Moussue_Bloc_Pointu_Moyen_01_0_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_-1_-1/Roche_0061",
+			"dy": -0.210984165657731,
+			"index": 1.0,
+			"path": "RochesBlender/Roche_Moussue_Bloc_Anguleux_Petit_01_-1_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_0_-1/Roche_0091",
+			"dy": -0.917411904298591,
+			"index": 1.0,
+			"path": "RochesBlender/Roche_Bloc_Pointu_Moyen_01_0_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_0_-1/Roche_0113",
+			"dy": -0.149978141030484,
+			"index": 2.0,
+			"path": "RochesBlender/Roche_Bloc_Pointu_Moyen_01_0_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_0_-1/Roche_0161",
+			"dy": -0.289638936040596,
+			"index": 3.0,
+			"path": "RochesBlender/Roche_Bloc_Pointu_Moyen_01_0_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_0_-1/Roche_0165",
+			"dy": -0.701078604802783,
+			"index": 4.0,
+			"path": "RochesBlender/Roche_Bloc_Pointu_Moyen_01_0_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_0_-1/Roche_0086",
+			"dy": -0.45792353092107,
+			"index": 1.0,
+			"path": "RochesBlender/Roche_Bloc_Anguleux_Petit_01_0_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_0_-1/Roche_0093",
+			"dy": -0.365434905928578,
+			"index": 2.0,
+			"path": "RochesBlender/Roche_Bloc_Anguleux_Petit_01_0_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_0_-1/Roche_0514",
+			"dy": -0.107899440597974,
+			"index": 7.0,
+			"path": "RochesBlender/Roche_Bloc_Anguleux_Petit_01_0_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_0_-1/Roche_0617",
+			"dy": -0.185689838261482,
+			"index": 9.0,
+			"path": "RochesBlender/Roche_Bloc_Anguleux_Petit_01_0_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_0_-1/Roche_0101",
+			"dy": -0.182434350959998,
+			"index": 1.0,
+			"path": "RochesBlender/Roche_Moussue_Galet_Allonge_Petit_01_0_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_0_-1/Roche_0503",
+			"dy": -0.13613440142922,
+			"index": 2.0,
+			"path": "RochesBlender/Roche_Moussue_Galet_Allonge_Petit_01_0_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_0_-1/Roche_0513",
+			"dy": -0.103485074200379,
+			"index": 3.0,
+			"path": "RochesBlender/Roche_Moussue_Galet_Allonge_Petit_01_0_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_0_-1/Roche_0531",
+			"dy": -0.177909262085343,
+			"index": 4.0,
+			"path": "RochesBlender/Roche_Moussue_Galet_Allonge_Petit_01_0_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_0_-1/Roche_0545",
+			"dy": -0.114338329122664,
+			"index": 1.0,
+			"path": "RochesBlender/Roche_Moussue_Bloc_Anguleux_Petit_01_0_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_0_-1/Roche_0597",
+			"dy": -0.112756145956785,
+			"index": 3.0,
+			"path": "RochesBlender/Roche_Moussue_Bloc_Anguleux_Petit_01_0_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_0_-1/Roche_0075",
+			"dy": -0.352276366927891,
+			"index": 0.0,
+			"path": "RochesBlender/Roche_Galet_Allonge_Petit_01_0_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_0_-1/Roche_0082",
+			"dy": -0.167684358521723,
+			"index": 1.0,
+			"path": "RochesBlender/Roche_Galet_Allonge_Petit_01_0_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_0_-1/Roche_0098",
+			"dy": -0.289299032480125,
+			"index": 2.0,
+			"path": "RochesBlender/Roche_Galet_Allonge_Petit_01_0_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_0_-1/Roche_0509",
+			"dy": -0.187965208575326,
+			"index": 4.0,
+			"path": "RochesBlender/Roche_Galet_Allonge_Petit_01_0_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_0_-1/Roche_0578",
+			"dy": -0.119914427694935,
+			"index": 5.0,
+			"path": "RochesBlender/Roche_Galet_Allonge_Petit_01_0_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_0_-1/Roche_0083",
+			"dy": -0.172487851507954,
+			"index": 0.0,
+			"path": "RochesBlender/Roche_Bloc_Massif_Grand_01_0_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_0_-1/Roche_0090",
+			"dy": -0.984254332409751,
+			"index": 1.0,
+			"path": "RochesBlender/Roche_Bloc_Massif_Grand_01_0_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_0_-1/Roche_0099",
+			"dy": -0.283162306420741,
+			"index": 2.0,
+			"path": "RochesBlender/Roche_Bloc_Massif_Grand_01_0_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_0_-1/Roche_0106",
+			"dy": -0.509608371988859,
+			"index": 3.0,
+			"path": "RochesBlender/Roche_Bloc_Massif_Grand_01_0_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_0_-1/Roche_0110",
+			"dy": -0.600424444803574,
+			"index": 4.0,
+			"path": "RochesBlender/Roche_Bloc_Massif_Grand_01_0_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_0_-1/Roche_0154",
+			"dy": -0.125602654298001,
+			"index": 5.0,
+			"path": "RochesBlender/Roche_Bloc_Massif_Grand_01_0_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_0_-1/Roche_0186",
+			"dy": -0.151054310438719,
+			"index": 7.0,
+			"path": "RochesBlender/Roche_Bloc_Massif_Grand_01_0_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_0_-1/Roche_0084",
+			"dy": -0.560717388569168,
+			"index": 0.0,
+			"path": "RochesBlender/Roche_Galet_Anguleux_Petit_01_0_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_0_-1/Roche_0615",
+			"dy": -0.190698730553902,
+			"index": 2.0,
+			"path": "RochesBlender/Roche_Galet_Anguleux_Petit_01_0_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_0_-1/Roche_0085",
+			"dy": -0.48658491493601,
+			"index": 0.0,
+			"path": "RochesBlender/Roche_Bloc_Arrondi_Grand_01_0_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_0_-1/Roche_0157",
+			"dy": -0.287418888160368,
+			"index": 1.0,
+			"path": "RochesBlender/Roche_Bloc_Arrondi_Grand_01_0_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_0_-1/Roche_0627",
+			"dy": -0.166199713872032,
+			"index": 2.0,
+			"path": "RochesBlender/Roche_Bloc_Arrondi_Grand_01_0_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_0_-1/Roche_0088",
+			"dy": -0.262279341555801,
+			"index": 0.0,
+			"path": "RochesBlender/Roche_Moussue_Bloc_Massif_Grand_01_0_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_0_-1/Roche_0108",
+			"dy": -0.264231602085229,
+			"index": 1.0,
+			"path": "RochesBlender/Roche_Moussue_Bloc_Massif_Grand_01_0_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_0_-1/Roche_0089",
+			"dy": -0.351990038807892,
+			"index": 0.0,
+			"path": "RochesBlender/Roche_Galet_Plat_Petit_01_0_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_0_-1/Roche_0609",
+			"dy": -0.13131284015691,
+			"index": 1.0,
+			"path": "RochesBlender/Roche_Galet_Plat_Petit_01_0_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_0_-1/Roche_0092",
+			"dy": -0.722501643814498,
+			"index": 0.0,
+			"path": "RochesBlender/Roche_Moussue_Bloc_Allonge_Grand_01_0_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_0_-1/Roche_0096",
+			"dy": -0.277410359834875,
+			"index": 1.0,
+			"path": "RochesBlender/Roche_Moussue_Bloc_Allonge_Grand_01_0_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_0_-1/Roche_0178",
+			"dy": -0.123846082361988,
+			"index": 6.0,
+			"path": "RochesBlender/Roche_Moussue_Bloc_Allonge_Grand_01_0_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_0_-1/Roche_0569",
+			"dy": -0.177115138369867,
+			"index": 7.0,
+			"path": "RochesBlender/Roche_Moussue_Bloc_Allonge_Grand_01_0_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_0_-1/Roche_0594",
+			"dy": -0.147253331381621,
+			"index": 8.0,
+			"path": "RochesBlender/Roche_Moussue_Bloc_Allonge_Grand_01_0_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_0_-1/Roche_0095",
+			"dy": -0.379351444857148,
+			"index": 0.0,
+			"path": "RochesBlender/Roche_Moussue_Bloc_Arrondi_Moyen_01_0_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_0_-1/Roche_0100",
+			"dy": -0.338736739105809,
+			"index": 1.0,
+			"path": "RochesBlender/Roche_Moussue_Bloc_Arrondi_Moyen_01_0_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_0_-1/Roche_0519",
+			"dy": -0.145556157269911,
+			"index": 2.0,
+			"path": "RochesBlender/Roche_Moussue_Bloc_Arrondi_Moyen_01_0_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_0_-1/Roche_0573",
+			"dy": -0.116564815104069,
+			"index": 3.0,
+			"path": "RochesBlender/Roche_Moussue_Bloc_Arrondi_Moyen_01_0_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_0_-1/Roche_0600",
+			"dy": -0.269219690132711,
+			"index": 4.0,
+			"path": "RochesBlender/Roche_Moussue_Bloc_Arrondi_Moyen_01_0_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_0_-1/Roche_0619",
+			"dy": -0.207966396720446,
+			"index": 5.0,
+			"path": "RochesBlender/Roche_Moussue_Bloc_Arrondi_Moyen_01_0_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_0_-1/Roche_0102",
+			"dy": -0.515363495470241,
+			"index": 0.0,
+			"path": "RochesBlender/Roche_Dalle_Irreguliere_Moyenne_01_0_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_0_-1/Roche_0626",
+			"dy": -0.153487318266316,
+			"index": 1.0,
+			"path": "RochesBlender/Roche_Dalle_Irreguliere_Moyenne_01_0_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_0_-1/Roche_0103",
+			"dy": -0.558590354619832,
+			"index": 0.0,
+			"path": "RochesBlender/Roche_Dalle_Fissuree_Grande_01_0_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_0_-1/Roche_0109",
+			"dy": -0.805806448707384,
+			"index": 0.0,
+			"path": "RochesBlender/Roche_Dalle_Triangulaire_Moyenne_01_0_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_0_-1/Roche_0156",
+			"dy": -0.47008052851152,
+			"index": 1.0,
+			"path": "RochesBlender/Roche_Dalle_Triangulaire_Moyenne_01_0_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_0_-1/Roche_0180",
+			"dy": -0.506265575148323,
+			"index": 2.0,
+			"path": "RochesBlender/Roche_Dalle_Triangulaire_Moyenne_01_0_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_0_-1/Roche_0112",
+			"dy": -0.277057519911196,
+			"index": 0.0,
+			"path": "RochesBlender/Roche_Moussue_Bloc_Oblong_Moyen_01_0_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_0_-1/Roche_0114",
+			"dy": -1.27144160871051,
+			"index": 0.0,
+			"path": "RochesBlender/Roche_Moussue_Dalle_Bosselee_Grande_01_0_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_-1_0/Roche_0118",
+			"dy": -0.269925157950226,
+			"index": 0.0,
+			"path": "RochesBlender/Roche_Bloc_Anguleux_Moyen_01_-1_0"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_-1_0/Roche_0146",
+			"dy": -0.200898375676706,
+			"index": 1.0,
+			"path": "RochesBlender/Roche_Bloc_Anguleux_Moyen_01_-1_0"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_-1_0/Roche_0213",
+			"dy": -0.200359218383255,
+			"index": 2.0,
+			"path": "RochesBlender/Roche_Bloc_Anguleux_Moyen_01_-1_0"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_-1_0/Roche_0129",
+			"dy": -0.22641787253677,
+			"index": 2.0,
+			"path": "RochesBlender/Roche_Moussue_Bloc_Allonge_Grand_01_-1_0"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_-1_0/Roche_0150",
+			"dy": -0.219998377870306,
+			"index": 4.0,
+			"path": "RochesBlender/Roche_Moussue_Bloc_Allonge_Grand_01_-1_0"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_-1_0/Roche_0211",
+			"dy": -0.105235804222718,
+			"index": 6.0,
+			"path": "RochesBlender/Roche_Moussue_Bloc_Allonge_Grand_01_-1_0"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_-1_0/Roche_0123",
+			"dy": -0.331762588160182,
+			"index": 0.0,
+			"path": "RochesBlender/Roche_Moussue_Bloc_Oblong_Moyen_01_-1_0"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_-1_0/Roche_0202",
+			"dy": -0.122988562114255,
+			"index": 2.0,
+			"path": "RochesBlender/Roche_Moussue_Bloc_Oblong_Moyen_01_-1_0"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_-1_0/Roche_0219",
+			"dy": -0.159460794634237,
+			"index": 4.0,
+			"path": "RochesBlender/Roche_Moussue_Bloc_Oblong_Moyen_01_-1_0"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_-1_0/Roche_0128",
+			"dy": -0.157515786566072,
+			"index": 0.0,
+			"path": "RochesBlender/Roche_Bloc_Anguleux_Petit_01_-1_0"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_-1_0/Roche_0203",
+			"dy": -0.164451153806091,
+			"index": 3.0,
+			"path": "RochesBlender/Roche_Bloc_Anguleux_Petit_01_-1_0"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_-1_0/Roche_0130",
+			"dy": -0.145868898131203,
+			"index": 0.0,
+			"path": "RochesBlender/Roche_Bloc_Massif_Grand_01_-1_0"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_-1_0/Roche_0134",
+			"dy": -0.12473401530598,
+			"index": 1.0,
+			"path": "RochesBlender/Roche_Bloc_Massif_Grand_01_-1_0"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_-1_0/Roche_0194",
+			"dy": -0.126115385859685,
+			"index": 2.0,
+			"path": "RochesBlender/Roche_Bloc_Massif_Grand_01_-1_0"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_-1_0/Roche_0237",
+			"dy": -0.124293013606969,
+			"index": 7.0,
+			"path": "RochesBlender/Roche_Bloc_Massif_Grand_01_-1_0"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_-1_0/Roche_0255",
+			"dy": -0.158816172419728,
+			"index": 8.0,
+			"path": "RochesBlender/Roche_Bloc_Massif_Grand_01_-1_0"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_-1_0/Roche_0352",
+			"dy": -0.144439522476145,
+			"index": 9.0,
+			"path": "RochesBlender/Roche_Bloc_Massif_Grand_01_-1_0"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_-1_0/Roche_0137",
+			"dy": -0.198084681074008,
+			"index": 0.0,
+			"path": "RochesBlender/Roche_Galet_Arrondi_Petit_01_-1_0"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_-1_0/Roche_0205",
+			"dy": -0.286067913323852,
+			"index": 2.0,
+			"path": "RochesBlender/Roche_Moussue_Bloc_Pointu_Moyen_01_-1_0"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_-1_0/Roche_0419",
+			"dy": -0.153001251460202,
+			"index": 8.0,
+			"path": "RochesBlender/Roche_Moussue_Bloc_Pointu_Moyen_01_-1_0"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_-1_-1/Roche_0142",
+			"dy": -0.204920361584768,
+			"index": 0.0,
+			"path": "RochesBlender/Roche_Galet_Plat_Petit_01_-1_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_-1_-1/Roche_0571",
+			"dy": -0.115726463235168,
+			"index": 1.0,
+			"path": "RochesBlender/Roche_Galet_Plat_Petit_01_-1_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_-1_-1/Roche_0151",
+			"dy": -0.8157444129358,
+			"index": 0.0,
+			"path": "RochesBlender/Roche_Moussue_Dalle_Bosselee_Grande_01_-1_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_-1_-1/Roche_0153",
+			"dy": -0.453386769038598,
+			"index": 1.0,
+			"path": "RochesBlender/Roche_Moussue_Dalle_Bosselee_Grande_01_-1_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_0_0/Roche_0308",
+			"dy": -0.383358475298578,
+			"index": 4.0,
+			"path": "RochesBlender/Roche_Galet_Arrondi_Petit_01_0_0"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_0_0/Roche_0160",
+			"dy": -0.110966415845513,
+			"index": 0.0,
+			"path": "RochesBlender/Roche_Bloc_Massif_Grand_01_0_0"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_0_0/Roche_0181",
+			"dy": -0.102735413615067,
+			"index": 1.0,
+			"path": "RochesBlender/Roche_Bloc_Massif_Grand_01_0_0"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_0_0/Roche_0287",
+			"dy": -0.140288349428738,
+			"index": 3.0,
+			"path": "RochesBlender/Roche_Bloc_Massif_Grand_01_0_0"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_0_0/Roche_0292",
+			"dy": -0.160715237792404,
+			"index": 4.0,
+			"path": "RochesBlender/Roche_Bloc_Massif_Grand_01_0_0"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_0_0/Roche_0303",
+			"dy": -0.230345025565876,
+			"index": 5.0,
+			"path": "RochesBlender/Roche_Bloc_Massif_Grand_01_0_0"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_0_0/Roche_0163",
+			"dy": -0.137965107247215,
+			"index": 0.0,
+			"path": "RochesBlender/Roche_Moussue_Bloc_Pointu_Moyen_01_0_0"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_0_0/Roche_0172",
+			"dy": -0.207368437036287,
+			"index": 1.0,
+			"path": "RochesBlender/Roche_Moussue_Bloc_Pointu_Moyen_01_0_0"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_0_0/Roche_0518",
+			"dy": -0.109579006626321,
+			"index": 6.0,
+			"path": "RochesBlender/Roche_Moussue_Bloc_Pointu_Moyen_01_0_0"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_0_0/Roche_0525",
+			"dy": -0.103804939416396,
+			"index": 7.0,
+			"path": "RochesBlender/Roche_Moussue_Bloc_Pointu_Moyen_01_0_0"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_0_0/Roche_0541",
+			"dy": -0.106934107926416,
+			"index": 3.0,
+			"path": "RochesBlender/Roche_Galet_Plat_Petit_01_0_0"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_0_0/Roche_0166",
+			"dy": -0.149698780852094,
+			"index": 0.0,
+			"path": "RochesBlender/Roche_Bloc_Anguleux_Moyen_01_0_0"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_0_0/Roche_0263",
+			"dy": -0.209554327288639,
+			"index": 1.0,
+			"path": "RochesBlender/Roche_Bloc_Anguleux_Moyen_01_0_0"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_0_0/Roche_0288",
+			"dy": -0.302070092401516,
+			"index": 3.0,
+			"path": "RochesBlender/Roche_Bloc_Anguleux_Moyen_01_0_0"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_0_0/Roche_0289",
+			"dy": -0.224778691787921,
+			"index": 4.0,
+			"path": "RochesBlender/Roche_Bloc_Anguleux_Moyen_01_0_0"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_0_0/Roche_0293",
+			"dy": -0.225365974826858,
+			"index": 5.0,
+			"path": "RochesBlender/Roche_Bloc_Anguleux_Moyen_01_0_0"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_0_0/Roche_0167",
+			"dy": -0.181386126513465,
+			"index": 0.0,
+			"path": "RochesBlender/Roche_Bloc_Anguleux_Petit_01_0_0"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_0_0/Roche_0295",
+			"dy": -0.247573433987237,
+			"index": 2.0,
+			"path": "RochesBlender/Roche_Bloc_Anguleux_Petit_01_0_0"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_0_0/Roche_0582",
+			"dy": -0.240882942317635,
+			"index": 6.0,
+			"path": "RochesBlender/Roche_Bloc_Anguleux_Petit_01_0_0"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_0_0/Roche_0311",
+			"dy": -0.136389081368022,
+			"index": 2.0,
+			"path": "RochesBlender/Roche_Moussue_Galet_Plat_Petit_01_0_0"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_0_0/Roche_0174",
+			"dy": -0.209516204922128,
+			"index": 0.0,
+			"path": "RochesBlender/Roche_Moussue_Bloc_Rectangulaire_Moyen_01_0_0"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_0_0/Roche_0317",
+			"dy": -0.165592198271341,
+			"index": 2.0,
+			"path": "RochesBlender/Roche_Moussue_Bloc_Rectangulaire_Moyen_01_0_0"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_0_0/Roche_0565",
+			"dy": -0.152687692793229,
+			"index": 3.0,
+			"path": "RochesBlender/Roche_Moussue_Bloc_Rectangulaire_Moyen_01_0_0"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_0_0/Roche_0277",
+			"dy": -0.228338991159073,
+			"index": 2.0,
+			"path": "RochesBlender/Roche_Moussue_Bloc_Oblong_Moyen_01_0_0"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_0_0/Roche_0179",
+			"dy": -0.140570725745791,
+			"index": 0.0,
+			"path": "RochesBlender/Roche_Moussue_Bloc_Allonge_Grand_01_0_0"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_0_0/Roche_0321",
+			"dy": -0.102181184177698,
+			"index": 3.0,
+			"path": "RochesBlender/Roche_Moussue_Bloc_Allonge_Grand_01_0_0"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_0_0/Roche_0323",
+			"dy": -0.107627465018142,
+			"index": 4.0,
+			"path": "RochesBlender/Roche_Moussue_Bloc_Allonge_Grand_01_0_0"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_0_-1/Roche_0182",
+			"dy": -0.230736106737042,
+			"index": 0.0,
+			"path": "RochesBlender/Roche_Dalle_Etagee_Grande_01_0_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_0_0/Roche_0261",
+			"dy": -0.145211298799669,
+			"index": 1.0,
+			"path": "RochesBlender/Roche_Bloc_Pointu_Moyen_01_0_0"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_0_0/Roche_0279",
+			"dy": -0.131148644777991,
+			"index": 3.0,
+			"path": "RochesBlender/Roche_Bloc_Pointu_Moyen_01_0_0"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_0_0/Roche_0280",
+			"dy": -0.340392842382221,
+			"index": 4.0,
+			"path": "RochesBlender/Roche_Bloc_Pointu_Moyen_01_0_0"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_0_0/Roche_0291",
+			"dy": -0.268945447290999,
+			"index": 5.0,
+			"path": "RochesBlender/Roche_Bloc_Pointu_Moyen_01_0_0"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_0_0/Roche_0300",
+			"dy": -0.264589300117869,
+			"index": 6.0,
+			"path": "RochesBlender/Roche_Bloc_Pointu_Moyen_01_0_0"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_0_0/Roche_0315",
+			"dy": -0.168610054467171,
+			"index": 7.0,
+			"path": "RochesBlender/Roche_Bloc_Pointu_Moyen_01_0_0"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_0_0/Roche_0296",
+			"dy": -0.149221955905915,
+			"index": 2.0,
+			"path": "RochesBlender/Roche_Galet_Allonge_Petit_01_0_0"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_0_0/Roche_0302",
+			"dy": -0.151716286229854,
+			"index": 3.0,
+			"path": "RochesBlender/Roche_Galet_Allonge_Petit_01_0_0"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_0_0/Roche_0314",
+			"dy": -0.328229838714901,
+			"index": 4.0,
+			"path": "RochesBlender/Roche_Galet_Allonge_Petit_01_0_0"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_-1_0/Roche_0239",
+			"dy": -0.11061629195227,
+			"index": 1.0,
+			"path": "RochesBlender/Roche_Moussue_Galet_Allonge_Petit_01_-1_0"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_-1_0/Roche_0201",
+			"dy": -0.203775961712429,
+			"index": 0.0,
+			"path": "RochesBlender/Roche_Bloc_Pointu_Moyen_01_-1_0"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_-1_0/Roche_0245",
+			"dy": -0.25802728000829,
+			"index": 2.0,
+			"path": "RochesBlender/Roche_Bloc_Pointu_Moyen_01_-1_0"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_-1_0/Roche_0207",
+			"dy": -0.380672024248038,
+			"index": 0.0,
+			"path": "RochesBlender/Roche_Dalle_Triangulaire_Moyenne_01_-1_0"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_-1_0/Roche_0218",
+			"dy": -0.104405906281617,
+			"index": 1.0,
+			"path": "RochesBlender/Roche_Dalle_Triangulaire_Moyenne_01_-1_0"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_-1_0/Roche_0231",
+			"dy": -0.202519462208138,
+			"index": 2.0,
+			"path": "RochesBlender/Roche_Dalle_Triangulaire_Moyenne_01_-1_0"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_-1_0/Roche_0394",
+			"dy": -0.169149380393625,
+			"index": 1.0,
+			"path": "RochesBlender/Roche_Moussue_Bloc_Arrondi_Moyen_01_-1_0"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_-1_0/Roche_0223",
+			"dy": -0.154009360477743,
+			"index": 0.0,
+			"path": "RochesBlender/Roche_Moussue_Dalle_Ovale_Moyenne_01_-1_0"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_-1_0/Roche_0225",
+			"dy": -0.117609685907806,
+			"index": 0.0,
+			"path": "RochesBlender/Roche_Moussue_Bloc_Rectangulaire_Moyen_01_-1_0"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_-1_0/Roche_0242",
+			"dy": -0.160687928652113,
+			"index": 1.0,
+			"path": "RochesBlender/Roche_Moussue_Bloc_Anguleux_Petit_01_-1_0"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_-1_0/Roche_0508",
+			"dy": -0.118510424033293,
+			"index": 2.0,
+			"path": "RochesBlender/Roche_Moussue_Bloc_Anguleux_Petit_01_-1_0"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_-1_0/Roche_0230",
+			"dy": -0.153154225100328,
+			"index": 0.0,
+			"path": "RochesBlender/Roche_Dalle_Fissuree_Grande_01_-1_0"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_-1_0/Roche_0238",
+			"dy": -0.156064347580781,
+			"index": 0.0,
+			"path": "RochesBlender/Roche_Moussue_Dalle_Bosselee_Grande_01_-1_0"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_0_0/Roche_0244",
+			"dy": -0.140938983024004,
+			"index": 0.0,
+			"path": "RochesBlender/Roche_Moussue_Bloc_Arrondi_Moyen_01_0_0"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_0_0/Roche_0316",
+			"dy": -0.228416307639289,
+			"index": 2.0,
+			"path": "RochesBlender/Roche_Moussue_Bloc_Arrondi_Moyen_01_0_0"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_0_0/Roche_0322",
+			"dy": -0.201213624305832,
+			"index": 3.0,
+			"path": "RochesBlender/Roche_Moussue_Bloc_Arrondi_Moyen_01_0_0"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_0_0/Roche_0271",
+			"dy": -0.166486384313663,
+			"index": 2.0,
+			"path": "RochesBlender/Roche_Galet_Anguleux_Petit_01_0_0"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_0_0/Roche_0320",
+			"dy": -0.248845657092048,
+			"index": 1.0,
+			"path": "RochesBlender/Roche_Bloc_Arrondi_Grand_01_0_0"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_0_0/Roche_0319",
+			"dy": -0.389329724461793,
+			"index": 1.0,
+			"path": "RochesBlender/Roche_Moussue_Galet_Ovale_Moyen_01_0_0"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_0_0/Roche_0628",
+			"dy": -0.219661433636016,
+			"index": 3.0,
+			"path": "RochesBlender/Roche_Moussue_Galet_Ovale_Moyen_01_0_0"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_0_0/Roche_0556",
+			"dy": -0.137355716748072,
+			"index": 2.0,
+			"path": "RochesBlender/Roche_Moussue_Bloc_Anguleux_Petit_01_0_0"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_0_0/Roche_0281",
+			"dy": -0.221122524532724,
+			"index": 0.0,
+			"path": "RochesBlender/Roche_Moussue_Bloc_Massif_Grand_01_0_0"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_0_0/Roche_0299",
+			"dy": -0.207062072162907,
+			"index": 1.0,
+			"path": "RochesBlender/Roche_Moussue_Bloc_Massif_Grand_01_0_0"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_0_0/Roche_0282",
+			"dy": -0.358444854740046,
+			"index": 0.0,
+			"path": "RochesBlender/Roche_Moussue_Amas_Galets_Allonge_Moyen_01_0_0"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_0_0/Roche_0294",
+			"dy": -0.226531733550934,
+			"index": 0.0,
+			"path": "RochesBlender/Roche_Moussue_Dalle_Ovale_Moyenne_01_0_0"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_0_0/Roche_0306",
+			"dy": -0.13376779057514,
+			"index": 1.0,
+			"path": "RochesBlender/Roche_Moussue_Dalle_Ovale_Moyenne_01_0_0"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_-2_0/Roche_0326",
+			"dy": -0.111534606140269,
+			"index": 0.0,
+			"path": "RochesBlender/Roche_Moussue_Bloc_Oblong_Moyen_01_-2_0"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_-2_0/Roche_0393",
+			"dy": -0.134834837012248,
+			"index": 4.0,
+			"path": "RochesBlender/Roche_Moussue_Bloc_Oblong_Moyen_01_-2_0"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_-3_0/Roche_0328",
+			"dy": -0.113498208785151,
+			"index": 0.0,
+			"path": "RochesBlender/Roche_Moussue_Dalle_Bosselee_Grande_01_-3_0"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_-2_0/Roche_0339",
+			"dy": -0.110096760130355,
+			"index": 1.0,
+			"path": "RochesBlender/Roche_Bloc_Anguleux_Moyen_01_-2_0"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_-2_0/Roche_0335",
+			"dy": -0.136146753978654,
+			"index": 0.0,
+			"path": "RochesBlender/Roche_Galet_Double_Petit_01_-2_0"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_-2_0/Roche_0341",
+			"dy": -0.236438393286839,
+			"index": 1.0,
+			"path": "RochesBlender/Roche_Bloc_Massif_Grand_01_-2_0"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_-2_0/Roche_0350",
+			"dy": -0.102749404355741,
+			"index": 2.0,
+			"path": "RochesBlender/Roche_Bloc_Massif_Grand_01_-2_0"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_-2_0/Roche_0340",
+			"dy": -0.197931788863088,
+			"index": 0.0,
+			"path": "RochesBlender/Roche_Moussue_Dalle_Bosselee_Grande_01_-2_0"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_-2_0/Roche_0424",
+			"dy": -0.126151949192971,
+			"index": 2.0,
+			"path": "RochesBlender/Roche_Moussue_Bloc_Arrondi_Moyen_01_-2_0"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_-1_1/Roche_0355",
+			"dy": -0.107304993976364,
+			"index": 0.0,
+			"path": "RochesBlender/Roche_Moussue_Bloc_Pointu_Moyen_01_-1_1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_-3_0/Roche_0359",
+			"dy": -0.104722314752459,
+			"index": 0.0,
+			"path": "RochesBlender/Roche_Bloc_Massif_Grand_01_-3_0"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_-3_0/Roche_0368",
+			"dy": -0.136393372641602,
+			"index": 1.0,
+			"path": "RochesBlender/Roche_Bloc_Massif_Grand_01_-3_0"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_-1_0/Roche_0421",
+			"dy": -0.237643298521391,
+			"index": 1.0,
+			"path": "RochesBlender/Roche_Moussue_Bloc_Massif_Grand_01_-1_0"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_-3_-1/Roche_0403",
+			"dy": -0.106765202252443,
+			"index": 0.0,
+			"path": "RochesBlender/Roche_Dalle_Triangulaire_Moyenne_01_-3_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_-2_-1/Roche_0410",
+			"dy": -0.207029116664178,
+			"index": 0.0,
+			"path": "RochesBlender/Roche_Bloc_Anguleux_Petit_01_-2_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_-2_-1/Roche_0438",
+			"dy": -0.180554209967779,
+			"index": 0.0,
+			"path": "RochesBlender/Roche_Bloc_Pointu_Moyen_01_-2_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_-2_-1/Roche_0441",
+			"dy": -0.157664217598262,
+			"index": 1.0,
+			"path": "RochesBlender/Roche_Bloc_Pointu_Moyen_01_-2_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_-2_-2/Roche_0482",
+			"dy": -0.120798880788141,
+			"index": 0.0,
+			"path": "RochesBlender/Roche_Moussue_Bloc_Anguleux_Petit_01_-2_-2"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_-1_-2/Roche_0492",
+			"dy": -0.531516889313039,
+			"index": 0.0,
+			"path": "RochesBlender/Roche_Bloc_Anguleux_Moyen_01_-1_-2"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_-2_-2/Roche_0495",
+			"dy": -0.104906270285746,
+			"index": 0.0,
+			"path": "RochesBlender/Roche_Moussue_Galet_Plat_Petit_01_-2_-2"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_0_-1/Roche_0502",
+			"dy": -0.155647169022771,
+			"index": 0.0,
+			"path": "RochesBlender/Roche_Moussue_Galet_Plat_Petit_01_0_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_0_-1/Roche_0538",
+			"dy": -0.186198397646576,
+			"index": 1.0,
+			"path": "RochesBlender/Roche_Moussue_Galet_Plat_Petit_01_0_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_0_-1/Roche_0540",
+			"dy": -0.203794181807383,
+			"index": 2.0,
+			"path": "RochesBlender/Roche_Moussue_Galet_Plat_Petit_01_0_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_-1_-1/Roche_0563",
+			"dy": -0.160749509264948,
+			"index": 3.0,
+			"path": "RochesBlender/Roche_Moussue_Galet_Allonge_Petit_01_-1_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_0_-1/Roche_0620",
+			"dy": -0.105778879137107,
+			"index": 8.0,
+			"path": "RochesBlender/Roche_Moussue_Galet_Triangulaire_Petit_01_0_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_0_-1/Roche_0528",
+			"dy": -0.148911194186414,
+			"index": 0.0,
+			"path": "RochesBlender/Roche_Moussue_Galet_Ovale_Moyen_01_0_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_0_-1/Roche_0539",
+			"dy": -0.114999654343385,
+			"index": 0.0,
+			"path": "RochesBlender/Roche_Galet_Double_Petit_01_0_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_0_-1/Roche_0562",
+			"dy": -0.133971285088716,
+			"index": 0.0,
+			"path": "RochesBlender/Roche_Moussue_Galet_Arrondi_Petit_01_0_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_0_-1/Roche_0589",
+			"dy": -0.23901277669915,
+			"index": 1.0,
+			"path": "RochesBlender/Roche_Moussue_Galet_Arrondi_Petit_01_0_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_0_-1/Roche_0599",
+			"dy": -0.240879878809093,
+			"index": 2.0,
+			"path": "RochesBlender/Roche_Moussue_Galet_Arrondi_Petit_01_0_-1"
+		},
+		{
+			"collision": "RochesBlender/Collisions_Roches_0_-1/Roche_0625",
+			"dy": -0.11544092886027,
+			"index": 4.0,
+			"path": "RochesBlender/Roche_Moussue_Galet_Arrondi_Petit_01_0_-1"
+		}
+	],
+	"rocks_adjusted": 255,
+	"trees_removed": 42
+}

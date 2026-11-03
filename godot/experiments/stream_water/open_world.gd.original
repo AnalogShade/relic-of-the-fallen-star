@@ -1,0 +1,69 @@
+@tool
+extends Node3D
+## Assembly-only settings; the original forest scene and GLB remain reusable.
+const WATER = preload("res://shaders/water.gdshader")
+
+func _ready() -> void:
+	call_deferred("_configure_world")
+
+func _configure_world() -> void:
+	var original := get_node_or_null("Original")
+	if original == null:
+		return
+	preload("res://scripts/world_legacy_cleanup.gd").apply(original)
+	for mesh in original.find_children("DistantHills*", "MeshInstance3D", true, false):
+		mesh.visible = false
+	var player := original.get_node_or_null("Player")
+	if player != null:
+		player.world_bounds = Rect2(-287.0, -295.0, 510.0, 510.0)
+		var camera := player.get_node("CameraPivot/SpringArm3D/Camera3D") as Camera3D
+		camera.far = 4000.0
+	var ground := ShaderMaterial.new()
+	ground.shader = preload("res://shaders/world_ground.gdshader")
+	var water := ShaderMaterial.new()
+	water.shader = WATER
+	var oasis_water := ShaderMaterial.new()
+	oasis_water.shader = preload("res://shaders/oasis_water.gdshader")
+	var ocean := ShaderMaterial.new()
+	ocean.shader = preload("res://shaders/ocean.gdshader")
+	for child in original.find_children("Terrain*", "MeshInstance3D", true, false):
+		child.material_override = ground
+	var sectors := get_node_or_null("Sectors")
+	if sectors != null:
+		for child in sectors.find_children("*", "MeshInstance3D", true, false):
+			if str(child.name).begins_with("Terrain") or str(child.name).begins_with("CastleGround"):
+				child.material_override = ground
+			elif str(child.name).begins_with("Ocean"):
+				child.material_override = ocean
+			elif str(child.name).begins_with("Paths"):
+				child.visible = false
+			elif str(child.name).begins_with("Water_Oasis_Reservoir") or str(child.name).begins_with("Water_Oasis_Exutoire"):
+				child.material_override = oasis_water
+			elif str(child.name).begins_with("Water"):
+				child.material_override = water
+			elif str(child.name).begins_with("Undergrowth"):
+				child.visibility_range_end = 90.0
+				child.visibility_range_end_margin = 12.0
+
+	if not Engine.is_editor_hint() and get_node_or_null("ForestMotes") == null:
+		var harvest := preload("res://scripts/harvest_world.gd").new()
+		harvest.name = "HarvestWorld"
+		add_child(harvest)
+		var fishing := preload("res://scripts/stream_fishing.gd").new()
+		fishing.name = "StreamFishing"
+		add_child(fishing)
+		var motes := preload("res://scripts/forest_motes.gd").new()
+		motes.name = "ForestMotes"
+		add_child(motes)
+		if get_node_or_null("InsectManager") == null:
+			var insects := preload("res://scripts/insect_manager.gd").new()
+			insects.name = "InsectManager"
+			add_child(insects)
+		if get_node_or_null("StreamAudioEmitter") == null:
+			var stream_audio := preload("res://scripts/stream_audio_emitter.gd").new()
+			stream_audio.name = "StreamAudioEmitter"
+			add_child(stream_audio)
+		if get_node_or_null("ForestBirdsAmbience") == null:
+			var birds_audio := preload("res://scripts/forest_birds_ambience.gd").new()
+			birds_audio.name = "ForestBirdsAmbience"
+			add_child(birds_audio)

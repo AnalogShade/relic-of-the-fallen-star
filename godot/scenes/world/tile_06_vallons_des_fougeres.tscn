@@ -1,0 +1,7 @@
+[gd_scene format=3 uid="uid://dr4es8qlqwwss"]
+
+[ext_resource type="PackedScene" path="res://assets/environment/trails_20261021/tile_06_vallons_des_fougeres.glb" id="1_ki127"]
+
+[node name="Tile_06_vallons_des_fougeres" type="Node3D" unique_id=153490282]
+
+[node name="Art" parent="." unique_id=1370509284 instance=ExtResource("1_ki127")]

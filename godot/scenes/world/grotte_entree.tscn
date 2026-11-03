@@ -1,0 +1,93 @@
+[gd_scene format=3 uid="uid://d4kmrhqq145kt"]
+
+[ext_resource type="PackedScene" path="res://assets/environment/world/cavern_shadowstone.glb" id="1_cave"]
+[ext_resource type="Script" path="res://scripts/cavern_exterior.gd" id="4_exterior"]
+[ext_resource type="PackedScene" path="res://scenes/world/cavern_gradient.tscn" id="5_gradient"]
+[ext_resource type="Script" uid="uid://dnhajghco2b06" path="res://scripts/grotte_portal.gd" id="2_portal"]
+[ext_resource type="PackedScene" uid="uid://co3xrbrf1wlc4" path="res://assets/items/cave_mushroom.glb" id="3_5ps4p"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_back"]
+size = Vector3(5, 4, 1.5)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_5ps4p"]
+shading_mode = 0
+disable_fog = true
+albedo_color = Color(0, 0, 0, 1)
+
+[node name="GrotteEntree" type="Node3D" unique_id=1114338230]
+script = ExtResource("4_exterior")
+
+[node name="Art" parent="." unique_id=50948216 instance=ExtResource("1_cave")]
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 0, -0.7, -2)
+
+[node name="Portal" type="Node3D" parent="." unique_id=388890762]
+transform = Transform3D(1, 0, 0, 0, 0.8213459253, -0.5704304576, 0, 0.5704304576, 0.8213459253, 0, 2.853050375, 0.9007828593)
+script = ExtResource("2_portal")
+
+[node name="GradientEntree" parent="." instance=ExtResource("5_gradient")]
+transform = Transform3D(1, 0, 0, 0, 0.8213459253, -0.5704304576, 0, 0.5704304576, 0.8213459253, 0, 0.9182833433, 0.5310847759)
+
+[node name="Collisions" type="StaticBody3D" parent="." unique_id=1320491881]
+
+[node name="CollisionBack" type="CollisionShape3D" parent="Collisions" unique_id=978634123]
+transform = Transform3D(1, 0, 0, 0, 0.8213459253, -0.5704304576, 0, 0.5704304576, 0.8213459253, 0, 5.705202663, -3.205946767)
+shape = SubResource("BoxShape3D_back")
+
+[node name="Flora" type="Node3D" parent="." unique_id=825338251]
+
+[node name="GroundedMushroom00" parent="Flora" unique_id=1132141302 instance=ExtResource("3_5ps4p")]
+transform = Transform3D(0.65, 0, 0, 0, 0.65, 0, 0, 0, 0.65, -1.9999981, -1.3316781, 5.8999987)
+
+[node name="GroundedMushroom01" parent="Flora" unique_id=1572171595 instance=ExtResource("3_5ps4p")]
+transform = Transform3D(-0.54148763, 0, 0.49700722, 0, 0.735, 0, -0.49700722, 0, -0.54148763, -2.7000027, -1.3311326, 6.2000017)
+
+[node name="GroundedMushroom02" parent="Flora" unique_id=830895809 instance=ExtResource("3_5ps4p")]
+transform = Transform3D(0.0701152, 0, -0.8169969, 0, 0.82, 0, 0.8169969, 0, 0.0701152, -3.4000034, -1.3019787, 5.9000025)
+
+[node name="GroundedMushroom03" parent="Flora" unique_id=695458166 instance=ExtResource("3_5ps4p")]
+transform = Transform3D(0.55271024, 0, 0.7166145, 0, 0.905, 0, -0.7166145, 0, 0.55271024, -3.9999981, -1.2903267, 6.5999994)
+
+[node name="GroundedMushroom04" parent="Flora" unique_id=1060722414 instance=ExtResource("3_5ps4p")]
+transform = Transform3D(-0.97552353, 0, -0.16868252, 0, 0.99, 0, 0.16868252, 0, -0.97552353, -3.5000000, -1.2975365, 7.1999979)
+
+[node name="GroundedMushroom05" parent="Flora" unique_id=410628371 instance=ExtResource("3_5ps4p")]
+transform = Transform3D(0.5467543, 0, -0.35151058, 0, 0.65, 0, 0.35151058, 0, 0.5467543, -2.8000011, -1.3137642, 7.5999994)
+
+[node name="GroundedMushroom06" parent="Flora" unique_id=1700466414 instance=ExtResource("3_5ps4p")]
+transform = Transform3D(-0.18670383, 0, 0.7108915, 0, 0.735, 0, -0.7108915, 0, -0.18670383, -1.6999969, -1.3575322, 7.0999994)
+
+[node name="GroundedMushroom07" parent="Flora" unique_id=1579498904 instance=ExtResource("3_5ps4p")]
+transform = Transform3D(-0.3828423, 0, -0.72514254, 0, 0.82, 0, 0.72514254, 0, -0.3828423, -2.1999950, -1.3289830, 8.0000010)
+
+[node name="GroundedMushroom08" parent="Flora" unique_id=542008095 instance=ExtResource("3_5ps4p")]
+transform = Transform3D(0.85245293, 0, 0.3038897, 0, 0.905, 0, -0.3038897, 0, 0.85245293, -4.1000004, -1.2431656, 7.8000002)
+
+[node name="GroundedMushroom09" parent="Flora" unique_id=754658248 instance=ExtResource("3_5ps4p")]
+transform = Transform3D(-0.91179293, 0, 0.38566, 0, 0.99, 0, -0.38566, 0, -0.91179293, 2.0000019, -1.3305604, 6.0999994)
+
+[node name="GroundedMushroom10" parent="Flora" unique_id=1313128242 instance=ExtResource("3_5ps4p")]
+transform = Transform3D(0.26981625, 0, -0.59135365, 0, 0.65, 0, 0.59135365, 0, 0.26981625, 2.8000011, -1.3337952, 6.4000025)
+
+[node name="GroundedMushroom11" parent="Flora" unique_id=1738527808 instance=ExtResource("3_5ps4p")]
+transform = Transform3D(0.22739196, 0, 0.6989406, 0, 0.735, 0, -0.6989406, 0, 0.22739196, 3.5000019, -1.3330151, 6.6999979)
+
+[node name="GroundedMushroom12" parent="Flora" unique_id=1110105097 instance=ExtResource("3_5ps4p")]
+transform = Transform3D(-0.714178, 0, -0.4029264, 0, 0.82, 0, 0.4029264, 0, -0.714178, 4.5000000, -1.2958237, 6.8000040)
+
+[node name="GroundedMushroom13" parent="Flora" unique_id=2043335800 instance=ExtResource("3_5ps4p")]
+transform = Transform3D(0.8813891, 0, -0.20537339, 0, 0.905, 0, 0.20537339, 0, 0.8813891, 4.8000011, -1.3138806, 7.5999994)
+
+[node name="GroundedMushroom14" parent="Flora" unique_id=125487445 instance=ExtResource("3_5ps4p")]
+transform = Transform3D(-0.5584041, 0, 0.81748694, 0, 0.99, 0, -0.81748694, 0, -0.5584041, 3.7000008, -1.3728272, 7.7000017)
+
+[node name="GroundedMushroom15" parent="Flora" unique_id=587460793 instance=ExtResource("3_5ps4p")]
+transform = Transform3D(-0.09283613, 0, -0.6433362, 0, 0.65, 0, 0.6433362, 0, -0.09283613, 1.7000008, -1.3874222, 7.3000002)
+
+[node name="GroundedMushroom16" parent="Flora" unique_id=996531179 instance=ExtResource("3_5ps4p")]
+transform = Transform3D(0.5692506, 0, 0.46495038, 0, 0.735, 0, -0.46495038, 0, 0.5692506, 2.6000023, -1.3911168, 8.0000010)
+
+[node name="GroundedMushroom17" parent="Flora" unique_id=1384050986 instance=ExtResource("3_5ps4p")]
+transform = Transform3D(-0.81863517, 0, 0.047290657, 0, 0.82, 0, -0.047290657, 0, -0.81863517, 4.0000019, -1.3539044, 8.5999994)
+
+[node name="EntranceFrame" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.8213459253, -0.5704304576, 0, 0.5704304576, 0.8213459253, 0, 0.9182833433, 0.5310847759)

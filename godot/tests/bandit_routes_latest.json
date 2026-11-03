@@ -1,0 +1,77 @@
+[
+	{
+		"closest": 1.21065950393677,
+		"collisions": [
+			{
+				"node": "/root/OpenWorld/Sectors/Tile_02_vallee_des_sources/Art/Terrain/StaticBody3D",
+				"normal": "(0.030508, 0.995701, 0.087454)"
+			}
+		],
+		"elapsed_us": 79475,
+		"health": 88.0,
+		"passed": true,
+		"position": "(12.91255, 1.913473, -53.62444)",
+		"return_distance": 0.291634202003479,
+		"state": "attack",
+		"target": "(12.0, 0.0, -53.0)"
+	},
+	{
+		"closest": 1.23271358013153,
+		"collisions": [
+			{
+				"node": "/root/OpenWorld/Sectors/Tile_02_vallee_des_sources/Art/Terrain/StaticBody3D",
+				"normal": "(0.003947, 0.998545, 0.05379)"
+			}
+		],
+		"elapsed_us": 127161,
+		"health": 88.0,
+		"passed": true,
+		"position": "(20.88532, 1.762021, -53.09325)",
+		"return_distance": 0.288236647844315,
+		"state": "attack",
+		"target": "(22.0, 0.0, -53.0)"
+	},
+	{
+		"closest": 1.24545323848724,
+		"collisions": [
+			{
+				"node": "/root/OpenWorld/Sectors/Tile_02_vallee_des_sources/Art/Terrain/StaticBody3D",
+				"normal": "(-0.415062, 0.841978, 0.344669)"
+			}
+		],
+		"elapsed_us": 308854,
+		"health": 88.0,
+		"passed": true,
+		"position": "(27.47606, 3.430729, -57.98493)",
+		"return_distance": 0.293685674667358,
+		"state": "attack",
+		"target": "(27.0, 0.0, -59.0)"
+	},
+	{
+		"closest": 1.19983208179474,
+		"collisions": [],
+		"elapsed_us": 153377,
+		"health": 88.0,
+		"passed": true,
+		"position": "(17.14534, 2.327881, -64.88673)",
+		"return_distance": 0.288959205150604,
+		"state": "attack",
+		"target": "(17.0, 0.0, -66.0)"
+	},
+	{
+		"closest": 1.12577974796295,
+		"collisions": [
+			{
+				"node": "/root/OpenWorld/Sectors/Tile_02_vallee_des_sources/Art/Terrain/StaticBody3D",
+				"normal": "(-0.161429, 0.97465, -0.154914)"
+			}
+		],
+		"elapsed_us": 101039,
+		"health": 88.0,
+		"passed": true,
+		"position": "(12.75152, 2.483293, -60.16236)",
+		"return_distance": 0.295725136995316,
+		"state": "attack",
+		"target": "(12.0, 0.0, -61.0)"
+	}
+]

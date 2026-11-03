@@ -1,0 +1,89 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://scenes/vegetation/sapin_alpha.tscn" id="1_81uvu"]
+
+[node name="SapinsChateau" type="Node3D" unique_id=708500733]
+
+[node name="SapinInterieur_01" type="Node3D" parent="." unique_id=2090486587 instance=ExtResource("1_81uvu")]
+transform = Transform3D(0.6443736, 0, 0.25418228, 0, 0.9091864, 0, -0.25418228, 0, 0.6443736, -214.59204, 12, 0.9068141)
+
+[node name="SapinInterieur_02" type="Node3D" parent="." unique_id=2145571050 instance=ExtResource("1_81uvu")]
+transform = Transform3D(0.16803245, 0, -0.7420034, 0, 1.1164176, 0, 0.7420034, 0, 0.16803245, -234.06529, 12, -4.0723963)
+
+[node name="SapinInterieur_03" type="Node3D" parent="." unique_id=687065570 instance=ExtResource("1_81uvu")]
+transform = Transform3D(-0.7097693, 0, -0.15207179, 0, 0.9436434, 0, 0.15207179, 0, -0.7097693, -252.49545, 12, -23.574417)
+
+[node name="SapinInterieur_04" type="Node3D" parent="." unique_id=108986406 instance=ExtResource("1_81uvu")]
+transform = Transform3D(-0.33897424, 0, 0.51684695, 0, 0.8845677, 0, -0.51684695, 0, -0.33897424, -251.97392, 12, -30.835821)
+
+[node name="SapinInterieur_05" type="Node3D" parent="." unique_id=429623377 instance=ExtResource("1_81uvu")]
+transform = Transform3D(0.43656814, 0, -0.47905627, 0, 0.8671597, 0, 0.47905627, 0, 0.43656814, -248.87346, 12, -50.994865)
+
+[node name="SapinInterieur_06" type="Node3D" parent="." unique_id=672207373 instance=ExtResource("1_81uvu")]
+transform = Transform3D(-0.61042345, 0, -0.5095889, 0, 0.9720718, 0, 0.5095889, 0, -0.61042345, -202.05469, 12, -50.93733)
+
+[node name="SapinInterieur_07" type="Node3D" parent="." unique_id=240709165 instance=ExtResource("1_81uvu")]
+transform = Transform3D(-0.23865518, 0, -0.494752, 0, 0.7957945, 0, 0.494752, 0, -0.23865518, -193.01825, 12, -34.864285)
+
+[node name="SapinInterieur_08" type="Node3D" parent="." unique_id=972920355 instance=ExtResource("1_81uvu")]
+transform = Transform3D(-0.35654068, 0, 0.34063682, 0, 0.68499374, 0, -0.34063682, 0, -0.35654068, -224.09248, 17, -54.723587)
+
+[node name="SapinInterieur_09" type="Node3D" parent="." unique_id=1741779053 instance=ExtResource("1_81uvu")]
+transform = Transform3D(0.35710007, 0, 0.2654862, 0, 0.553716, 0, -0.2654862, 0, 0.35710007, -241.02995, 16, -37.486366)
+
+[node name="SapinInterieur_10" type="Node3D" parent="." unique_id=1605451019 instance=ExtResource("1_81uvu")]
+transform = Transform3D(0.3428978, 0, 0.9393727, 0, 1, 0, -0.9393727, 0, 0.3428978, -247.3289, 12, -21.688478)
+
+[node name="SapinExterieur_01" type="Node3D" parent="." unique_id=1692450373 instance=ExtResource("1_81uvu")]
+transform = Transform3D(-0.8264624, 0, -0.37446472, 0, 1.0543599, 0, 0.3510506, 0, -0.88158524, -173.0919, 11.054719, -55.068535)
+
+[node name="SapinExterieur_02" type="Node3D" parent="." unique_id=764737701 instance=ExtResource("1_81uvu")]
+transform = Transform3D(-0.6796563, 0, 0.14610061, 0, 0.76818603, 0, -0.14029805, 0, -0.7077661, -173.81175, 10.878808, -64.62906)
+
+[node name="SapinExterieur_03" type="Node3D" parent="." unique_id=280632364 instance=ExtResource("1_81uvu")]
+transform = Transform3D(0.378045, 0, -0.5681719, 0, 0.73157007, 0, 0.5451609, 0, 0.39400214, -164.6137, 8.404328, -50.940052)
+
+[node name="SapinExterieur_04" type="Node3D" parent="." unique_id=949301202 instance=ExtResource("1_81uvu")]
+transform = Transform3D(0.5719718, 0, 0.7510264, 0, 0.98593116, 0, -0.8286663, 0, 0.51838225, -171.84462, 11.400659, 16.161633)
+
+[node name="SapinExterieur_05" type="Node3D" parent="." unique_id=185461026 instance=ExtResource("1_81uvu")]
+transform = Transform3D(-0.45742995, 0, -0.6205674, 0, 0.861107, 0, 0.6675507, 0, -0.42523527, -161.44716, 11.074159, 26.263704)
+
+[node name="SapinExterieur_06" type="Node3D" parent="." unique_id=373686018 instance=ExtResource("1_81uvu")]
+transform = Transform3D(-0.18593554, 0, 0.7546669, 0, 0.79383683, 0, -0.7388655, 0, -0.18991196, -158.97401, 11.28769, 16.485458)
+
+[node name="SapinExterieur_07" type="Node3D" parent="." unique_id=1729763753 instance=ExtResource("1_81uvu")]
+transform = Transform3D(-0.49907246, 0, -0.71757454, 0, 1.0917535, 0, 0.7208636, 0, -0.4967954, -231.08223, 10.219697, 29.918583)
+
+[node name="SapinExterieur_08" type="Node3D" parent="." unique_id=412733192 instance=ExtResource("1_81uvu")]
+transform = Transform3D(-0.06273919, 0, 0.67189026, 0, 0.7818207, 0, -0.71261305, 0, -0.059153914, -227.56178, 9.490006, 35.264595)
+
+[node name="SapinExterieur_09" type="Node3D" parent="." unique_id=432209124 instance=ExtResource("1_81uvu")]
+transform = Transform3D(-0.91663, 0, -0.19685449, 0, 1.0294192, 0, 0.20826332, 0, -0.8664163, -215.02097, 10.167848, 35.323616)
+
+[node name="SapinExterieur_10" type="Node3D" parent="." unique_id=1176585118 instance=ExtResource("1_81uvu")]
+transform = Transform3D(0.6289119, 0, 0.25198483, 0, 0.81194997, 0, -0.28360084, 0, 0.55880046, -269.48804, 8.962319, 17.173576)
+
+[node name="SapinExterieur_11" type="Node3D" parent="." unique_id=1250881787 instance=ExtResource("1_81uvu")]
+transform = Transform3D(-0.21295996, 0, -0.9441267, 0, 0.9518614, 0, 0.9140292, 0, -0.2199724, -272.15137, 8.839555, 10.749834)
+
+[node name="SapinExterieur_12" type="Node3D" parent="." unique_id=1895074689 instance=ExtResource("1_81uvu")]
+transform = Transform3D(-0.5568996, 0, 0.46063647, 0, 0.76867414, 0, -0.43314403, 0, -0.592247, -267.42865, 10.28782, 5.7949295)
+
+[node name="SapinExterieur_13" type="Node3D" parent="." unique_id=2057595733 instance=ExtResource("1_81uvu")]
+transform = Transform3D(0.6384504, 0, 0.45505676, 0, 0.8951177, 0, -0.45475283, 0, 0.6388771, -268.80792, 11.72915, -77.60658)
+
+[node name="SapinExterieur_14" type="Node3D" parent="." unique_id=1847598908 instance=ExtResource("1_81uvu")]
+transform = Transform3D(-0.64691246, 0, 0.13392629, 0, 0.71384925, 0, -0.14119956, 0, -0.6135896, -278.5844, 11.187943, -66.77652)
+
+[node name="SapinExterieur_15" type="Node3D" parent="." unique_id=2054261512 instance=ExtResource("1_81uvu")]
+transform = Transform3D(-0.14344384, 0, -0.6981679, 0, 0.73122185, 0, 0.63848776, 0, -0.1568517, -274.55368, 11.540582, -74.85341)
+
+[node name="SapinExterieur_16" type="Node3D" parent="." unique_id=1732094383 instance=ExtResource("1_81uvu")]
+transform = Transform3D(0.37962875, 0, 0.54641587, 0, 0.71569234, 0, -0.6135577, 0, 0.33808586, -215.76004, 11.693177, -89.52946)
+
+[node name="SapinExterieur_17" type="Node3D" parent="." unique_id=693657848 instance=ExtResource("1_81uvu")]
+transform = Transform3D(0.35489365, 0, 0.6799484, 0, 0.82071495, 0, -0.73507905, 0, 0.32827675, -205.86206, 10.565705, -90.7682)
+
+[node name="SapinExterieur_18" type="Node3D" parent="." unique_id=514614419 instance=ExtResource("1_81uvu")]
+transform = Transform3D(0.7523479, 0, -0.53204846, 0, 0.9997305, 0, 0.5709781, 0, 0.7010524, -207.93344, 11.675195, -84.611595)

@@ -1,0 +1,25 @@
+[gd_scene load_steps=5 format=3]
+
+[ext_resource type="Script" path="res://scripts/herbalist.gd" id="1"]
+[ext_resource type="PackedScene" path="res://assets/characters/maelor.glb" id="2"]
+[ext_resource type="Curve3D" path="res://assets/characters/maelor_route.tres" id="3"]
+
+[sub_resource type="CapsuleShape3D" id="Capsule"]
+radius = 0.32
+height = 1.75
+
+[node name="MaelorHerboriste" type="CharacterBody3D" groups=["ambient_npc"]]
+collision_layer = 4
+collision_mask = 3
+floor_snap_length = 0.4
+script = ExtResource("1")
+route = ExtResource("3")
+start_distance = 59.23
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+position = Vector3(0, 0.875, 0)
+shape = SubResource("Capsule")
+
+[node name="Visual" type="Node3D" parent="."]
+
+[node name="Maelor" parent="Visual" instance=ExtResource("2")]

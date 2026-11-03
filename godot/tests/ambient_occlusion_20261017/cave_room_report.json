@@ -1,0 +1,15 @@
+{
+	"initially_enabled": true,
+	"renderer": "gl_compatibility",
+	"samples": {
+		"off": {
+			"median_frame_ms": 1.824,
+			"p95_frame_ms": 3.837
+		},
+		"on": {
+			"median_frame_ms": 1.876,
+			"p95_frame_ms": 3.921
+		}
+	},
+	"scene": "res://scenes/interiors/cave_room.tscn"
+}

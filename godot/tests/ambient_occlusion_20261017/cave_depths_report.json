@@ -1,0 +1,15 @@
+{
+	"initially_enabled": true,
+	"renderer": "gl_compatibility",
+	"samples": {
+		"off": {
+			"median_frame_ms": 1.516,
+			"p95_frame_ms": 2.629
+		},
+		"on": {
+			"median_frame_ms": 1.989,
+			"p95_frame_ms": 2.674
+		}
+	},
+	"scene": "res://scenes/interiors/cave_depths.tscn"
+}

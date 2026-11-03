@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://bigb5wftu31oi"]
+
+[ext_resource type="Script" uid="uid://bc1uyofa5uvn8" path="res://tests/glide_validation.gd" id="1_3jv58"]
+
+[node name="GlideValidation" type="Node3D" unique_id=1656844670]
+script = ExtResource("1_3jv58")

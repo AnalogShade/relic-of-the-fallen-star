@@ -1,0 +1,72 @@
+[gd_scene format=3 uid="uid://cmh3h5he1vgru"]
+
+[ext_resource type="Script" uid="uid://bhftkmnv11gxd" path="res://scripts/player.gd" id="1"]
+[ext_resource type="PackedScene" uid="uid://cwpobv6ytw5fy" path="res://assets/characters/nael.glb" id="2_g2els"]
+[ext_resource type="Script" uid="uid://darrumav5mi06" path="res://scripts/nael_animation.gd" id="3_qhqgy"]
+[ext_resource type="Script" path="res://scripts/claw_trail.gd" id="4_trail"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_qhqgy"]
+radius = 0.32
+height = 1.65
+
+[sub_resource type="StandardMaterial3D" id="Material"]
+albedo_color = Color(0.92, 0.72, 0.34, 1)
+roughness = 0.45
+
+[sub_resource type="BoxMesh" id="Mesh"]
+material = SubResource("Material")
+size = Vector3(0.85, 0.85, 0.85)
+
+[node name="Player" type="CharacterBody3D" unique_id=1358194691 groups=["player"]]
+collision_layer = 2
+collision_mask = 5
+floor_max_angle = 0.872665
+floor_snap_length = 0.35
+script = ExtResource("1")
+speed = 2.16
+sprint_speed = 5.0
+jump_speed = 6.88
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=764205727]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.4, 0)
+shape = SubResource("CapsuleShape3D_qhqgy")
+
+[node name="Cube" type="MeshInstance3D" parent="." unique_id=1701861909]
+visible = false
+mesh = SubResource("Mesh")
+
+[node name="CameraPivot" type="Node3D" parent="." unique_id=1636625286]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
+
+[node name="SpringArm3D" type="SpringArm3D" parent="CameraPivot" unique_id=543413249]
+transform = Transform3D(1, 0, 0, 0, 0.96377087, 0.26673144, 0, -0.26673144, 0.96377087, 0, 0, 0)
+spring_length = 5.5
+margin = 0.22
+
+[node name="Camera3D" type="Camera3D" parent="CameraPivot/SpringArm3D" unique_id=290279738]
+current = true
+fov = 70.0
+near = 0.1
+far = 180.0
+
+[node name="Nael" parent="." unique_id=760368346 instance=ExtResource("2_g2els")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.425, 0)
+script = ExtResource("3_qhqgy")
+
+[node name="ClawTrail" type="MeshInstance3D" parent="." unique_id=1849204821]
+script = ExtResource("4_trail")
+skeleton_path = NodePath("Nael/Armature/Skeleton3D")
+animation_player_path = NodePath("Nael/AnimationPlayer")
+bone_name = "RightHand"
+claw_length = 0.23
+claw_spread = 0.065
+ribbon_width = 0.065
+enable_arc_slash = true
+arc_energy = 0.4
+trail_lifetime = 0.32
+emission_energy = 2.4
+subdivisions = 3
+auto_sync_animation = true
+attack_animation_name = "Nael_Claw"
+swing_start_time = 0.14
+swing_end_time = 0.5

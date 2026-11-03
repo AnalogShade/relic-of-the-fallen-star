@@ -1,0 +1,7 @@
+[gd_scene format=3 uid="uid://d3dnd5h4olu55"]
+
+[ext_resource type="PackedScene" path="res://assets/environment/trails_20261021/tile_03_monts_de_schiste.glb" id="1_jprcf"]
+
+[node name="Tile_03_monts_de_schiste" type="Node3D" unique_id=463630828]
+
+[node name="Art" parent="." unique_id=692772994 instance=ExtResource("1_jprcf")]

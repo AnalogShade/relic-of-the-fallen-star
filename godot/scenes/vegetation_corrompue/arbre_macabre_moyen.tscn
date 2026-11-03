@@ -1,0 +1,18 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://assets/environment/vegetation_corrompue/arbre_macabre_moyen.glb" id="1_nbkgi"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_uvjyp"]
+radius = 0.44
+height = 4.2
+
+[node name="ArbreMacabreMoyen" type="Node3D" unique_id=863503984]
+
+[node name="Visual" type="Node3D" parent="." unique_id=1975146896 instance=ExtResource("1_nbkgi")]
+
+[node name="CollisionBody" type="StaticBody3D" parent="." unique_id=374452812]
+collision_mask = 0
+
+[node name="Shape" type="CollisionShape3D" parent="CollisionBody" unique_id=1883263910]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.1, 0)
+shape = SubResource("CapsuleShape3D_uvjyp")

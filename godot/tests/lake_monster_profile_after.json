@@ -1,0 +1,60 @@
+{
+	"boss_water_lookup": {
+		"max_ms": 0.211,
+		"mean_ms": 0.201466666666667,
+		"p95_ms": 0.206
+	},
+	"hidden": {
+		"max_ms": 12.264,
+		"mean_ms": 8.34951666666667,
+		"p95_ms": 11.783
+	},
+	"idle": {
+		"max_ms": 16.33,
+		"mean_ms": 8.34926666666667,
+		"p95_ms": 12.835
+	},
+	"move_and_slide": {
+		"max_ms": 1.119,
+		"mean_ms": 0.8737,
+		"p95_ms": 1.02
+	},
+	"walk_animation": {
+		"max_ms": 16.411,
+		"mean_ms": 8.32375,
+		"p95_ms": 13.164
+	},
+	"walk_callback": {
+		"max_ms": 1.545,
+		"mean_ms": 1.26401666666667,
+		"p95_ms": 1.47
+	},
+	"walk_full": {
+		"callback": {
+			"max_ms": 1.427,
+			"mean_ms": 1.18091666666667,
+			"p95_ms": 1.374
+		},
+		"max_ms": 15.605,
+		"mean_ms": 8.32155,
+		"p95_ms": 12.984
+	},
+	"walk_full_splashes": {
+		"callback": {
+			"max_ms": 1.569,
+			"mean_ms": 1.18361666666667,
+			"p95_ms": 1.25
+		},
+		"max_ms": 15.437,
+		"mean_ms": 8.38658333333333,
+		"p95_ms": 11.884
+	},
+	"water_candidates_triangles": [
+		4992
+	],
+	"water_height": {
+		"max_ms": 1.985,
+		"mean_ms": 1.67688333333333,
+		"p95_ms": 1.806
+	}
+}

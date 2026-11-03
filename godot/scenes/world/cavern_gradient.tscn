@@ -1,0 +1,23 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/cavern_gradient.gd" id="1_script"]
+[ext_resource type="Shader" path="res://shaders/cavern_density.gdshader" id="2_shader"]
+[ext_resource type="Texture2D" path="res://assets/environment/world/cavern_interior_profile.res" id="3_profile"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_gradient"]
+resource_local_to_scene = true
+render_priority = 100
+shader = ExtResource("2_shader")
+shader_parameter/interior_profile = ExtResource("3_profile")
+
+[sub_resource type="BoxMesh" id="BoxMesh_volume"]
+size = Vector3(7.4, 7.4, 5.6)
+
+[node name="GradientEntree" type="Node3D"]
+script = ExtResource("1_script")
+
+[node name="VolumeObscurite" type="MeshInstance3D" parent="."]
+position = Vector3(0, 1.8, -2.1)
+cast_shadow = 0
+material_override = SubResource("ShaderMaterial_gradient")
+mesh = SubResource("BoxMesh_volume")

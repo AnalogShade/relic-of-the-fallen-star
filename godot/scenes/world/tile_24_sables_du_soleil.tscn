@@ -1,0 +1,7 @@
+[gd_scene format=3 uid="uid://c0fnbsvj4pxg5"]
+
+[ext_resource type="PackedScene" uid="uid://cmdy8wobmmyma" path="res://assets/environment/world/tile_24_sables_du_soleil.glb" id="1_bf7an"]
+
+[node name="Tile_24_sables_du_soleil" type="Node3D" unique_id=1936356330]
+
+[node name="Model" parent="." unique_id=1176240597 instance=ExtResource("1_bf7an")]

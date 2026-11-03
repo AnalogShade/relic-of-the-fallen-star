@@ -1,0 +1,7 @@
+{
+	"checks": 26,
+	"failures": [
+		"Return restores the position outside the entrance"
+	],
+	"fps": 55.0
+}

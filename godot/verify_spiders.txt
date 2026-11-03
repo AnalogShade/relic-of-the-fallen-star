@@ -1,0 +1,17 @@
+--- Starting Spider Verification ---
+Found 6 spiders in foret_malefique.
+Spider Araignee_Matriarche state: 'idle', health: 280.000000, home_pos: (-230.0, 9.49, -150.0)
+OK: Araignee_Matriarche [Scale 3.40, HP 280, Dmg 28] Collision bottom Y=0.000, WalkAnim='Araignee_Marche'
+Spider Araignee_Gardienne_Nord state: 'idle', health: 130.000000, home_pos: (-234.0, 11.16, -226.0)
+OK: Araignee_Gardienne_Nord [Scale 2.20, HP 130, Dmg 18] Collision bottom Y=0.000, WalkAnim='Araignee_Marche'
+Spider Araignee_Gardienne_Est state: 'idle', health: 120.000000, home_pos: (-182.0, 12.19, -162.0)
+OK: Araignee_Gardienne_Est [Scale 2.00, HP 120, Dmg 16] Collision bottom Y=0.000, WalkAnim='Araignee_Marche'
+Spider Araignee_Rodeuse_01 state: 'idle', health: 70.000000, home_pos: (-246.0, 9.71, -210.0)
+OK: Araignee_Rodeuse_01 [Scale 1.50, HP 70, Dmg 12] Collision bottom Y=0.000, WalkAnim='Araignee_Marche'
+Spider Araignee_Rodeuse_02 state: 'idle', health: 65.000000, home_pos: (-178.0, 11.76, -134.0)
+OK: Araignee_Rodeuse_02 [Scale 1.40, HP 65, Dmg 10] Collision bottom Y=0.000, WalkAnim='Araignee_Marche'
+Spider Araignee_Rodeuse_03 state: 'idle', health: 65.000000, home_pos: (-226.0, 7.92, -262.0)
+OK: Araignee_Rodeuse_03 [Scale 1.40, HP 65, Dmg 10] Collision bottom Y=0.000, WalkAnim='Araignee_Marche'
+OK: Claw hit successfully damaged Matriarche from 280 to 255 PV!
+OK: Matriarche attack successfully dealt damage to player from 100 to 72 PV!
+=== ALL VERIFICATION TESTS PASSED SUCCESSFULLY ===

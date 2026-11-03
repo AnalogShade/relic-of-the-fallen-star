@@ -1,0 +1,18 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://assets/environment/vegetation_corrompue/sapin_corrompu_grand.glb" id="1_t5551"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_6lqgt"]
+radius = 0.46
+height = 5.6
+
+[node name="SapinCorrompuGrand" type="Node3D" unique_id=347728339]
+
+[node name="Visual" type="Node3D" parent="." unique_id=2099557932 instance=ExtResource("1_t5551")]
+
+[node name="CollisionBody" type="StaticBody3D" parent="." unique_id=584744233]
+collision_mask = 0
+
+[node name="Shape" type="CollisionShape3D" parent="CollisionBody" unique_id=1431981468]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.8, 0)
+shape = SubResource("CapsuleShape3D_6lqgt")

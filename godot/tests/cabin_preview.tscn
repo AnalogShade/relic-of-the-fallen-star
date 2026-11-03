@@ -1,0 +1,9 @@
+[gd_scene format=3 uid="uid://d4cuie3staf6o"]
+
+[ext_resource type="Script" path="res://tests/cabin_preview.gd" id="1_l75sc"]
+[ext_resource type="PackedScene" uid="uid://bbcte6fxoyjyg" path="res://scenes/world/open_world.tscn" id="2_hh1yx"]
+
+[node name="CabinPreview" type="Node3D" unique_id=843761279]
+script = ExtResource("1_l75sc")
+
+[node name="World" parent="." unique_id=1454694496 instance=ExtResource("2_hh1yx")]

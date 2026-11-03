@@ -1,0 +1,3362 @@
+[
+  {
+    "name": "Marche_000_Large_Fissuree",
+    "position": [
+      52.0,
+      44.0,
+      8.293403625488281
+    ],
+    "angle": 3.842231035232544,
+    "scale": [
+      3.566002130508423,
+      0.9350200891494751,
+      0.3970582187175751
+    ],
+    "mesh": "Marche_Pierre_Large_Fissuree_Export_Unitaire"
+  },
+  {
+    "name": "Marche_001_Basse_Fragmentee",
+    "position": [
+      51.580345153808594,
+      44.47709274291992,
+      8.470080375671387
+    ],
+    "angle": 3.838930606842041,
+    "scale": [
+      3.4371178150177,
+      0.8174036145210266,
+      0.25
+    ],
+    "mesh": "Marche_Pierre_Basse_Fragmentee_Export_Unitaire"
+  },
+  {
+    "name": "Marche_002_Large_Fissuree",
+    "position": [
+      51.24140930175781,
+      44.86827850341797,
+      8.614034652709961
+    ],
+    "angle": 3.8301901817321777,
+    "scale": [
+      3.512932062149048,
+      0.8819997906684875,
+      0.3603653609752655
+    ],
+    "mesh": "Marche_Pierre_Large_Fissuree_Export_Unitaire"
+  },
+  {
+    "name": "Marche_003_Moyenne_Equarrie",
+    "position": [
+      50.86581802368164,
+      45.31294250488281,
+      8.775959014892578
+    ],
+    "angle": 3.840181589126587,
+    "scale": [
+      3.4625439643859863,
+      0.9461110234260559,
+      0.3667738437652588
+    ],
+    "mesh": "Marche_Pierre_Moyenne_Equarrie_Export_Unitaire"
+  },
+  {
+    "name": "Marche_004_Haute_Irreguliere",
+    "position": [
+      50.45738983154297,
+      45.81359100341797,
+      8.955720901489258
+    ],
+    "angle": 3.8400609493255615,
+    "scale": [
+      3.3011786937713623,
+      0.9259125590324402,
+      0.3963772654533386
+    ],
+    "mesh": "Marche_Pierre_Haute_Irreguliere_Export_Unitaire"
+  },
+  {
+    "name": "Marche_005_Moyenne_Equarrie",
+    "position": [
+      50.069942474365234,
+      46.30532455444336,
+      9.129864692687988
+    ],
+    "angle": 3.8264567852020264,
+    "scale": [
+      3.408169746398926,
+      0.9227377772331238,
+      0.4043367803096771
+    ],
+    "mesh": "Marche_Pierre_Moyenne_Equarrie_Export_Unitaire"
+  },
+  {
+    "name": "Marche_006_Haute_Irreguliere",
+    "position": [
+      49.690162658691406,
+      46.79924011230469,
+      9.303123474121094
+    ],
+    "angle": 3.839877128601074,
+    "scale": [
+      3.4562888145446777,
+      0.91184401512146,
+      0.34256333112716675
+    ],
+    "mesh": "Marche_Pierre_Haute_Irreguliere_Export_Unitaire"
+  },
+  {
+    "name": "Marche_007_Moyenne_Equarrie",
+    "position": [
+      49.31898880004883,
+      47.286128997802734,
+      9.473352432250977
+    ],
+    "angle": 3.83797287940979,
+    "scale": [
+      3.5093185901641846,
+      0.8663873672485352,
+      0.34507936239242554
+    ],
+    "mesh": "Marche_Pierre_Moyenne_Equarrie_Export_Unitaire"
+  },
+  {
+    "name": "Marche_008_Large_Fissuree",
+    "position": [
+      48.97366714477539,
+      47.73542404174805,
+      9.63093376159668
+    ],
+    "angle": 3.8267271518707275,
+    "scale": [
+      3.280029058456421,
+      0.8630403280258179,
+      0.3706151247024536
+    ],
+    "mesh": "Marche_Pierre_Large_Fissuree_Export_Unitaire"
+  },
+  {
+    "name": "Marche_009_Moyenne_Equarrie",
+    "position": [
+      48.62638854980469,
+      48.177738189697266,
+      9.787585258483887
+    ],
+    "angle": 3.8007500171661377,
+    "scale": [
+      3.565596580505371,
+      0.9166547060012817,
+      0.3959799110889435
+    ],
+    "mesh": "Marche_Pierre_Moyenne_Equarrie_Export_Unitaire"
+  },
+  {
+    "name": "Marche_010_Basse_Fragmentee",
+    "position": [
+      48.27193832397461,
+      48.67905044555664,
+      9.900471687316895
+    ],
+    "angle": 3.7560794353485107,
+    "scale": [
+      3.5303313732147217,
+      0.8271461725234985,
+      0.25
+    ],
+    "mesh": "Marche_Pierre_Basse_Fragmentee_Export_Unitaire"
+  },
+  {
+    "name": "Marche_011_Large_Fissuree",
+    "position": [
+      47.96833419799805,
+      49.10962677001953,
+      9.98955249786377
+    ],
+    "angle": 3.7503652572631836,
+    "scale": [
+      3.4621784687042236,
+      0.8562419414520264,
+      0.4126454293727875
+    ],
+    "mesh": "Marche_Pierre_Large_Fissuree_Export_Unitaire"
+  },
+  {
+    "name": "Marche_012_Moyenne_Equarrie",
+    "position": [
+      47.64305877685547,
+      49.560997009277344,
+      10.0846529006958
+    ],
+    "angle": 3.7277004718780518,
+    "scale": [
+      3.5473806858062744,
+      0.8644633293151855,
+      0.3488793671131134
+    ],
+    "mesh": "Marche_Pierre_Moyenne_Equarrie_Export_Unitaire"
+  },
+  {
+    "name": "Marche_013_Large_Fissuree",
+    "position": [
+      47.30937957763672,
+      50.016597747802734,
+      10.181253433227539
+    ],
+    "angle": 3.734096050262451,
+    "scale": [
+      3.293189287185669,
+      0.8049641847610474,
+      0.4122939705848694
+    ],
+    "mesh": "Marche_Pierre_Large_Fissuree_Export_Unitaire"
+  },
+  {
+    "name": "Marche_014_Moyenne_Equarrie",
+    "position": [
+      47.01103591918945,
+      50.42441940307617,
+      10.268263816833496
+    ],
+    "angle": 3.717411518096924,
+    "scale": [
+      3.463732957839966,
+      0.9392611980438232,
+      0.3740578591823578
+    ],
+    "mesh": "Marche_Pierre_Moyenne_Equarrie_Export_Unitaire"
+  },
+  {
+    "name": "Marche_015_Haute_Irreguliere",
+    "position": [
+      46.63818359375,
+      50.944210052490234,
+      10.379386901855469
+    ],
+    "angle": 3.7444663047790527,
+    "scale": [
+      3.5712828636169434,
+      0.8728944659233093,
+      0.35949844121932983
+    ],
+    "mesh": "Marche_Pierre_Haute_Irreguliere_Export_Unitaire"
+  },
+  {
+    "name": "Marche_016_Moyenne_Equarrie",
+    "position": [
+      46.3122673034668,
+      51.41572189331055,
+      10.47995662689209
+    ],
+    "angle": 3.7368643283843994,
+    "scale": [
+      3.560842514038086,
+      0.8962376117706299,
+      0.4153364300727844
+    ],
+    "mesh": "Marche_Pierre_Moyenne_Equarrie_Export_Unitaire"
+  },
+  {
+    "name": "Marche_017_Large_Fissuree",
+    "position": [
+      45.98372268676758,
+      51.91359329223633,
+      10.58557415008545
+    ],
+    "angle": 3.7176425457000732,
+    "scale": [
+      3.59481143951416,
+      0.9407805800437927,
+      0.34239932894706726
+    ],
+    "mesh": "Marche_Pierre_Large_Fissuree_Export_Unitaire"
+  },
+  {
+    "name": "Marche_018_Moyenne_Equarrie",
+    "position": [
+      45.643653869628906,
+      52.45711135864258,
+      10.700169563293457
+    ],
+    "angle": 3.7113187313079834,
+    "scale": [
+      3.5095725059509277,
+      0.9024220108985901,
+      0.3860132396221161
+    ],
+    "mesh": "Marche_Pierre_Moyenne_Equarrie_Export_Unitaire"
+  },
+  {
+    "name": "Marche_019_Haute_Irreguliere",
+    "position": [
+      45.33505630493164,
+      52.975013732910156,
+      10.808951377868652
+    ],
+    "angle": 3.6884429454803467,
+    "scale": [
+      3.4864797592163086,
+      0.8316321969032288,
+      0.4117770791053772
+    ],
+    "mesh": "Marche_Pierre_Haute_Irreguliere_Export_Unitaire"
+  },
+  {
+    "name": "Marche_020_Large_Fissuree",
+    "position": [
+      45.06922149658203,
+      53.43587875366211,
+      10.905770301818848
+    ],
+    "angle": 3.682502508163452,
+    "scale": [
+      3.471919536590576,
+      0.8242101073265076,
+      0.34801921248435974
+    ],
+    "mesh": "Marche_Pierre_Large_Fissuree_Export_Unitaire"
+  },
+  {
+    "name": "Marche_021_Moyenne_Equarrie",
+    "position": [
+      44.81016159057617,
+      53.89189910888672,
+      11.001954078674316
+    ],
+    "angle": 3.6863720417022705,
+    "scale": [
+      3.4249486923217773,
+      0.9419072866439819,
+      0.39905810356140137
+    ],
+    "mesh": "Marche_Pierre_Moyenne_Equarrie_Export_Unitaire"
+  },
+  {
+    "name": "Marche_022_Large_Fissuree",
+    "position": [
+      44.493202209472656,
+      54.450164794921875,
+      11.120749473571777
+    ],
+    "angle": 3.6700637340545654,
+    "scale": [
+      3.407024383544922,
+      0.8059112429618835,
+      0.3843759000301361
+    ],
+    "mesh": "Marche_Pierre_Large_Fissuree_Export_Unitaire"
+  },
+  {
+    "name": "Marche_023_Moyenne_Equarrie",
+    "position": [
+      44.24073791503906,
+      54.88842010498047,
+      11.215080261230469
+    ],
+    "angle": 3.6887338161468506,
+    "scale": [
+      3.4754621982574463,
+      0.8806732296943665,
+      0.42906588315963745
+    ],
+    "mesh": "Marche_Pierre_Moyenne_Equarrie_Export_Unitaire"
+  },
+  {
+    "name": "Marche_024_Basse_Fragmentee",
+    "position": [
+      43.94667434692383,
+      55.38880920410156,
+      11.32418155670166
+    ],
+    "angle": 3.6872971057891846,
+    "scale": [
+      3.2857882976531982,
+      0.9208618402481079,
+      0.25
+    ],
+    "mesh": "Marche_Pierre_Basse_Fragmentee_Export_Unitaire"
+  },
+  {
+    "name": "Marche_025_Haute_Irreguliere",
+    "position": [
+      43.626983642578125,
+      55.920799255371094,
+      11.44176959991455
+    ],
+    "angle": 3.652801990509033,
+    "scale": [
+      3.398045539855957,
+      0.8019466996192932,
+      0.4181949496269226
+    ],
+    "mesh": "Marche_Pierre_Haute_Irreguliere_Export_Unitaire"
+  },
+  {
+    "name": "Marche_026_Basse_Fragmentee",
+    "position": [
+      43.36555480957031,
+      56.34934997558594,
+      11.53746223449707
+    ],
+    "angle": 3.6442885398864746,
+    "scale": [
+      3.3914294242858887,
+      0.9390342235565186,
+      0.25
+    ],
+    "mesh": "Marche_Pierre_Basse_Fragmentee_Export_Unitaire"
+  },
+  {
+    "name": "Marche_027_Large_Fissuree",
+    "position": [
+      43.032474517822266,
+      56.89508056640625,
+      11.660144805908203
+    ],
+    "angle": 3.6429879665374756,
+    "scale": [
+      3.41687273979187,
+      0.9167700409889221,
+      0.34798669815063477
+    ],
+    "mesh": "Marche_Pierre_Large_Fissuree_Export_Unitaire"
+  },
+  {
+    "name": "Marche_028_Haute_Irreguliere",
+    "position": [
+      42.715057373046875,
+      57.4244270324707,
+      11.779404640197754
+    ],
+    "angle": 3.627641439437866,
+    "scale": [
+      3.4423370361328125,
+      0.9201248288154602,
+      0.3877149224281311
+    ],
+    "mesh": "Marche_Pierre_Haute_Irreguliere_Export_Unitaire"
+  },
+  {
+    "name": "Marche_029_Moyenne_Equarrie",
+    "position": [
+      42.40455627441406,
+      57.96173095703125,
+      11.900094032287598
+    ],
+    "angle": 3.629063606262207,
+    "scale": [
+      3.4181511402130127,
+      0.8116883635520935,
+      0.42736849188804626
+    ],
+    "mesh": "Marche_Pierre_Moyenne_Equarrie_Export_Unitaire"
+  },
+  {
+    "name": "Marche_030_Large_Fissuree",
+    "position": [
+      42.157310485839844,
+      58.410057067871094,
+      12.000204086303711
+    ],
+    "angle": 3.637718439102173,
+    "scale": [
+      3.576815366744995,
+      0.9236716032028198,
+      0.3880864679813385
+    ],
+    "mesh": "Marche_Pierre_Large_Fissuree_Export_Unitaire"
+  },
+  {
+    "name": "Marche_031_Moyenne_Equarrie",
+    "position": [
+      41.869144439697266,
+      58.96360778808594,
+      12.122895240783691
+    ],
+    "angle": 3.6119377613067627,
+    "scale": [
+      3.4510014057159424,
+      0.8917165398597717,
+      0.3781570792198181
+    ],
+    "mesh": "Marche_Pierre_Moyenne_Equarrie_Export_Unitaire"
+  },
+  {
+    "name": "Marche_032_Haute_Irreguliere",
+    "position": [
+      41.60886001586914,
+      59.495487213134766,
+      12.239903450012207
+    ],
+    "angle": 3.6155662536621094,
+    "scale": [
+      3.5453829765319824,
+      0.947323203086853,
+      0.401075541973114
+    ],
+    "mesh": "Marche_Pierre_Haute_Irreguliere_Export_Unitaire"
+  },
+  {
+    "name": "Marche_033_Moyenne_Equarrie",
+    "position": [
+      41.33677673339844,
+      60.08344268798828,
+      12.368546485900879
+    ],
+    "angle": 3.589845895767212,
+    "scale": [
+      3.321762800216675,
+      0.8120688199996948,
+      0.3534793555736542
+    ],
+    "mesh": "Marche_Pierre_Moyenne_Equarrie_Export_Unitaire"
+  },
+  {
+    "name": "Marche_034_Large_Fissuree",
+    "position": [
+      41.127777099609375,
+      60.55126190185547,
+      12.470699310302734
+    ],
+    "angle": 3.587970733642578,
+    "scale": [
+      3.542708396911621,
+      0.9204269051551819,
+      0.4282865822315216
+    ],
+    "mesh": "Marche_Pierre_Large_Fissuree_Export_Unitaire"
+  },
+  {
+    "name": "Marche_035_Haute_Irreguliere",
+    "position": [
+      40.87928009033203,
+      61.11983871459961,
+      12.594964981079102
+    ],
+    "angle": 3.5709192752838135,
+    "scale": [
+      3.3062472343444824,
+      0.9204034805297852,
+      0.4067157208919525
+    ],
+    "mesh": "Marche_Pierre_Haute_Irreguliere_Export_Unitaire"
+  },
+  {
+    "name": "Marche_036_Moyenne_Equarrie",
+    "position": [
+      40.632057189941406,
+      61.68844985961914,
+      12.719685554504395
+    ],
+    "angle": 3.565685749053955,
+    "scale": [
+      3.3141934871673584,
+      0.90541011095047,
+      0.4068603813648224
+    ],
+    "mesh": "Marche_Pierre_Moyenne_Equarrie_Export_Unitaire"
+  },
+  {
+    "name": "Marche_037_Haute_Irreguliere",
+    "position": [
+      40.38992691040039,
+      62.24260711669922,
+      12.841791152954102
+    ],
+    "angle": 3.5434300899505615,
+    "scale": [
+      3.4933056831359863,
+      0.8354363441467285,
+      0.4236209988594055
+    ],
+    "mesh": "Marche_Pierre_Haute_Irreguliere_Export_Unitaire"
+  },
+  {
+    "name": "Marche_038_Moyenne_Equarrie",
+    "position": [
+      40.17488098144531,
+      62.732330322265625,
+      12.950079917907715
+    ],
+    "angle": 3.525404930114746,
+    "scale": [
+      3.3468258380889893,
+      0.8424171209335327,
+      0.3810354173183441
+    ],
+    "mesh": "Marche_Pierre_Moyenne_Equarrie_Export_Unitaire"
+  },
+  {
+    "name": "Marche_039_Basse_Fragmentee",
+    "position": [
+      39.9580078125,
+      63.2291145324707,
+      13.060050010681152
+    ],
+    "angle": 3.5335302352905273,
+    "scale": [
+      3.2952022552490234,
+      0.9286171197891235,
+      0.25
+    ],
+    "mesh": "Marche_Pierre_Basse_Fragmentee_Export_Unitaire"
+  },
+  {
+    "name": "Marche_040_Moyenne_Equarrie",
+    "position": [
+      39.71226501464844,
+      63.80772018432617,
+      13.18781852722168
+    ],
+    "angle": 3.5128896236419678,
+    "scale": [
+      3.447486162185669,
+      0.8416273593902588,
+      0.3970203995704651
+    ],
+    "mesh": "Marche_Pierre_Moyenne_Equarrie_Export_Unitaire"
+  },
+  {
+    "name": "Marche_041_Large_Fissuree",
+    "position": [
+      39.50908279418945,
+      64.31028747558594,
+      13.29814338684082
+    ],
+    "angle": 3.4665029048919678,
+    "scale": [
+      3.526200294494629,
+      0.8511133193969727,
+      0.40799397230148315
+    ],
+    "mesh": "Marche_Pierre_Large_Fissuree_Export_Unitaire"
+  },
+  {
+    "name": "Marche_042_Haute_Irreguliere",
+    "position": [
+      39.3154296875,
+      64.82706451416016,
+      13.410616874694824
+    ],
+    "angle": 3.467022657394409,
+    "scale": [
+      3.29295015335083,
+      0.9266126155853271,
+      0.38741257786750793
+    ],
+    "mesh": "Marche_Pierre_Haute_Irreguliere_Export_Unitaire"
+  },
+  {
+    "name": "Marche_043_Moyenne_Equarrie",
+    "position": [
+      39.11662673950195,
+      65.42247772216797,
+      13.538750648498535
+    ],
+    "angle": 3.4390575885772705,
+    "scale": [
+      3.5373427867889404,
+      0.8765817284584045,
+      0.340819776058197
+    ],
+    "mesh": "Marche_Pierre_Moyenne_Equarrie_Export_Unitaire"
+  },
+  {
+    "name": "Marche_044_Large_Fissuree",
+    "position": [
+      38.95653533935547,
+      65.97750091552734,
+      13.65687084197998
+    ],
+    "angle": 3.4187984466552734,
+    "scale": [
+      3.5733609199523926,
+      0.8211963772773743,
+      0.41995516419410706
+    ],
+    "mesh": "Marche_Pierre_Large_Fissuree_Export_Unitaire"
+  },
+  {
+    "name": "Marche_045_Basse_Fragmentee",
+    "position": [
+      38.83157730102539,
+      66.48444366455078,
+      13.763815879821777
+    ],
+    "angle": 3.3695852756500244,
+    "scale": [
+      3.372718334197998,
+      0.9386932849884033,
+      0.25
+    ],
+    "mesh": "Marche_Pierre_Basse_Fragmentee_Export_Unitaire"
+  },
+  {
+    "name": "Marche_046_Moyenne_Equarrie",
+    "position": [
+      38.70336151123047,
+      67.111083984375,
+      13.895108222961426
+    ],
+    "angle": 3.3433573246002197,
+    "scale": [
+      3.524805784225464,
+      0.8059890866279602,
+      0.42438971996307373
+    ],
+    "mesh": "Marche_Pierre_Moyenne_Equarrie_Export_Unitaire"
+  },
+  {
+    "name": "Marche_047_Large_Fissuree",
+    "position": [
+      38.61781692504883,
+      67.61029815673828,
+      13.999309539794922
+    ],
+    "angle": 3.3256490230560303,
+    "scale": [
+      3.415900945663452,
+      0.9358565807342529,
+      0.3745981752872467
+    ],
+    "mesh": "Marche_Pierre_Large_Fissuree_Export_Unitaire"
+  },
+  {
+    "name": "Marche_048_Haute_Irreguliere",
+    "position": [
+      38.525882720947266,
+      68.2396469116211,
+      14.13052749633789
+    ],
+    "angle": 3.295912027359009,
+    "scale": [
+      3.5270018577575684,
+      0.8990616798400879,
+      0.3851594030857086
+    ],
+    "mesh": "Marche_Pierre_Haute_Irreguliere_Export_Unitaire"
+  },
+  {
+    "name": "Marche_049_Moyenne_Equarrie",
+    "position": [
+      38.4487419128418,
+      68.83340454101562,
+      14.2544584274292
+    ],
+    "angle": 3.291651964187622,
+    "scale": [
+      3.3825087547302246,
+      0.8531978130340576,
+      0.4112738072872162
+    ],
+    "mesh": "Marche_Pierre_Moyenne_Equarrie_Export_Unitaire"
+  },
+  {
+    "name": "Marche_050_Large_Fissuree",
+    "position": [
+      38.38119888305664,
+      69.38182067871094,
+      14.369209289550781
+    ],
+    "angle": 3.2621941566467285,
+    "scale": [
+      3.519096612930298,
+      0.8071821331977844,
+      0.34015411138534546
+    ],
+    "mesh": "Marche_Pierre_Large_Fissuree_Export_Unitaire"
+  },
+  {
+    "name": "Marche_051_Moyenne_Equarrie",
+    "position": [
+      38.31991958618164,
+      69.88456726074219,
+      14.474702835083008
+    ],
+    "angle": 3.2566418647766113,
+    "scale": [
+      3.3641812801361084,
+      0.8409849405288696,
+      0.3805466890335083
+    ],
+    "mesh": "Marche_Pierre_Moyenne_Equarrie_Export_Unitaire"
+  },
+  {
+    "name": "Marche_052_Basse_Fragmentee",
+    "position": [
+      38.25434494018555,
+      70.4210205078125,
+      14.58755111694336
+    ],
+    "angle": 3.239117383956909,
+    "scale": [
+      3.5058810710906982,
+      0.8154221177101135,
+      0.25
+    ],
+    "mesh": "Marche_Pierre_Basse_Fragmentee_Export_Unitaire"
+  },
+  {
+    "name": "Marche_053_Haute_Irreguliere",
+    "position": [
+      38.192466735839844,
+      70.9324722290039,
+      14.695387840270996
+    ],
+    "angle": 3.22529673576355,
+    "scale": [
+      3.295534610748291,
+      0.8527827858924866,
+      0.37737417221069336
+    ],
+    "mesh": "Marche_Pierre_Haute_Irreguliere_Export_Unitaire"
+  },
+  {
+    "name": "Marche_054_Large_Fissuree",
+    "position": [
+      38.129364013671875,
+      71.48176574707031,
+      14.811394691467285
+    ],
+    "angle": 3.2078850269317627,
+    "scale": [
+      3.305245876312256,
+      0.8080369234085083,
+      0.35464003682136536
+    ],
+    "mesh": "Marche_Pierre_Large_Fissuree_Export_Unitaire"
+  },
+  {
+    "name": "Marche_055_Haute_Irreguliere",
+    "position": [
+      38.077518463134766,
+      71.98755645751953,
+      14.918316841125488
+    ],
+    "angle": 3.2124598026275635,
+    "scale": [
+      3.3482213020324707,
+      0.8135437369346619,
+      0.3560222387313843
+    ],
+    "mesh": "Marche_Pierre_Haute_Irreguliere_Export_Unitaire"
+  },
+  {
+    "name": "Marche_056_Moyenne_Equarrie",
+    "position": [
+      38.034828186035156,
+      72.49992370605469,
+      15.02668285369873
+    ],
+    "angle": 3.191485643386841,
+    "scale": [
+      3.552335262298584,
+      0.8110167980194092,
+      0.37559789419174194
+    ],
+    "mesh": "Marche_Pierre_Moyenne_Equarrie_Export_Unitaire"
+  },
+  {
+    "name": "Marche_057_Basse_Fragmentee",
+    "position": [
+      38.00555419921875,
+      73.0108413696289,
+      15.134781837463379
+    ],
+    "angle": 3.1771223545074463,
+    "scale": [
+      3.5644469261169434,
+      0.8820479512214661,
+      0.25
+    ],
+    "mesh": "Marche_Pierre_Basse_Fragmentee_Export_Unitaire"
+  },
+  {
+    "name": "Marche_058_Haute_Irreguliere",
+    "position": [
+      37.99256134033203,
+      73.59376525878906,
+      15.258213996887207
+    ],
+    "angle": 3.1575849056243896,
+    "scale": [
+      3.51460862159729,
+      0.8556016087532043,
+      0.3553854525089264
+    ],
+    "mesh": "Marche_Pierre_Haute_Irreguliere_Export_Unitaire"
+  },
+  {
+    "name": "Marche_059_Moyenne_Equarrie",
+    "position": [
+      38.00257873535156,
+      74.15036010742188,
+      15.376293182373047
+    ],
+    "angle": 3.112352132797241,
+    "scale": [
+      3.523529052734375,
+      0.8363832235336304,
+      0.37786802649497986
+    ],
+    "mesh": "Marche_Pierre_Moyenne_Equarrie_Export_Unitaire"
+  },
+  {
+    "name": "Marche_060_Large_Fissuree",
+    "position": [
+      38.034061431884766,
+      74.68684387207031,
+      15.490490913391113
+    ],
+    "angle": 3.1030848026275635,
+    "scale": [
+      3.5252065658569336,
+      0.9453234076499939,
+      0.348248153924942
+    ],
+    "mesh": "Marche_Pierre_Large_Fissuree_Export_Unitaire"
+  },
+  {
+    "name": "Marche_061_Moyenne_Equarrie",
+    "position": [
+      38.09987258911133,
+      75.32965850830078,
+      15.628092765808105
+    ],
+    "angle": 3.0462541580200195,
+    "scale": [
+      3.503770112991333,
+      0.8816133737564087,
+      0.41533032059669495
+    ],
+    "mesh": "Marche_Pierre_Moyenne_Equarrie_Export_Unitaire"
+  },
+  {
+    "name": "Marche_062_Haute_Irreguliere",
+    "position": [
+      38.181488037109375,
+      75.9057388305664,
+      15.752254486083984
+    ],
+    "angle": 3.0042717456817627,
+    "scale": [
+      3.2936108112335205,
+      0.8061636090278625,
+      0.3949604630470276
+    ],
+    "mesh": "Marche_Pierre_Haute_Irreguliere_Export_Unitaire"
+  },
+  {
+    "name": "Marche_063_Large_Fissuree",
+    "position": [
+      38.26625061035156,
+      76.40431213378906,
+      15.860416412353516
+    ],
+    "angle": 3.000438928604126,
+    "scale": [
+      3.3126652240753174,
+      0.8092697262763977,
+      0.4002513289451599
+    ],
+    "mesh": "Marche_Pierre_Large_Fissuree_Export_Unitaire"
+  },
+  {
+    "name": "Marche_064_Basse_Fragmentee",
+    "position": [
+      38.360260009765625,
+      76.90396118164062,
+      15.96937084197998
+    ],
+    "angle": 2.951601028442383,
+    "scale": [
+      3.288158655166626,
+      0.8195061683654785,
+      0.25
+    ],
+    "mesh": "Marche_Pierre_Basse_Fragmentee_Export_Unitaire"
+  },
+  {
+    "name": "Marche_065_Large_Fissuree",
+    "position": [
+      38.460968017578125,
+      77.41273498535156,
+      16.080726623535156
+    ],
+    "angle": 2.9594192504882812,
+    "scale": [
+      3.576780319213867,
+      0.8368496298789978,
+      0.37159258127212524
+    ],
+    "mesh": "Marche_Pierre_Large_Fissuree_Export_Unitaire"
+  },
+  {
+    "name": "Marche_066_Haute_Irreguliere",
+    "position": [
+      38.56584548950195,
+      77.93871307373047,
+      16.19615936279297
+    ],
+    "angle": 2.932227611541748,
+    "scale": [
+      3.5453779697418213,
+      0.888237476348877,
+      0.3916534185409546
+    ],
+    "mesh": "Marche_Pierre_Haute_Irreguliere_Export_Unitaire"
+  },
+  {
+    "name": "Marche_067_Large_Fissuree",
+    "position": [
+      38.67746353149414,
+      78.51625061035156,
+      16.323226928710938
+    ],
+    "angle": 2.9166791439056396,
+    "scale": [
+      3.341339349746704,
+      0.9272717237472534,
+      0.3488370180130005
+    ],
+    "mesh": "Marche_Pierre_Large_Fissuree_Export_Unitaire"
+  },
+  {
+    "name": "Marche_068_Basse_Fragmentee",
+    "position": [
+      38.78993606567383,
+      79.13374328613281,
+      16.459537506103516
+    ],
+    "angle": 2.920842170715332,
+    "scale": [
+      3.428757905960083,
+      0.8106480836868286,
+      0.25
+    ],
+    "mesh": "Marche_Pierre_Basse_Fragmentee_Export_Unitaire"
+  },
+  {
+    "name": "Marche_069_Large_Fissuree",
+    "position": [
+      38.87662887573242,
+      79.6373291015625,
+      16.5711727142334
+    ],
+    "angle": 2.948315382003784,
+    "scale": [
+      3.5333635807037354,
+      0.907431423664093,
+      0.3788765072822571
+    ],
+    "mesh": "Marche_Pierre_Large_Fissuree_Export_Unitaire"
+  },
+  {
+    "name": "Marche_070_Moyenne_Equarrie",
+    "position": [
+      38.977577209472656,
+      80.23650360107422,
+      16.704626083374023
+    ],
+    "angle": 2.9280123710632324,
+    "scale": [
+      3.410968542098999,
+      0.8788280487060547,
+      0.4124711751937866
+    ],
+    "mesh": "Marche_Pierre_Moyenne_Equarrie_Export_Unitaire"
+  },
+  {
+    "name": "Marche_071_Large_Fissuree",
+    "position": [
+      39.07687759399414,
+      80.80686950683594,
+      16.832347869873047
+    ],
+    "angle": 2.957534074783325,
+    "scale": [
+      3.551497459411621,
+      0.8193894624710083,
+      0.34285441040992737
+    ],
+    "mesh": "Marche_Pierre_Large_Fissuree_Export_Unitaire"
+  },
+  {
+    "name": "Marche_072_Moyenne_Equarrie",
+    "position": [
+      39.174468994140625,
+      81.31735229492188,
+      16.947307586669922
+    ],
+    "angle": 2.949932813644409,
+    "scale": [
+      3.467745304107666,
+      0.9154907464981079,
+      0.3408588469028473
+    ],
+    "mesh": "Marche_Pierre_Moyenne_Equarrie_Export_Unitaire"
+  },
+  {
+    "name": "Marche_073_Large_Fissuree",
+    "position": [
+      39.309059143066406,
+      81.91897583007812,
+      17.090312957763672
+    ],
+    "angle": 2.916001796722412,
+    "scale": [
+      3.416188955307007,
+      0.8717789053916931,
+      0.3749291002750397
+    ],
+    "mesh": "Marche_Pierre_Large_Fissuree_Export_Unitaire"
+  },
+  {
+    "name": "Marche_074_Moyenne_Equarrie",
+    "position": [
+      39.45973587036133,
+      82.4719467163086,
+      17.266956329345703
+    ],
+    "angle": 2.8884024620056152,
+    "scale": [
+      3.5998311042785645,
+      0.8261244893074036,
+      0.3619520962238312
+    ],
+    "mesh": "Marche_Pierre_Moyenne_Equarrie_Export_Unitaire"
+  },
+  {
+    "name": "Marche_075_Large_Fissuree",
+    "position": [
+      39.62531661987305,
+      82.97238159179688,
+      17.42967987060547
+    ],
+    "angle": 2.8397727012634277,
+    "scale": [
+      3.491114377975464,
+      0.8604406118392944,
+      0.3676548898220062
+    ],
+    "mesh": "Marche_Pierre_Large_Fissuree_Export_Unitaire"
+  },
+  {
+    "name": "Marche_076_Basse_Fragmentee",
+    "position": [
+      39.83560562133789,
+      83.49179077148438,
+      17.6029052734375
+    ],
+    "angle": 2.7347939014434814,
+    "scale": [
+      3.370619058609009,
+      0.8966169357299805,
+      0.25
+    ],
+    "mesh": "Marche_Pierre_Basse_Fragmentee_Export_Unitaire"
+  },
+  {
+    "name": "Marche_077_Moyenne_Equarrie",
+    "position": [
+      40.1002311706543,
+      84.02442932128906,
+      17.786487579345703
+    ],
+    "angle": 2.6847994327545166,
+    "scale": [
+      3.4903571605682373,
+      0.8424322605133057,
+      0.3425966501235962
+    ],
+    "mesh": "Marche_Pierre_Moyenne_Equarrie_Export_Unitaire"
+  },
+  {
+    "name": "Marche_078_Large_Fissuree",
+    "position": [
+      40.375831604003906,
+      84.48797607421875,
+      17.951902389526367
+    ],
+    "angle": 2.572575330734253,
+    "scale": [
+      3.3760716915130615,
+      0.8533056378364563,
+      0.3718565106391907
+    ],
+    "mesh": "Marche_Pierre_Large_Fissuree_Export_Unitaire"
+  },
+  {
+    "name": "Marche_079_Haute_Irreguliere",
+    "position": [
+      40.68681335449219,
+      84.94145202636719,
+      18.118711471557617
+    ],
+    "angle": 2.5234217643737793,
+    "scale": [
+      3.411125898361206,
+      0.8863779902458191,
+      0.417857825756073
+    ],
+    "mesh": "Marche_Pierre_Haute_Irreguliere_Export_Unitaire"
+  },
+  {
+    "name": "Marche_080_Moyenne_Equarrie",
+    "position": [
+      41.04057693481445,
+      85.40586853027344,
+      18.29369354248047
+    ],
+    "angle": 2.455312967300415,
+    "scale": [
+      3.5487308502197266,
+      0.8271716833114624,
+      0.357931911945343
+    ],
+    "mesh": "Marche_Pierre_Moyenne_Equarrie_Export_Unitaire"
+  },
+  {
+    "name": "Marche_081_Large_Fissuree",
+    "position": [
+      41.37103271484375,
+      85.81534576416016,
+      18.45048713684082
+    ],
+    "angle": 2.42415452003479,
+    "scale": [
+      3.5888519287109375,
+      0.9433363676071167,
+      0.42223140597343445
+    ],
+    "mesh": "Marche_Pierre_Large_Fissuree_Export_Unitaire"
+  },
+  {
+    "name": "Marche_082_Basse_Fragmentee",
+    "position": [
+      41.77797317504883,
+      86.31393432617188,
+      18.643098831176758
+    ],
+    "angle": 2.444573402404785,
+    "scale": [
+      3.427669048309326,
+      0.8946849703788757,
+      0.25
+    ],
+    "mesh": "Marche_Pierre_Basse_Fragmentee_Export_Unitaire"
+  },
+  {
+    "name": "Marche_083_Haute_Irreguliere",
+    "position": [
+      42.147220611572266,
+      86.78032684326172,
+      18.824329376220703
+    ],
+    "angle": 2.4623639583587646,
+    "scale": [
+      3.4486825466156006,
+      0.8378555178642273,
+      0.39739179611206055
+    ],
+    "mesh": "Marche_Pierre_Haute_Irreguliere_Export_Unitaire"
+  },
+  {
+    "name": "Marche_084_Large_Fissuree",
+    "position": [
+      42.46834182739258,
+      87.21101379394531,
+      18.992008209228516
+    ],
+    "angle": 2.4746131896972656,
+    "scale": [
+      3.3245317935943604,
+      0.8487815260887146,
+      0.3775203824043274
+    ],
+    "mesh": "Marche_Pierre_Large_Fissuree_Export_Unitaire"
+  },
+  {
+    "name": "Marche_085_Haute_Irreguliere",
+    "position": [
+      42.7817497253418,
+      87.65983581542969,
+      19.166683197021484
+    ],
+    "angle": 2.537630558013916,
+    "scale": [
+      3.5560190677642822,
+      0.8824883699417114,
+      0.3604370653629303
+    ],
+    "mesh": "Marche_Pierre_Haute_Irreguliere_Export_Unitaire"
+  },
+  {
+    "name": "Marche_086_Moyenne_Equarrie",
+    "position": [
+      43.10403060913086,
+      88.14334106445312,
+      19.35503578186035
+    ],
+    "angle": 2.5557000637054443,
+    "scale": [
+      3.4241557121276855,
+      0.9045447707176208,
+      0.369083970785141
+    ],
+    "mesh": "Marche_Pierre_Moyenne_Equarrie_Export_Unitaire"
+  },
+  {
+    "name": "Marche_087_Large_Fissuree",
+    "position": [
+      43.43716049194336,
+      88.6473388671875,
+      19.552566528320312
+    ],
+    "angle": 2.566899061203003,
+    "scale": [
+      3.423837423324585,
+      0.8481526970863342,
+      0.37977659702301025
+    ],
+    "mesh": "Marche_Pierre_Large_Fissuree_Export_Unitaire"
+  },
+  {
+    "name": "Marche_088_Moyenne_Equarrie",
+    "position": [
+      43.74680709838867,
+      89.10031127929688,
+      19.732778549194336
+    ],
+    "angle": 2.5726120471954346,
+    "scale": [
+      3.453552722930908,
+      0.883325457572937,
+      0.3727632761001587
+    ],
+    "mesh": "Marche_Pierre_Moyenne_Equarrie_Export_Unitaire"
+  },
+  {
+    "name": "Marche_089_Large_Fissuree",
+    "position": [
+      44.0914421081543,
+      89.5718994140625,
+      19.92522621154785
+    ],
+    "angle": 2.5394680500030518,
+    "scale": [
+      3.5942554473876953,
+      0.8564260005950928,
+      0.4272235631942749
+    ],
+    "mesh": "Marche_Pierre_Large_Fissuree_Export_Unitaire"
+  },
+  {
+    "name": "Marche_090_Haute_Irreguliere",
+    "position": [
+      44.43885803222656,
+      90.00646209716797,
+      20.10907745361328
+    ],
+    "angle": 2.488741397857666,
+    "scale": [
+      3.350503444671631,
+      0.8411496877670288,
+      0.40906810760498047
+    ],
+    "mesh": "Marche_Pierre_Haute_Irreguliere_Export_Unitaire"
+  },
+  {
+    "name": "Marche_091_Moyenne_Equarrie",
+    "position": [
+      44.85859680175781,
+      90.35647583007812,
+      20.28776741027832
+    ],
+    "angle": 2.4191226959228516,
+    "scale": [
+      3.445049285888672,
+      0.9380738735198975,
+      0.3579235076904297
+    ],
+    "mesh": "Marche_Pierre_Moyenne_Equarrie_Export_Unitaire"
+  },
+  {
+    "name": "Marche_092_Basse_Fragmentee",
+    "position": [
+      45.2381477355957,
+      90.86885833740234,
+      20.49810791015625
+    ],
+    "angle": 2.364935874938965,
+    "scale": [
+      3.4891655445098877,
+      0.8225412964820862,
+      0.25
+    ],
+    "mesh": "Marche_Pierre_Basse_Fragmentee_Export_Unitaire"
+  },
+  {
+    "name": "Marche_093_Large_Fissuree",
+    "position": [
+      45.60886001586914,
+      91.23523712158203,
+      20.670276641845703
+    ],
+    "angle": 2.3460803031921387,
+    "scale": [
+      3.314924955368042,
+      0.8858011960983276,
+      0.4048791527748108
+    ],
+    "mesh": "Marche_Pierre_Large_Fissuree_Export_Unitaire"
+  },
+  {
+    "name": "Marche_094_Basse_Fragmentee",
+    "position": [
+      46.02888488769531,
+      91.64262390136719,
+      20.863693237304688
+    ],
+    "angle": 2.313094139099121,
+    "scale": [
+      3.359308958053589,
+      0.8259895443916321,
+      0.25
+    ],
+    "mesh": "Marche_Pierre_Basse_Fragmentee_Export_Unitaire"
+  },
+  {
+    "name": "Marche_095_Haute_Irreguliere",
+    "position": [
+      46.40549850463867,
+      92.00990295410156,
+      21.038251876831055
+    ],
+    "angle": 2.325284957885742,
+    "scale": [
+      3.5021445751190186,
+      0.9057250022888184,
+      0.4031095504760742
+    ],
+    "mesh": "Marche_Pierre_Haute_Irreguliere_Export_Unitaire"
+  },
+  {
+    "name": "Marche_096_Large_Fissuree",
+    "position": [
+      46.83573532104492,
+      92.43683624267578,
+      21.24071502685547
+    ],
+    "angle": 2.331092119216919,
+    "scale": [
+      3.4401938915252686,
+      0.8310613632202148,
+      0.36721256375312805
+    ],
+    "mesh": "Marche_Pierre_Large_Fissuree_Export_Unitaire"
+  },
+  {
+    "name": "Marche_097_Moyenne_Equarrie",
+    "position": [
+      47.211395263671875,
+      92.81270599365234,
+      21.41962432861328
+    ],
+    "angle": 2.332632541656494,
+    "scale": [
+      3.5113000869750977,
+      0.9084519743919373,
+      0.4012547731399536
+    ],
+    "mesh": "Marche_Pierre_Moyenne_Equarrie_Export_Unitaire"
+  },
+  {
+    "name": "Marche_098_Haute_Irreguliere",
+    "position": [
+      47.64777374267578,
+      93.2376480102539,
+      21.625843048095703
+    ],
+    "angle": 2.293851137161255,
+    "scale": [
+      3.475893497467041,
+      0.9126384258270264,
+      0.3781854808330536
+    ],
+    "mesh": "Marche_Pierre_Haute_Irreguliere_Export_Unitaire"
+  },
+  {
+    "name": "Marche_099_Large_Fissuree",
+    "position": [
+      48.10455322265625,
+      93.64834594726562,
+      21.8343505859375
+    ],
+    "angle": 2.280369758605957,
+    "scale": [
+      3.5602855682373047,
+      0.9437505006790161,
+      0.34587112069129944
+    ],
+    "mesh": "Marche_Pierre_Large_Fissuree_Export_Unitaire"
+  },
+  {
+    "name": "Marche_100_Basse_Fragmentee",
+    "position": [
+      48.61621856689453,
+      94.04396057128906,
+      22.0537109375
+    ],
+    "angle": 2.1749091148376465,
+    "scale": [
+      3.467461109161377,
+      0.8855932354927063,
+      0.25
+    ],
+    "mesh": "Marche_Pierre_Basse_Fragmentee_Export_Unitaire"
+  },
+  {
+    "name": "Marche_101_Moyenne_Equarrie",
+    "position": [
+      49.1147575378418,
+      94.35678100585938,
+      22.252477645874023
+    ],
+    "angle": 2.111734390258789,
+    "scale": [
+      3.466200590133667,
+      0.8944247961044312,
+      0.4107915759086609
+    ],
+    "mesh": "Marche_Pierre_Moyenne_Equarrie_Export_Unitaire"
+  },
+  {
+    "name": "Marche_102_Haute_Irreguliere",
+    "position": [
+      49.646888732910156,
+      94.62543487548828,
+      22.452613830566406
+    ],
+    "angle": 2.0213117599487305,
+    "scale": [
+      3.517223596572876,
+      0.9443092346191406,
+      0.40529295802116394
+    ],
+    "mesh": "Marche_Pierre_Haute_Irreguliere_Export_Unitaire"
+  },
+  {
+    "name": "Marche_103_Moyenne_Equarrie",
+    "position": [
+      50.244529724121094,
+      94.86735534667969,
+      22.667404174804688
+    ],
+    "angle": 1.9479937553405762,
+    "scale": [
+      3.584294557571411,
+      0.8215301036834717,
+      0.4084862470626831
+    ],
+    "mesh": "Marche_Pierre_Moyenne_Equarrie_Export_Unitaire"
+  },
+  {
+    "name": "Marche_104_Basse_Fragmentee",
+    "position": [
+      50.738895416259766,
+      95.03229522705078,
+      22.840044021606445
+    ],
+    "angle": 1.9112135171890259,
+    "scale": [
+      3.3179006576538086,
+      0.8474926352500916,
+      0.25
+    ],
+    "mesh": "Marche_Pierre_Basse_Fragmentee_Export_Unitaire"
+  },
+  {
+    "name": "Marche_105_Haute_Irreguliere",
+    "position": [
+      51.26163101196289,
+      95.1932601928711,
+      23.021648406982422
+    ],
+    "angle": 1.8682667016983032,
+    "scale": [
+      3.412602186203003,
+      0.9343283176422119,
+      0.3562520146369934
+    ],
+    "mesh": "Marche_Pierre_Haute_Irreguliere_Export_Unitaire"
+  },
+  {
+    "name": "Marche_106_Moyenne_Equarrie",
+    "position": [
+      51.86705780029297,
+      95.38249206542969,
+      23.2344913482666
+    ],
+    "angle": 1.8798227310180664,
+    "scale": [
+      3.309539556503296,
+      0.8476678133010864,
+      0.3711767792701721
+    ],
+    "mesh": "Marche_Pierre_Moyenne_Equarrie_Export_Unitaire"
+  },
+  {
+    "name": "Marche_107_Large_Fissuree",
+    "position": [
+      52.385990142822266,
+      95.55989837646484,
+      23.42159652709961
+    ],
+    "angle": 1.9160231351852417,
+    "scale": [
+      3.4885430335998535,
+      0.9481930732727051,
+      0.40126746892929077
+    ],
+    "mesh": "Marche_Pierre_Large_Fissuree_Export_Unitaire"
+  },
+  {
+    "name": "Marche_108_Haute_Irreguliere",
+    "position": [
+      52.991756439208984,
+      95.79379272460938,
+      23.64759635925293
+    ],
+    "angle": 1.9254554510116577,
+    "scale": [
+      3.3857853412628174,
+      0.9045626521110535,
+      0.40568846464157104
+    ],
+    "mesh": "Marche_Pierre_Haute_Irreguliere_Export_Unitaire"
+  },
+  {
+    "name": "Marche_109_Large_Fissuree",
+    "position": [
+      53.54732894897461,
+      96.03402709960938,
+      23.85919189453125
+    ],
+    "angle": 1.9705662727355957,
+    "scale": [
+      3.4369101524353027,
+      0.9127302169799805,
+      0.40745848417282104
+    ],
+    "mesh": "Marche_Pierre_Large_Fissuree_Export_Unitaire"
+  },
+  {
+    "name": "Marche_110_Basse_Fragmentee",
+    "position": [
+      54.10651397705078,
+      96.28557586669922,
+      24.07364845275879
+    ],
+    "angle": 1.9393278360366821,
+    "scale": [
+      3.5503671169281006,
+      0.8394328951835632,
+      0.25
+    ],
+    "mesh": "Marche_Pierre_Basse_Fragmentee_Export_Unitaire"
+  },
+  {
+    "name": "Marche_111_Haute_Irreguliere",
+    "position": [
+      54.60250473022461,
+      96.49974060058594,
+      24.262449264526367
+    ],
+    "angle": 1.9482561349868774,
+    "scale": [
+      3.2908072471618652,
+      0.9273567795753479,
+      0.3768616020679474
+    ],
+    "mesh": "Marche_Pierre_Haute_Irreguliere_Export_Unitaire"
+  },
+  {
+    "name": "Marche_112_Moyenne_Equarrie",
+    "position": [
+      55.192256927490234,
+      96.71903991699219,
+      24.482025146484375
+    ],
+    "angle": 1.8780102729797363,
+    "scale": [
+      3.341329574584961,
+      0.8249731659889221,
+      0.41469597816467285
+    ],
+    "mesh": "Marche_Pierre_Moyenne_Equarrie_Export_Unitaire"
+  },
+  {
+    "name": "Marche_113_Basse_Fragmentee",
+    "position": [
+      55.698062896728516,
+      96.86829376220703,
+      24.66576385498047
+    ],
+    "angle": 1.8395040035247803,
+    "scale": [
+      3.398881196975708,
+      0.8148879408836365,
+      0.25
+    ],
+    "mesh": "Marche_Pierre_Basse_Fragmentee_Export_Unitaire"
+  },
+  {
+    "name": "Marche_114_Moyenne_Equarrie",
+    "position": [
+      56.2034797668457,
+      96.9784164428711,
+      24.84597396850586
+    ],
+    "angle": 1.770646333694458,
+    "scale": [
+      3.5323684215545654,
+      0.9406787753105164,
+      0.4137161076068878
+    ],
+    "mesh": "Marche_Pierre_Moyenne_Equarrie_Export_Unitaire"
+  },
+  {
+    "name": "Marche_115_Large_Fissuree",
+    "position": [
+      56.84050369262695,
+      97.06430053710938,
+      25.070213317871094
+    ],
+    "angle": 1.714318871498108,
+    "scale": [
+      3.3671696186065674,
+      0.8851776719093323,
+      0.4202353358268738
+    ],
+    "mesh": "Marche_Pierre_Large_Fissuree_Export_Unitaire"
+  },
+  {
+    "name": "Marche_116_Basse_Fragmentee",
+    "position": [
+      57.424827575683594,
+      97.1080551147461,
+      25.275026321411133
+    ],
+    "angle": 1.6620361804962158,
+    "scale": [
+      3.502588987350464,
+      0.9123343229293823,
+      0.25
+    ],
+    "mesh": "Marche_Pierre_Basse_Fragmentee_Export_Unitaire"
+  },
+  {
+    "name": "Marche_117_Large_Fissuree",
+    "position": [
+      58.03681182861328,
+      97.13422393798828,
+      25.489341735839844
+    ],
+    "angle": 1.6552571058273315,
+    "scale": [
+      3.511430263519287,
+      0.8161147832870483,
+      0.38455724716186523
+    ],
+    "mesh": "Marche_Pierre_Large_Fissuree_Export_Unitaire"
+  },
+  {
+    "name": "Marche_118_Basse_Fragmentee",
+    "position": [
+      58.55274963378906,
+      97.15287780761719,
+      25.66998291015625
+    ],
+    "angle": 1.6471736431121826,
+    "scale": [
+      3.5861172676086426,
+      0.9028260707855225,
+      0.25
+    ],
+    "mesh": "Marche_Pierre_Basse_Fragmentee_Export_Unitaire"
+  },
+  {
+    "name": "Marche_119_Moyenne_Equarrie",
+    "position": [
+      59.15521240234375,
+      97.18448638916016,
+      25.880971908569336
+    ],
+    "angle": 1.6348624229431152,
+    "scale": [
+      3.361926794052124,
+      0.8778932094573975,
+      0.41319602727890015
+    ],
+    "mesh": "Marche_Pierre_Moyenne_Equarrie_Export_Unitaire"
+  },
+  {
+    "name": "Marche_120_Large_Fissuree",
+    "position": [
+      59.731876373291016,
+      97.2320556640625,
+      26.083236694335938
+    ],
+    "angle": 1.6501193046569824,
+    "scale": [
+      3.475761651992798,
+      0.8437298536300659,
+      0.3751456141471863
+    ],
+    "mesh": "Marche_Pierre_Large_Fissuree_Export_Unitaire"
+  },
+  {
+    "name": "Marche_121_Basse_Fragmentee",
+    "position": [
+      60.272621154785156,
+      97.29442596435547,
+      26.273540496826172
+    ],
+    "angle": 1.682389259338379,
+    "scale": [
+      3.3431684970855713,
+      0.8807368278503418,
+      0.25
+    ],
+    "mesh": "Marche_Pierre_Basse_Fragmentee_Export_Unitaire"
+  },
+  {
+    "name": "Marche_122_Moyenne_Equarrie",
+    "position": [
+      60.84834671020508,
+      97.37263488769531,
+      26.476797103881836
+    ],
+    "angle": 1.6611944437026978,
+    "scale": [
+      3.5304815769195557,
+      0.8076828718185425,
+      0.40117189288139343
+    ],
+    "mesh": "Marche_Pierre_Moyenne_Equarrie_Export_Unitaire"
+  },
+  {
+    "name": "Marche_123_Large_Fissuree",
+    "position": [
+      61.35149383544922,
+      97.4417953491211,
+      26.65448760986328
+    ],
+    "angle": 1.6660692691802979,
+    "scale": [
+      3.424539804458618,
+      0.8861804008483887,
+      0.3791460394859314
+    ],
+    "mesh": "Marche_Pierre_Large_Fissuree_Export_Unitaire"
+  },
+  {
+    "name": "Marche_124_Haute_Irreguliere",
+    "position": [
+      61.934661865234375,
+      97.50674438476562,
+      26.859651565551758
+    ],
+    "angle": 1.6385524272918701,
+    "scale": [
+      3.4553029537200928,
+      0.8125848770141602,
+      0.41342130303382874
+    ],
+    "mesh": "Marche_Pierre_Haute_Irreguliere_Export_Unitaire"
+  },
+  {
+    "name": "Marche_125_Large_Fissuree",
+    "position": [
+      62.44740295410156,
+      97.541259765625,
+      27.03905487060547
+    ],
+    "angle": 1.568058729171753,
+    "scale": [
+      3.5709009170532227,
+      0.9487738013267517,
+      0.3544027507305145
+    ],
+    "mesh": "Marche_Pierre_Large_Fissuree_Export_Unitaire"
+  },
+  {
+    "name": "Marche_126_Haute_Irreguliere",
+    "position": [
+      63.09855651855469,
+      97.54010009765625,
+      27.26612663269043
+    ],
+    "angle": 1.5078661441802979,
+    "scale": [
+      3.397395610809326,
+      0.8089885115623474,
+      0.4225352704524994
+    ],
+    "mesh": "Marche_Pierre_Haute_Irreguliere_Export_Unitaire"
+  },
+  {
+    "name": "Marche_127_Moyenne_Equarrie",
+    "position": [
+      63.608245849609375,
+      97.50193786621094,
+      27.444271087646484
+    ],
+    "angle": 1.4786945581436157,
+    "scale": [
+      3.383688449859619,
+      0.8257429599761963,
+      0.4163830578327179
+    ],
+    "mesh": "Marche_Pierre_Moyenne_Equarrie_Export_Unitaire"
+  },
+  {
+    "name": "Marche_128_Haute_Irreguliere",
+    "position": [
+      64.13097381591797,
+      97.43016815185547,
+      27.62828254699707
+    ],
+    "angle": 1.4049785137176514,
+    "scale": [
+      3.5007383823394775,
+      0.8619776964187622,
+      0.396867036819458
+    ],
+    "mesh": "Marche_Pierre_Haute_Irreguliere_Export_Unitaire"
+  },
+  {
+    "name": "Marche_129_Moyenne_Equarrie",
+    "position": [
+      64.68327331542969,
+      97.31869506835938,
+      27.824974060058594
+    ],
+    "angle": 1.3846380710601807,
+    "scale": [
+      3.3035776615142822,
+      0.8257347345352173,
+      0.3716962933540344
+    ],
+    "mesh": "Marche_Pierre_Moyenne_Equarrie_Export_Unitaire"
+  },
+  {
+    "name": "Marche_130_Large_Fissuree",
+    "position": [
+      65.1944580078125,
+      97.19298553466797,
+      28.008981704711914
+    ],
+    "angle": 1.3433241844177246,
+    "scale": [
+      3.3649497032165527,
+      0.906083345413208,
+      0.3650641441345215
+    ],
+    "mesh": "Marche_Pierre_Large_Fissuree_Export_Unitaire"
+  },
+  {
+    "name": "Marche_131_Haute_Irreguliere",
+    "position": [
+      65.77875518798828,
+      97.03118896484375,
+      28.22110939025879
+    ],
+    "angle": 1.3337993621826172,
+    "scale": [
+      3.465386390686035,
+      0.9382529854774475,
+      0.37449637055397034
+    ],
+    "mesh": "Marche_Pierre_Haute_Irreguliere_Export_Unitaire"
+  },
+  {
+    "name": "Marche_132_Basse_Fragmentee",
+    "position": [
+      66.39119720458984,
+      96.85208892822266,
+      28.444499969482422
+    ],
+    "angle": 1.3134889602661133,
+    "scale": [
+      3.3588902950286865,
+      0.8122514486312866,
+      0.25
+    ],
+    "mesh": "Marche_Pierre_Basse_Fragmentee_Export_Unitaire"
+  },
+  {
+    "name": "Marche_133_Moyenne_Equarrie",
+    "position": [
+      66.88286590576172,
+      96.70909118652344,
+      28.62378692626953
+    ],
+    "angle": 1.3062485456466675,
+    "scale": [
+      3.306877851486206,
+      0.9006088376045227,
+      0.35981205105781555
+    ],
+    "mesh": "Marche_Pierre_Moyenne_Equarrie_Export_Unitaire"
+  },
+  {
+    "name": "Marche_134_Large_Fissuree",
+    "position": [
+      67.46109771728516,
+      96.5472183227539,
+      28.833999633789062
+    ],
+    "angle": 1.2831331491470337,
+    "scale": [
+      3.4092857837677,
+      0.8961741328239441,
+      0.3718924820423126
+    ],
+    "mesh": "Marche_Pierre_Large_Fissuree_Export_Unitaire"
+  },
+  {
+    "name": "Marche_135_Basse_Fragmentee",
+    "position": [
+      68.03759002685547,
+      96.39509582519531,
+      29.042659759521484
+    ],
+    "angle": 1.2883968353271484,
+    "scale": [
+      3.4747045040130615,
+      0.8867186307907104,
+      0.25
+    ],
+    "mesh": "Marche_Pierre_Basse_Fragmentee_Export_Unitaire"
+  },
+  {
+    "name": "Marche_136_Haute_Irreguliere",
+    "position": [
+      68.60688781738281,
+      96.25228881835938,
+      29.248014450073242
+    ],
+    "angle": 1.290496826171875,
+    "scale": [
+      3.5033984184265137,
+      0.8051971197128296,
+      0.42675086855888367
+    ],
+    "mesh": "Marche_Pierre_Haute_Irreguliere_Export_Unitaire"
+  },
+  {
+    "name": "Marche_137_Moyenne_Equarrie",
+    "position": [
+      69.10320281982422,
+      96.15122985839844,
+      29.42483139038086
+    ],
+    "angle": 1.2997971773147583,
+    "scale": [
+      3.3956241607666016,
+      0.9296157956123352,
+      0.34576481580734253
+    ],
+    "mesh": "Marche_Pierre_Moyenne_Equarrie_Export_Unitaire"
+  },
+  {
+    "name": "Marche_138_Haute_Irreguliere",
+    "position": [
+      69.70823669433594,
+      95.97547149658203,
+      29.64519500732422
+    ],
+    "angle": 1.2969614267349243,
+    "scale": [
+      3.3066353797912598,
+      0.8551213145256042,
+      0.41581839323043823
+    ],
+    "mesh": "Marche_Pierre_Haute_Irreguliere_Export_Unitaire"
+  },
+  {
+    "name": "Marche_139_Basse_Fragmentee",
+    "position": [
+      70.24346923828125,
+      95.82554626464844,
+      29.839488983154297
+    ],
+    "angle": 1.2460312843322754,
+    "scale": [
+      3.470940351486206,
+      0.8186731338500977,
+      0.25
+    ],
+    "mesh": "Marche_Pierre_Basse_Fragmentee_Export_Unitaire"
+  },
+  {
+    "name": "Marche_140_Large_Fissuree",
+    "position": [
+      70.73896789550781,
+      95.66860961914062,
+      30.021026611328125
+    ],
+    "angle": 1.2466042041778564,
+    "scale": [
+      3.4881958961486816,
+      0.8992072343826294,
+      0.34238767623901367
+    ],
+    "mesh": "Marche_Pierre_Large_Fissuree_Export_Unitaire"
+  },
+  {
+    "name": "Marche_141_Haute_Irreguliere",
+    "position": [
+      71.30242156982422,
+      95.46025085449219,
+      30.23074722290039
+    ],
+    "angle": 1.190761923789978,
+    "scale": [
+      3.5854787826538086,
+      0.918078601360321,
+      0.4277758002281189
+    ],
+    "mesh": "Marche_Pierre_Haute_Irreguliere_Export_Unitaire"
+  },
+  {
+    "name": "Marche_142_Basse_Fragmentee",
+    "position": [
+      71.87066650390625,
+      95.21259307861328,
+      30.447072982788086
+    ],
+    "angle": 1.1499935388565063,
+    "scale": [
+      3.5719075202941895,
+      0.8686398863792419,
+      0.25
+    ],
+    "mesh": "Marche_Pierre_Basse_Fragmentee_Export_Unitaire"
+  },
+  {
+    "name": "Marche_143_Large_Fissuree",
+    "position": [
+      72.37806701660156,
+      94.95294952392578,
+      30.646099090576172
+    ],
+    "angle": 1.1177648305892944,
+    "scale": [
+      3.3040831089019775,
+      0.8339033722877502,
+      0.4265705347061157
+    ],
+    "mesh": "Marche_Pierre_Large_Fissuree_Export_Unitaire"
+  },
+  {
+    "name": "Marche_144_Haute_Irreguliere",
+    "position": [
+      72.8419189453125,
+      94.68760681152344,
+      30.832965850830078
+    ],
+    "angle": 1.069089412689209,
+    "scale": [
+      3.4912590980529785,
+      0.9063703417778015,
+      0.40243804454803467
+    ],
+    "mesh": "Marche_Pierre_Haute_Irreguliere_Export_Unitaire"
+  },
+  {
+    "name": "Marche_145_Basse_Fragmentee",
+    "position": [
+      73.35264587402344,
+      94.3614501953125,
+      31.04519271850586
+    ],
+    "angle": 1.025278925895691,
+    "scale": [
+      3.578244686126709,
+      0.8538089990615845,
+      0.25
+    ],
+    "mesh": "Marche_Pierre_Basse_Fragmentee_Export_Unitaire"
+  },
+  {
+    "name": "Marche_146_Large_Fissuree",
+    "position": [
+      73.80741882324219,
+      94.04750061035156,
+      31.23902702331543
+    ],
+    "angle": 0.9662558436393738,
+    "scale": [
+      3.4663259983062744,
+      0.9128928780555725,
+      0.4208890497684479
+    ],
+    "mesh": "Marche_Pierre_Large_Fissuree_Export_Unitaire"
+  },
+  {
+    "name": "Marche_147_Basse_Fragmentee",
+    "position": [
+      74.29972839355469,
+      93.68566131591797,
+      31.453542709350586
+    ],
+    "angle": 0.9417366981506348,
+    "scale": [
+      3.4674127101898193,
+      0.8026203513145447,
+      0.25
+    ],
+    "mesh": "Marche_Pierre_Basse_Fragmentee_Export_Unitaire"
+  },
+  {
+    "name": "Marche_148_Moyenne_Equarrie",
+    "position": [
+      74.69572448730469,
+      93.37859344482422,
+      31.629459381103516
+    ],
+    "angle": 0.9089720845222473,
+    "scale": [
+      3.4414830207824707,
+      0.8118851184844971,
+      0.38856518268585205
+    ],
+    "mesh": "Marche_Pierre_Moyenne_Equarrie_Export_Unitaire"
+  },
+  {
+    "name": "Marche_149_Large_Fissuree",
+    "position": [
+      75.09313201904297,
+      93.0579833984375,
+      31.808616638183594
+    ],
+    "angle": 0.8557772636413574,
+    "scale": [
+      3.4219043254852295,
+      0.8487648963928223,
+      0.40889182686805725
+    ],
+    "mesh": "Marche_Pierre_Large_Fissuree_Export_Unitaire"
+  },
+  {
+    "name": "Marche_150_Haute_Irreguliere",
+    "position": [
+      75.51176452636719,
+      92.70417785644531,
+      32.00068664550781
+    ],
+    "angle": 0.8094521760940552,
+    "scale": [
+      3.5449204444885254,
+      0.9021956920623779,
+      0.3797358572483063
+    ],
+    "mesh": "Marche_Pierre_Haute_Irreguliere_Export_Unitaire"
+  },
+  {
+    "name": "Marche_151_Large_Fissuree",
+    "position": [
+      75.96046447753906,
+      92.30240631103516,
+      32.21145248413086
+    ],
+    "angle": 0.7998075485229492,
+    "scale": [
+      3.5734920501708984,
+      0.8587380647659302,
+      0.3844386041164398
+    ],
+    "mesh": "Marche_Pierre_Large_Fissuree_Export_Unitaire"
+  },
+  {
+    "name": "Marche_152_Basse_Fragmentee",
+    "position": [
+      76.36310577392578,
+      91.91401672363281,
+      32.407012939453125
+    ],
+    "angle": 0.7720201015472412,
+    "scale": [
+      3.28326153755188,
+      0.804445743560791,
+      0.25
+    ],
+    "mesh": "Marche_Pierre_Basse_Fragmentee_Export_Unitaire"
+  },
+  {
+    "name": "Marche_153_Haute_Irreguliere",
+    "position": [
+      76.7143325805664,
+      91.550537109375,
+      32.58356857299805
+    ],
+    "angle": 0.7319830060005188,
+    "scale": [
+      3.414259195327759,
+      0.9430989623069763,
+      0.37266963720321655
+    ],
+    "mesh": "Marche_Pierre_Haute_Irreguliere_Export_Unitaire"
+  },
+  {
+    "name": "Marche_154_Large_Fissuree",
+    "position": [
+      77.14002990722656,
+      91.06655883789062,
+      32.80865478515625
+    ],
+    "angle": 0.6792904734611511,
+    "scale": [
+      3.404318332672119,
+      0.9333311319351196,
+      0.42220333218574524
+    ],
+    "mesh": "Marche_Pierre_Large_Fissuree_Export_Unitaire"
+  },
+  {
+    "name": "Marche_155_Moyenne_Equarrie",
+    "position": [
+      77.53397369384766,
+      90.5688247680664,
+      33.03031921386719
+    ],
+    "angle": 0.6544696688652039,
+    "scale": [
+      3.4504833221435547,
+      0.9337183833122253,
+      0.3793993294239044
+    ],
+    "mesh": "Marche_Pierre_Moyenne_Equarrie_Export_Unitaire"
+  },
+  {
+    "name": "Marche_156_Basse_Fragmentee",
+    "position": [
+      77.9026870727539,
+      90.05193328857422,
+      33.25211715698242
+    ],
+    "angle": 0.62334144115448,
+    "scale": [
+      3.3951284885406494,
+      0.9285345077514648,
+      0.25
+    ],
+    "mesh": "Marche_Pierre_Basse_Fragmentee_Export_Unitaire"
+  },
+  {
+    "name": "Marche_157_Moyenne_Equarrie",
+    "position": [
+      78.2451171875,
+      89.52379608154297,
+      33.47210693359375
+    ],
+    "angle": 0.5822017788887024,
+    "scale": [
+      3.323409080505371,
+      0.9282529950141907,
+      0.3434199094772339
+    ],
+    "mesh": "Marche_Pierre_Moyenne_Equarrie_Export_Unitaire"
+  },
+  {
+    "name": "Marche_158_Basse_Fragmentee",
+    "position": [
+      78.56761932373047,
+      88.98435974121094,
+      33.691993713378906
+    ],
+    "angle": 0.5484216809272766,
+    "scale": [
+      3.5622663497924805,
+      0.9408930540084839,
+      0.25
+    ],
+    "mesh": "Marche_Pierre_Basse_Fragmentee_Export_Unitaire"
+  },
+  {
+    "name": "Marche_159_Moyenne_Equarrie",
+    "position": [
+      78.88011932373047,
+      88.42550659179688,
+      33.91630554199219
+    ],
+    "angle": 0.5376743674278259,
+    "scale": [
+      3.424379825592041,
+      0.8772091865539551,
+      0.34063926339149475
+    ],
+    "mesh": "Marche_Pierre_Moyenne_Equarrie_Export_Unitaire"
+  },
+  {
+    "name": "Marche_160_Basse_Fragmentee",
+    "position": [
+      79.1498031616211,
+      87.91658020019531,
+      34.11833190917969
+    ],
+    "angle": 0.48782339692115784,
+    "scale": [
+      3.4703948497772217,
+      0.8655000329017639,
+      0.25
+    ],
+    "mesh": "Marche_Pierre_Basse_Fragmentee_Export_Unitaire"
+  },
+  {
+    "name": "Marche_161_Haute_Irreguliere",
+    "position": [
+      79.4056396484375,
+      87.41383361816406,
+      34.316253662109375
+    ],
+    "angle": 0.47302907705307007,
+    "scale": [
+      3.28847336769104,
+      0.855455756187439,
+      0.36665889620780945
+    ],
+    "mesh": "Marche_Pierre_Haute_Irreguliere_Export_Unitaire"
+  },
+  {
+    "name": "Marche_162_Large_Fissuree",
+    "position": [
+      79.64856719970703,
+      86.91586303710938,
+      34.51066970825195
+    ],
+    "angle": 0.41888684034347534,
+    "scale": [
+      3.597961902618408,
+      0.811132550239563,
+      0.34865114092826843
+    ],
+    "mesh": "Marche_Pierre_Large_Fissuree_Export_Unitaire"
+  },
+  {
+    "name": "Marche_163_Haute_Irreguliere",
+    "position": [
+      79.86129760742188,
+      86.45208740234375,
+      34.6895637512207
+    ],
+    "angle": 0.37382233142852783,
+    "scale": [
+      3.543684482574463,
+      0.9333637356758118,
+      0.3689958453178406
+    ],
+    "mesh": "Marche_Pierre_Haute_Irreguliere_Export_Unitaire"
+  },
+  {
+    "name": "Marche_164_Large_Fissuree",
+    "position": [
+      80.1078109741211,
+      85.86888885498047,
+      34.91123962402344
+    ],
+    "angle": 0.3412177860736847,
+    "scale": [
+      3.3509902954101562,
+      0.9340523481369019,
+      0.3935731053352356
+    ],
+    "mesh": "Marche_Pierre_Large_Fissuree_Export_Unitaire"
+  },
+  {
+    "name": "Marche_165_Moyenne_Equarrie",
+    "position": [
+      80.32721710205078,
+      85.27317810058594,
+      35.133155822753906
+    ],
+    "angle": 0.30628347396850586,
+    "scale": [
+      3.5029633045196533,
+      0.8473241329193115,
+      0.4024314880371094
+    ],
+    "mesh": "Marche_Pierre_Moyenne_Equarrie_Export_Unitaire"
+  },
+  {
+    "name": "Marche_166_Large_Fissuree",
+    "position": [
+      80.48796081542969,
+      84.74845886230469,
+      35.3247184753418
+    ],
+    "angle": 0.24968288838863373,
+    "scale": [
+      3.5400002002716064,
+      0.8549830913543701,
+      0.3644190728664398
+    ],
+    "mesh": "Marche_Pierre_Large_Fissuree_Export_Unitaire"
+  },
+  {
+    "name": "Marche_167_Moyenne_Equarrie",
+    "position": [
+      80.61702728271484,
+      84.2063980102539,
+      35.51896667480469
+    ],
+    "angle": 0.19048520922660828,
+    "scale": [
+      3.344468355178833,
+      0.9186045527458191,
+      0.42244651913642883
+    ],
+    "mesh": "Marche_Pierre_Moyenne_Equarrie_Export_Unitaire"
+  },
+  {
+    "name": "Marche_168_Large_Fissuree",
+    "position": [
+      80.71343231201172,
+      83.59246063232422,
+      35.735477447509766
+    ],
+    "angle": 0.10486514866352081,
+    "scale": [
+      3.308912515640259,
+      0.9127742052078247,
+      0.3836151957511902
+    ],
+    "mesh": "Marche_Pierre_Large_Fissuree_Export_Unitaire"
+  },
+  {
+    "name": "Marche_169_Basse_Fragmentee",
+    "position": [
+      80.75474548339844,
+      82.97830963134766,
+      35.949947357177734
+    ],
+    "angle": 0.04901620373129845,
+    "scale": [
+      3.520435094833374,
+      0.93001788854599,
+      0.25
+    ],
+    "mesh": "Marche_Pierre_Basse_Fragmentee_Export_Unitaire"
+  },
+  {
+    "name": "Marche_170_Large_Fissuree",
+    "position": [
+      80.73906707763672,
+      82.34661102294922,
+      36.17045211791992
+    ],
+    "angle": -0.024957796558737755,
+    "scale": [
+      3.509108781814575,
+      0.9384521245956421,
+      0.3889603018760681
+    ],
+    "mesh": "Marche_Pierre_Large_Fissuree_Export_Unitaire"
+  },
+  {
+    "name": "Marche_171_Haute_Irreguliere",
+    "position": [
+      80.66793060302734,
+      81.7118911743164,
+      36.39391326904297
+    ],
+    "angle": -0.10705140978097916,
+    "scale": [
+      3.3042068481445312,
+      0.8454408645629883,
+      0.3491269052028656
+    ],
+    "mesh": "Marche_Pierre_Haute_Irreguliere_Export_Unitaire"
+  },
+  {
+    "name": "Marche_172_Large_Fissuree",
+    "position": [
+      80.57218933105469,
+      81.17575073242188,
+      36.584815979003906
+    ],
+    "angle": -0.1785477101802826,
+    "scale": [
+      3.54046630859375,
+      0.8639640808105469,
+      0.4274492859840393
+    ],
+    "mesh": "Marche_Pierre_Large_Fissuree_Export_Unitaire"
+  },
+  {
+    "name": "Marche_173_Haute_Irreguliere",
+    "position": [
+      80.45106506347656,
+      80.62639617919922,
+      36.782203674316406
+    ],
+    "angle": -0.20820041000843048,
+    "scale": [
+      3.5213534832000732,
+      0.8385595679283142,
+      0.38996922969818115
+    ],
+    "mesh": "Marche_Pierre_Haute_Irreguliere_Export_Unitaire"
+  },
+  {
+    "name": "Marche_174_Large_Fissuree",
+    "position": [
+      80.32408905029297,
+      80.1041259765625,
+      36.970699310302734
+    ],
+    "angle": -0.23231014609336853,
+    "scale": [
+      3.5671942234039307,
+      0.8209688663482666,
+      0.38599932193756104
+    ],
+    "mesh": "Marche_Pierre_Large_Fissuree_Export_Unitaire"
+  },
+  {
+    "name": "Marche_175_Moyenne_Equarrie",
+    "position": [
+      80.20043182373047,
+      79.59844970703125,
+      37.153038024902344
+    ],
+    "angle": -0.2534339725971222,
+    "scale": [
+      3.3533952236175537,
+      0.848172128200531,
+      0.4169933795928955
+    ],
+    "mesh": "Marche_Pierre_Moyenne_Equarrie_Export_Unitaire"
+  },
+  {
+    "name": "Marche_176_Basse_Fragmentee",
+    "position": [
+      80.075927734375,
+      79.06443786621094,
+      37.34489822387695
+    ],
+    "angle": -0.233642116189003,
+    "scale": [
+      3.578077554702759,
+      0.8912110328674316,
+      0.25
+    ],
+    "mesh": "Marche_Pierre_Basse_Fragmentee_Export_Unitaire"
+  },
+  {
+    "name": "Marche_177_Haute_Irreguliere",
+    "position": [
+      79.95069122314453,
+      78.48619079589844,
+      37.551822662353516
+    ],
+    "angle": -0.22419238090515137,
+    "scale": [
+      3.434718132019043,
+      0.9230768084526062,
+      0.4026244878768921
+    ],
+    "mesh": "Marche_Pierre_Haute_Irreguliere_Export_Unitaire"
+  },
+  {
+    "name": "Marche_178_Large_Fissuree",
+    "position": [
+      79.82585144042969,
+      77.87533569335938,
+      37.7698974609375
+    ],
+    "angle": -0.24311843514442444,
+    "scale": [
+      3.5967469215393066,
+      0.9271260499954224,
+      0.3598107099533081
+    ],
+    "mesh": "Marche_Pierre_Large_Fissuree_Export_Unitaire"
+  },
+  {
+    "name": "Marche_179_Haute_Irreguliere",
+    "position": [
+      79.69917297363281,
+      77.26073455810547,
+      37.98939895629883
+    ],
+    "angle": -0.2508540451526642,
+    "scale": [
+      3.499235153198242,
+      0.8783198595046997,
+      0.3521444797515869
+    ],
+    "mesh": "Marche_Pierre_Haute_Irreguliere_Export_Unitaire"
+  },
+  {
+    "name": "Marche_180_Large_Fissuree",
+    "position": [
+      79.57119750976562,
+      76.6960678100586,
+      38.191802978515625
+    ],
+    "angle": -0.2652566432952881,
+    "scale": [
+      3.4684929847717285,
+      0.8773714303970337,
+      0.3604234457015991
+    ],
+    "mesh": "Marche_Pierre_Large_Fissuree_Export_Unitaire"
+  },
+  {
+    "name": "Marche_181_Moyenne_Equarrie",
+    "position": [
+      79.42218780517578,
+      76.13701629638672,
+      38.39388656616211
+    ],
+    "angle": -0.28832828998565674,
+    "scale": [
+      3.525787115097046,
+      0.9234055876731873,
+      0.351778507232666
+    ],
+    "mesh": "Marche_Pierre_Moyenne_Equarrie_Export_Unitaire"
+  },
+  {
+    "name": "Marche_182_Basse_Fragmentee",
+    "position": [
+      79.2276611328125,
+      75.54254150390625,
+      38.61207580566406
+    ],
+    "angle": -0.32979607582092285,
+    "scale": [
+      3.4235010147094727,
+      0.8977961540222168,
+      0.25
+    ],
+    "mesh": "Marche_Pierre_Basse_Fragmentee_Export_Unitaire"
+  },
+  {
+    "name": "Marche_183_Moyenne_Equarrie",
+    "position": [
+      79.00052642822266,
+      74.98735809326172,
+      38.82130813598633
+    ],
+    "angle": -0.38759130239486694,
+    "scale": [
+      3.5864715576171875,
+      0.8792398571968079,
+      0.3510225713253021
+    ],
+    "mesh": "Marche_Pierre_Moyenne_Equarrie_Export_Unitaire"
+  },
+  {
+    "name": "Marche_184_Haute_Irreguliere",
+    "position": [
+      78.73577117919922,
+      74.4709243774414,
+      39.02404022216797
+    ],
+    "angle": -0.47747039794921875,
+    "scale": [
+      3.323718309402466,
+      0.9137592315673828,
+      0.39977383613586426
+    ],
+    "mesh": "Marche_Pierre_Haute_Irreguliere_Export_Unitaire"
+  },
+  {
+    "name": "Marche_185_Large_Fissuree",
+    "position": [
+      78.40667724609375,
+      73.9537353515625,
+      39.238853454589844
+    ],
+    "angle": -0.5964840650558472,
+    "scale": [
+      3.4069395065307617,
+      0.9001240730285645,
+      0.37272804975509644
+    ],
+    "mesh": "Marche_Pierre_Large_Fissuree_Export_Unitaire"
+  },
+  {
+    "name": "Marche_186_Moyenne_Equarrie",
+    "position": [
+      78.04327392578125,
+      73.47946166992188,
+      39.44889831542969
+    ],
+    "angle": -0.6609819531440735,
+    "scale": [
+      3.4251322746276855,
+      0.9489452838897705,
+      0.35661497712135315
+    ],
+    "mesh": "Marche_Pierre_Moyenne_Equarrie_Export_Unitaire"
+  },
+  {
+    "name": "Marche_187_Large_Fissuree",
+    "position": [
+      77.6137924194336,
+      72.99716186523438,
+      39.67603302001953
+    ],
+    "angle": -0.7382907271385193,
+    "scale": [
+      3.4035823345184326,
+      0.9391733407974243,
+      0.3795959949493408
+    ],
+    "mesh": "Marche_Pierre_Large_Fissuree_Export_Unitaire"
+  },
+  {
+    "name": "Marche_188_Haute_Irreguliere",
+    "position": [
+      77.1692886352539,
+      72.54103088378906,
+      39.89973831176758
+    ],
+    "angle": -0.7927324771881104,
+    "scale": [
+      3.5683369636535645,
+      0.8901504278182983,
+      0.3440328538417816
+    ],
+    "mesh": "Marche_Pierre_Haute_Irreguliere_Export_Unitaire"
+  },
+  {
+    "name": "Marche_189_Large_Fissuree",
+    "position": [
+      76.71917724609375,
+      72.15934753417969,
+      40.106292724609375
+    ],
+    "angle": -0.8141701817512512,
+    "scale": [
+      3.3656203746795654,
+      0.8778865933418274,
+      0.3949034512042999
+    ],
+    "mesh": "Marche_Pierre_Large_Fissuree_Export_Unitaire"
+  },
+  {
+    "name": "Marche_190_Moyenne_Equarrie",
+    "position": [
+      76.33650970458984,
+      71.72300720214844,
+      40.308555603027344
+    ],
+    "angle": -0.8362776041030884,
+    "scale": [
+      3.3355181217193604,
+      0.9156655669212341,
+      0.3455680310726166
+    ],
+    "mesh": "Marche_Pierre_Moyenne_Equarrie_Export_Unitaire"
+  },
+  {
+    "name": "Marche_191_Large_Fissuree",
+    "position": [
+      75.8910140991211,
+      71.29747009277344,
+      40.52404022216797
+    ],
+    "angle": -0.8408629894256592,
+    "scale": [
+      3.536194086074829,
+      0.8690815567970276,
+      0.38075587153434753
+    ],
+    "mesh": "Marche_Pierre_Large_Fissuree_Export_Unitaire"
+  },
+  {
+    "name": "Marche_192_Moyenne_Equarrie",
+    "position": [
+      75.46553802490234,
+      70.91786193847656,
+      40.72321319580078
+    ],
+    "angle": -0.9157121181488037,
+    "scale": [
+      3.5837934017181396,
+      0.8464063405990601,
+      0.4153589606285095
+    ],
+    "mesh": "Marche_Pierre_Moyenne_Equarrie_Export_Unitaire"
+  },
+  {
+    "name": "Marche_193_Large_Fissuree",
+    "position": [
+      75.03363037109375,
+      70.57937622070312,
+      40.914459228515625
+    ],
+    "angle": -0.9815496802330017,
+    "scale": [
+      3.509373188018799,
+      0.8403675556182861,
+      0.37193140387535095
+    ],
+    "mesh": "Marche_Pierre_Large_Fissuree_Export_Unitaire"
+  },
+  {
+    "name": "Marche_194_Moyenne_Equarrie",
+    "position": [
+      74.57422637939453,
+      70.28729248046875,
+      41.10358428955078
+    ],
+    "angle": -1.0561025142669678,
+    "scale": [
+      3.291682004928589,
+      0.8067220449447632,
+      0.41999387741088867
+    ],
+    "mesh": "Marche_Pierre_Moyenne_Equarrie_Export_Unitaire"
+  },
+  {
+    "name": "Marche_195_Large_Fissuree",
+    "position": [
+      74.11334991455078,
+      70.0660171508789,
+      41.28093719482422
+    ],
+    "angle": -1.1741416454315186,
+    "scale": [
+      3.528763771057129,
+      0.9259763956069946,
+      0.3677046298980713
+    ],
+    "mesh": "Marche_Pierre_Large_Fissuree_Export_Unitaire"
+  },
+  {
+    "name": "Marche_196_Moyenne_Equarrie",
+    "position": [
+      73.51333618164062,
+      69.87462615966797,
+      41.500030517578125
+    ],
+    "angle": -1.3055648803710938,
+    "scale": [
+      3.5419414043426514,
+      0.8732285499572754,
+      0.35907116532325745
+    ],
+    "mesh": "Marche_Pierre_Moyenne_Equarrie_Export_Unitaire"
+  },
+  {
+    "name": "Marche_197_Large_Fissuree",
+    "position": [
+      72.9550552368164,
+      69.7427978515625,
+      41.700660705566406
+    ],
+    "angle": -1.2902107238769531,
+    "scale": [
+      3.458819627761841,
+      0.9364948272705078,
+      0.39445754885673523
+    ],
+    "mesh": "Marche_Pierre_Large_Fissuree_Export_Unitaire"
+  },
+  {
+    "name": "Marche_198_Haute_Irreguliere",
+    "position": [
+      72.3609390258789,
+      69.51665496826172,
+      41.923431396484375
+    ],
+    "angle": -1.050036907196045,
+    "scale": [
+      3.511981964111328,
+      0.8680711984634399,
+      0.4120076298713684
+    ],
+    "mesh": "Marche_Pierre_Haute_Irreguliere_Export_Unitaire"
+  },
+  {
+    "name": "Marche_199_Large_Fissuree",
+    "position": [
+      71.881591796875,
+      69.2084732055664,
+      42.122257232666016
+    ],
+    "angle": -0.9494655132293701,
+    "scale": [
+      3.4725749492645264,
+      0.9126673340797424,
+      0.3590623438358307
+    ],
+    "mesh": "Marche_Pierre_Large_Fissuree_Export_Unitaire"
+  },
+  {
+    "name": "Marche_200_Moyenne_Equarrie",
+    "position": [
+      71.3746109008789,
+      68.86747741699219,
+      42.336692810058594
+    ],
+    "angle": -0.9895870685577393,
+    "scale": [
+      3.3203608989715576,
+      0.8892122507095337,
+      0.40735557675361633
+    ],
+    "mesh": "Marche_Pierre_Moyenne_Equarrie_Export_Unitaire"
+  },
+  {
+    "name": "Marche_201_Large_Fissuree",
+    "position": [
+      70.874755859375,
+      68.56066131591797,
+      42.54291534423828
+    ],
+    "angle": -1.0550988912582397,
+    "scale": [
+      3.288978099822998,
+      0.802168607711792,
+      0.40450745820999146
+    ],
+    "mesh": "Marche_Pierre_Large_Fissuree_Export_Unitaire"
+  },
+  {
+    "name": "Marche_202_Moyenne_Equarrie",
+    "position": [
+      70.43846130371094,
+      68.31645202636719,
+      42.71867370605469
+    ],
+    "angle": -1.106904149055481,
+    "scale": [
+      3.5211281776428223,
+      0.9183228611946106,
+      0.38797610998153687
+    ],
+    "mesh": "Marche_Pierre_Moyenne_Equarrie_Export_Unitaire"
+  },
+  {
+    "name": "Marche_203_Large_Fissuree",
+    "position": [
+      69.88777923583984,
+      68.03934478759766,
+      42.935089111328125
+    ],
+    "angle": -1.1599218845367432,
+    "scale": [
+      3.326263189315796,
+      0.8960541486740112,
+      0.3800273537635803
+    ],
+    "mesh": "Marche_Pierre_Large_Fissuree_Export_Unitaire"
+  },
+  {
+    "name": "Marche_204_Moyenne_Equarrie",
+    "position": [
+      69.34239196777344,
+      67.80018615722656,
+      43.143707275390625
+    ],
+    "angle": -1.2186379432678223,
+    "scale": [
+      3.451587677001953,
+      0.840781569480896,
+      0.392311692237854
+    ],
+    "mesh": "Marche_Pierre_Moyenne_Equarrie_Export_Unitaire"
+  },
+  {
+    "name": "Marche_205_Haute_Irreguliere",
+    "position": [
+      68.83491516113281,
+      67.61152648925781,
+      43.33298110961914
+    ],
+    "angle": -1.27152419090271,
+    "scale": [
+      3.3363358974456787,
+      0.9250698685646057,
+      0.4222886860370636
+    ],
+    "mesh": "Marche_Pierre_Haute_Irreguliere_Export_Unitaire"
+  },
+  {
+    "name": "Marche_206_Large_Fissuree",
+    "position": [
+      68.2343521118164,
+      67.43182373046875,
+      43.551753997802734
+    ],
+    "angle": -1.3554081916809082,
+    "scale": [
+      3.5304033756256104,
+      0.8956670165061951,
+      0.3745230734348297
+    ],
+    "mesh": "Marche_Pierre_Large_Fissuree_Export_Unitaire"
+  },
+  {
+    "name": "Marche_207_Basse_Fragmentee",
+    "position": [
+      67.64997863769531,
+      67.3046875,
+      43.76023864746094
+    ],
+    "angle": -1.4184802770614624,
+    "scale": [
+      3.4810285568237305,
+      0.8133344054222107,
+      0.25
+    ],
+    "mesh": "Marche_Pierre_Basse_Fragmentee_Export_Unitaire"
+  },
+  {
+    "name": "Marche_208_Large_Fissuree",
+    "position": [
+      67.1396713256836,
+      67.23119354248047,
+      43.93990707397461
+    ],
+    "angle": -1.4706164598464966,
+    "scale": [
+      3.521531105041504,
+      0.9397063851356506,
+      0.3601692318916321
+    ],
+    "mesh": "Marche_Pierre_Large_Fissuree_Export_Unitaire"
+  },
+  {
+    "name": "Marche_209_Basse_Fragmentee",
+    "position": [
+      66.49842834472656,
+      67.19007110595703,
+      44.16380310058594
+    ],
+    "angle": -1.543201208114624,
+    "scale": [
+      3.49746036529541,
+      0.8239103555679321,
+      0.25
+    ],
+    "mesh": "Marche_Pierre_Basse_Fragmentee_Export_Unitaire"
+  },
+  {
+    "name": "Marche_210_Large_Fissuree",
+    "position": [
+      65.97321319580078,
+      67.20030212402344,
+      44.34716796875
+    ],
+    "angle": 4.714886665344238,
+    "scale": [
+      3.386667013168335,
+      0.8495150208473206,
+      0.42645782232284546
+    ],
+    "mesh": "Marche_Pierre_Large_Fissuree_Export_Unitaire"
+  },
+  {
+    "name": "Marche_211_Moyenne_Equarrie",
+    "position": [
+      65.43152618408203,
+      67.28501892089844,
+      44.35637664794922
+    ],
+    "angle": 4.4452033042907715,
+    "scale": [
+      3.3792574405670166,
+      0.8617312908172607,
+      0.3818947970867157
+    ],
+    "mesh": "Marche_Pierre_Moyenne_Equarrie_Export_Unitaire"
+  },
+  {
+    "name": "Marche_212_Large_Fissuree",
+    "position": [
+      64.93370056152344,
+      67.53535461425781,
+      44.35637664794922
+    ],
+    "angle": 4.150004863739014,
+    "scale": [
+      3.3082425594329834,
+      0.9331187009811401,
+      0.39225929975509644
+    ],
+    "mesh": "Marche_Pierre_Large_Fissuree_Export_Unitaire"
+  },
+  {
+    "name": "Marche_213_Haute_Irreguliere",
+    "position": [
+      64.48115539550781,
+      67.96044921875,
+      44.35637664794922
+    ],
+    "angle": 3.8114261627197266,
+    "scale": [
+      3.554558753967285,
+      0.9030736684799194,
+      0.38902533054351807
+    ],
+    "mesh": "Marche_Pierre_Haute_Irreguliere_Export_Unitaire"
+  },
+  {
+    "name": "Marche_214_Moyenne_Equarrie",
+    "position": [
+      64.18701934814453,
+      68.4705581665039,
+      44.35637664794922
+    ],
+    "angle": 3.5179734230041504,
+    "scale": [
+      3.4408631324768066,
+      0.8866777420043945,
+      0.4041575491428375
+    ],
+    "mesh": "Marche_Pierre_Moyenne_Equarrie_Export_Unitaire"
+  },
+  {
+    "name": "Marche_215_Haute_Irreguliere",
+    "position": [
+      64.05402374267578,
+      69.02669525146484,
+      44.35637664794922
+    ],
+    "angle": 3.2448792457580566,
+    "scale": [
+      3.2814667224884033,
+      0.8393728733062744,
+      0.41559842228889465
+    ],
+    "mesh": "Marche_Pierre_Haute_Irreguliere_Export_Unitaire"
+  },
+  {
+    "name": "Marche_216_Moyenne_Equarrie",
+    "position": [
+      64.0326156616211,
+      69.56143188476562,
+      44.35637664794922
+    ],
+    "angle": 3.129012107849121,
+    "scale": [
+      3.588170051574707,
+      0.8308091163635254,
+      0.34757867455482483
+    ],
+    "mesh": "Marche_Pierre_Moyenne_Equarrie_Export_Unitaire"
+  },
+  {
+    "name": "Marche_217_Large_Fissuree",
+    "position": [
+      64.01693725585938,
+      70.09223937988281,
+      44.35637664794922
+    ],
+    "angle": 3.1561434268951416,
+    "scale": [
+      3.2993195056915283,
+      0.8672552704811096,
+      0.41710755228996277
+    ],
+    "mesh": "Marche_Pierre_Large_Fissuree_Export_Unitaire"
+  },
+  {
+    "name": "Marche_218_Moyenne_Equarrie",
+    "position": [
+      63.9969482421875,
+      70.65950012207031,
+      44.35637664794922
+    ],
+    "angle": 3.1418299674987793,
+    "scale": [
+      3.297478437423706,
+      0.9444105625152588,
+      0.3708493709564209
+    ],
+    "mesh": "Marche_Pierre_Moyenne_Equarrie_Export_Unitaire"
+  },
+  {
+    "name": "Marche_219_Haute_Irreguliere",
+    "position": [
+      63.97521209716797,
+      71.30390930175781,
+      44.35637664794922
+    ],
+    "angle": 3.133394479751587,
+    "scale": [
+      3.319525957107544,
+      0.9013495445251465,
+      0.4292236566543579
+    ],
+    "mesh": "Marche_Pierre_Haute_Irreguliere_Export_Unitaire"
+  },
+  {
+    "name": "Marche_220_Moyenne_Equarrie",
+    "position": [
+      63.96064758300781,
+      71.90525817871094,
+      44.35637664794922
+    ],
+    "angle": 3.1260852813720703,
+    "scale": [
+      3.5376133918762207,
+      0.9318633675575256,
+      0.3550857901573181
+    ],
+    "mesh": "Marche_Pierre_Moyenne_Equarrie_Export_Unitaire"
+  },
+  {
+    "name": "Marche_221_Basse_Fragmentee",
+    "position": [
+      63.95500183105469,
+      72.53712463378906,
+      44.35637664794922
+    ],
+    "angle": 3.135864734649658,
+    "scale": [
+      3.3854782581329346,
+      0.8198038339614868,
+      0.25
+    ],
+    "mesh": "Marche_Pierre_Basse_Fragmentee_Export_Unitaire"
+  },
+  {
+    "name": "Marche_222_Large_Fissuree",
+    "position": [
+      63.95882034301758,
+      73.05692291259766,
+      44.35637664794922
+    ],
+    "angle": 3.131669282913208,
+    "scale": [
+      3.579237699508667,
+      0.7300000190734863,
+      0.397047758102417
+    ],
+    "mesh": "Marche_Pierre_Large_Fissuree_Export_Unitaire"
+  },
+  {
+    "name": "Marche_223_Moyenne_Equarrie",
+    "position": [
+      63.96116256713867,
+      73.19999694824219,
+      44.35637664794922
+    ],
+    "angle": 3.136857509613037,
+    "scale": [
+      3.5897138118743896,
+      0.7300000190734863,
+      0.3414994180202484
+    ],
+    "mesh": "Marche_Pierre_Moyenne_Equarrie_Export_Unitaire"
+  }
+]

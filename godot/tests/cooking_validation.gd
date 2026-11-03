@@ -1,0 +1,67 @@
+extends SceneTree
+class TestPlayer extends CharacterBody3D:
+	var health := 100.0
+
+func _initialize() -> void:
+	call_deferred("validate")
+
+func validate() -> void:
+	var bag = root.get_node("Inventory")
+	bag.stacks.clear()
+	assert(not bag.craft_recipe("hunter_stew"))
+	assert(bag.get_missing_ingredients().size() == 3)
+	bag.add_item("chicken_breast", 2)
+	bag.add_item("mushroom", 2)
+	bag.add_item("raspberry", 2)
+	assert(bag.craft_recipe())
+	assert(bag.get_item_count("chicken_breast") == 1)
+	assert(bag.get_item_count("mushroom") == 1)
+	assert(bag.get_item_count("raspberry") == 1)
+	assert(bag.get_item_count("hunter_stew") == 1)
+	bag.stacks.clear()
+	bag.add_item("chicken", 2)
+	bag.add_item("mushroom", 2)
+	bag.add_item("blueberry", 2)
+	for i in range(21): bag.stacks.append({"id": "trout", "quantity": 99})
+	var before = bag.stacks.duplicate(true)
+	assert(not bag.craft_recipe())
+	assert(bag.stacks == before)
+	bag.stacks[0].quantity = 1
+	assert(bag.craft_recipe())
+	var player := TestPlayer.new()
+	root.add_child(player)
+	player.add_to_group("player")
+	var chicken = load("res://scripts/camp_chicken.gd").new()
+	root.add_child(chicken)
+	bag.stacks.clear()
+	bag.collected.clear()
+	for i in range(4):
+		assert(chicken.can_interact())
+		chicken.interact()
+		assert(chicken.portions_taken() == i + 1)
+		assert(not chicken.can_interact())
+		player.position.x = 5
+		chicken._physics_process(0.1)
+		player.position.x = 0
+	assert(chicken.is_harvested())
+	assert(bag.get_item_count("chicken") == 2)
+	assert(bag.get_item_count("chicken_breast") == 2)
+	var cauldron = load("res://scripts/camp_cauldron.gd").new()
+	root.add_child(cauldron)
+	bag.open_cooking(cauldron)
+	assert(bag.is_open and bag.cooking_ui.visible)
+	assert(bag.cooking_ui.recipes.get_child_count() == 6)
+	assert(bag.cooking_ui.recipes.get_child(5).disabled)
+	bag.add_item("mushroom", 1)
+	bag.add_item("golden_berry", 1)
+	assert(not bag.cooking_ui.recipes.get_child(5).disabled)
+	bag.cooking_ui._cook("hunter_stew")
+	assert(bag.get_item_count("hunter_stew") == 1)
+	bag.set_open(false)
+	assert(not bag.cooking_ui.visible and not bag.is_open)
+	chicken.queue_free()
+	cauldron.queue_free()
+	player.queue_free()
+	print("PASS: ingredients, alternatives, full inventory rollback, four harvests, departure, cooking menu")
+	await process_frame
+	quit()

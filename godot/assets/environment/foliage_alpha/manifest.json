@@ -1,0 +1,418 @@
+[
+	{
+		"cards": 83600.0,
+		"crowns": 320.0,
+		"mesh": "res://assets/environment/foliage_alpha/foliage_00.res",
+		"path": "Sectors/Tile_01_cretes_des_brumes/Art/Leaves",
+		"removed_surfaces": [
+			0.0,
+			1.0,
+			2.0,
+			3.0,
+			4.0,
+			5.0
+		]
+	},
+	{
+		"cards": 95175.0,
+		"crowns": 340.0,
+		"mesh": "res://assets/environment/foliage_alpha/foliage_01.res",
+		"path": "Sectors/Tile_02_vallee_des_sources/Art/Leaves",
+		"removed_surfaces": [
+			0.0,
+			1.0,
+			2.0,
+			3.0,
+			4.0,
+			5.0
+		]
+	},
+	{
+		"cards": 39832.0,
+		"crowns": 146.0,
+		"mesh": "res://assets/environment/foliage_alpha/foliage_02.res",
+		"path": "Sectors/Tile_03_monts_de_schiste/Art/Leaves",
+		"removed_surfaces": [
+			0.0,
+			1.0,
+			2.0,
+			3.0,
+			4.0,
+			5.0
+		]
+	},
+	{
+		"cards": 92435.0,
+		"crowns": 337.0,
+		"mesh": "res://assets/environment/foliage_alpha/foliage_03.res",
+		"path": "Sectors/Tile_04_bois_du_foyer/Art/Leaves",
+		"removed_surfaces": [
+			0.0,
+			1.0,
+			2.0,
+			3.0,
+			4.0,
+			5.0
+		]
+	},
+	{
+		"cards": 81191.0,
+		"crowns": 292.0,
+		"mesh": "res://assets/environment/foliage_alpha/foliage_04.res",
+		"path": "Sectors/Tile_05_collines_du_levant/Art/Leaves",
+		"removed_surfaces": [
+			0.0,
+			1.0,
+			2.0,
+			3.0,
+			4.0,
+			5.0
+		]
+	},
+	{
+		"cards": 99053.0,
+		"crowns": 333.0,
+		"mesh": "res://assets/environment/foliage_alpha/foliage_05.res",
+		"path": "Sectors/Tile_06_vallons_des_fougeres/Art/Leaves",
+		"removed_surfaces": [
+			0.0,
+			1.0,
+			2.0,
+			3.0,
+			4.0,
+			5.0
+		]
+	},
+	{
+		"cards": 81154.0,
+		"crowns": 309.0,
+		"mesh": "res://assets/environment/foliage_alpha/foliage_06.res",
+		"path": "Sectors/Tile_07_meandres_du_sud/Art/Leaves",
+		"removed_surfaces": [
+			0.0,
+			1.0,
+			2.0,
+			3.0,
+			4.0,
+			5.0
+		]
+	},
+	{
+		"cards": 65479.0,
+		"crowns": 231.0,
+		"mesh": "res://assets/environment/foliage_alpha/foliage_07.res",
+		"path": "Sectors/Tile_08_hauts_pres/Art/Leaves",
+		"removed_surfaces": [
+			0.0,
+			1.0,
+			2.0,
+			3.0,
+			4.0,
+			5.0
+		]
+	},
+	{
+		"cards": 15890.0,
+		"crowns": 63.0,
+		"mesh": "res://assets/environment/foliage_alpha/foliage_08.res",
+		"path": "Sectors/WesternPlains/Tile_33_dunes_des_pres_1/Leaves",
+		"removed_surfaces": [
+			0.0,
+			1.0,
+			2.0,
+			3.0,
+			4.0,
+			5.0
+		]
+	},
+	{
+		"cards": 4097.0,
+		"crowns": 16.0,
+		"mesh": "res://assets/environment/foliage_alpha/foliage_09.res",
+		"path": "Sectors/WesternPlains/Tile_34_dunes_des_pres_2/Leaves",
+		"removed_surfaces": [
+			0.0,
+			1.0,
+			2.0,
+			3.0,
+			4.0,
+			5.0
+		]
+	},
+	{
+		"cards": 25096.0,
+		"crowns": 86.0,
+		"mesh": "res://assets/environment/foliage_alpha/foliage_10.res",
+		"path": "Sectors/WesternPlains/Tile_35_dunes_des_pres_3/Leaves",
+		"removed_surfaces": [
+			0.0,
+			1.0,
+			2.0,
+			3.0,
+			4.0,
+			5.0
+		]
+	},
+	{
+		"cards": 31502.0,
+		"crowns": 116.0,
+		"mesh": "res://assets/environment/foliage_alpha/foliage_11.res",
+		"path": "Sectors/WesternPlains/Tile_36_prairies_du_sud_1/Leaves",
+		"removed_surfaces": [
+			0.0,
+			1.0,
+			2.0,
+			3.0,
+			4.0,
+			5.0
+		]
+	},
+	{
+		"cards": 28304.0,
+		"crowns": 94.0,
+		"mesh": "res://assets/environment/foliage_alpha/foliage_12.res",
+		"path": "Sectors/WesternPlains/Tile_37_prairies_du_sud_2/Leaves",
+		"removed_surfaces": [
+			0.0,
+			1.0,
+			2.0,
+			3.0,
+			4.0,
+			5.0
+		]
+	},
+	{
+		"cards": 77440.0,
+		"crowns": 277.0,
+		"mesh": "res://assets/environment/foliage_alpha/foliage_13.res",
+		"path": "Sectors/WesternPlains/Tile_38_prairies_du_sud_3/Leaves",
+		"removed_surfaces": [
+			0.0,
+			1.0,
+			2.0,
+			3.0,
+			4.0,
+			5.0
+		]
+	},
+	{
+		"cards": 4178.0,
+		"crowns": 16.0,
+		"mesh": "res://assets/environment/foliage_alpha/foliage_14.res",
+		"path": "Sectors/WesternPlains/Tile_39_plaine_du_chateau_1/Leaves",
+		"removed_surfaces": [
+			0.0,
+			1.0,
+			2.0,
+			3.0,
+			4.0,
+			5.0
+		]
+	},
+	{
+		"cards": 5355.0,
+		"crowns": 22.0,
+		"mesh": "res://assets/environment/foliage_alpha/foliage_15.res",
+		"path": "Sectors/WesternPlains/Tile_40_plaine_du_chateau_2/Leaves",
+		"removed_surfaces": [
+			0.0,
+			1.0,
+			2.0,
+			3.0,
+			4.0,
+			5.0
+		]
+	},
+	{
+		"cards": 38769.0,
+		"crowns": 123.0,
+		"mesh": "res://assets/environment/foliage_alpha/foliage_16.res",
+		"path": "Sectors/WesternPlains/Tile_41_plaine_du_chateau_3/Leaves",
+		"removed_surfaces": [
+			0.0,
+			1.0,
+			2.0,
+			3.0,
+			4.0,
+			5.0
+		]
+	},
+	{
+		"cards": 13195.0,
+		"crowns": 54.0,
+		"mesh": "res://assets/environment/foliage_alpha/foliage_17.res",
+		"path": "Sectors/WesternPlains/Tile_42_pres_des_hauteurs_1/Leaves",
+		"removed_surfaces": [
+			0.0,
+			1.0,
+			2.0,
+			3.0,
+			4.0,
+			5.0
+		]
+	},
+	{
+		"cards": 8879.0,
+		"crowns": 31.0,
+		"mesh": "res://assets/environment/foliage_alpha/foliage_18.res",
+		"path": "Sectors/WesternPlains/Tile_43_pres_des_hauteurs_2/Leaves",
+		"removed_surfaces": [
+			0.0,
+			1.0,
+			2.0,
+			3.0,
+			4.0,
+			5.0
+		]
+	},
+	{
+		"cards": 75654.0,
+		"crowns": 269.0,
+		"mesh": "res://assets/environment/foliage_alpha/foliage_19.res",
+		"path": "Sectors/WesternPlains/Tile_44_pres_des_hauteurs_3/Leaves",
+		"removed_surfaces": [
+			0.0,
+			1.0,
+			2.0,
+			3.0,
+			4.0,
+			5.0
+		]
+	},
+	{
+		"cards": 29467.0,
+		"crowns": 107.0,
+		"mesh": "res://assets/environment/foliage_alpha/foliage_20.res",
+		"path": "Sectors/WesternPlains/Tile_45_collines_occidentales_1/Leaves",
+		"removed_surfaces": [
+			0.0,
+			1.0,
+			2.0,
+			3.0,
+			4.0,
+			5.0
+		]
+	},
+	{
+		"cards": 20080.0,
+		"crowns": 67.0,
+		"mesh": "res://assets/environment/foliage_alpha/foliage_21.res",
+		"path": "Sectors/WesternPlains/Tile_46_collines_occidentales_2/Leaves",
+		"removed_surfaces": [
+			0.0,
+			1.0,
+			2.0,
+			3.0,
+			4.0,
+			5.0
+		]
+	},
+	{
+		"cards": 71962.0,
+		"crowns": 263.0,
+		"mesh": "res://assets/environment/foliage_alpha/foliage_22.res",
+		"path": "Sectors/WesternPlains/Tile_47_collines_occidentales_3/Leaves",
+		"removed_surfaces": [
+			0.0,
+			1.0,
+			2.0,
+			3.0,
+			4.0,
+			5.0
+		]
+	},
+	{
+		"cards": 52525.0,
+		"crowns": 0.0,
+		"mesh": "res://assets/environment/foliage_alpha/foliage_24.res",
+		"path": "Original/EnvironmentArt/OriginalGeometry/Leaves",
+		"removed_surfaces": [
+			0.0,
+			1.0,
+			2.0,
+			3.0,
+			4.0,
+			5.0
+		]
+	},
+	{
+		"cards": 760,
+		"crowns": 1,
+		"mesh": "res://assets/environment/foliage_alpha/TEST_Leaves_032.res",
+		"path": "Original/EnvironmentArt/TreeVariants/TEST_Leaves_032",
+		"removed_surfaces": [
+			0
+		],
+		"retained_test": true
+	},
+	{
+		"cards": 760,
+		"crowns": 1,
+		"mesh": "res://assets/environment/foliage_alpha/TEST_Leaves_033.res",
+		"path": "Original/EnvironmentArt/TreeVariants/TEST_Leaves_033",
+		"removed_surfaces": [
+			0
+		],
+		"retained_test": true
+	},
+	{
+		"cards": 760,
+		"crowns": 1,
+		"mesh": "res://assets/environment/foliage_alpha/TEST_Leaves_034.res",
+		"path": "Original/EnvironmentArt/TreeVariants/TEST_Leaves_034",
+		"removed_surfaces": [
+			0
+		],
+		"retained_test": true
+	},
+	{
+		"cards": 760,
+		"crowns": 1,
+		"mesh": "res://assets/environment/foliage_alpha/TEST_Leaves_035.res",
+		"path": "Original/EnvironmentArt/TreeVariants/TEST_Leaves_035",
+		"removed_surfaces": [
+			0
+		],
+		"retained_test": true
+	},
+	{
+		"cards": 760,
+		"crowns": 1,
+		"mesh": "res://assets/environment/foliage_alpha/TEST_Leaves_036.res",
+		"path": "Original/EnvironmentArt/TreeVariants/TEST_Leaves_036",
+		"removed_surfaces": [
+			0
+		],
+		"retained_test": true
+	},
+	{
+		"cards": 760,
+		"crowns": 1,
+		"mesh": "res://assets/environment/foliage_alpha/TEST_Leaves_037.res",
+		"path": "Original/EnvironmentArt/TreeVariants/TEST_Leaves_037",
+		"removed_surfaces": [
+			0
+		],
+		"retained_test": true
+	},
+	{
+		"cards": 760,
+		"crowns": 1,
+		"mesh": "res://assets/environment/foliage_alpha/TEST_Leaves_038.res",
+		"path": "Original/EnvironmentArt/TreeVariants/TEST_Leaves_038",
+		"removed_surfaces": [
+			0
+		],
+		"retained_test": true
+	},
+	{
+		"cards": 760,
+		"crowns": 1,
+		"mesh": "res://assets/environment/foliage_alpha/TEST_Leaves_039.res",
+		"path": "Original/EnvironmentArt/TreeVariants/TEST_Leaves_039",
+		"removed_surfaces": [
+			0
+		],
+		"retained_test": true
+	}
+]

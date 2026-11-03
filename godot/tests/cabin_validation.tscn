@@ -1,0 +1,9 @@
+[gd_scene format=3 uid="uid://dpbs6ul002qgx"]
+
+[ext_resource type="Script" uid="uid://4gsiphnaeq07" path="res://tests/cabin_validation.gd" id="1_4g7m6"]
+[ext_resource type="PackedScene" uid="uid://bbcte6fxoyjyg" path="res://scenes/world/open_world.tscn" id="2_ff5iy"]
+
+[node name="CabinValidation" type="Node3D" unique_id=1246451030]
+script = ExtResource("1_4g7m6")
+
+[node name="World" parent="." unique_id=1454694496 instance=ExtResource("2_ff5iy")]

@@ -1,0 +1,7 @@
+[gd_scene format=3 uid="uid://bwtk0y2cf8oqt"]
+
+[ext_resource type="PackedScene" uid="uid://c14425svswedh" path="res://assets/environment/world/tile_23_criques_du_levant.glb" id="1_vqjep"]
+
+[node name="Tile_23_criques_du_levant" type="Node3D" unique_id=88102622]
+
+[node name="Model" parent="." unique_id=1520537305 instance=ExtResource("1_vqjep")]

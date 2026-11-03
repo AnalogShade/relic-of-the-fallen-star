@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96">
+  <!-- Warm magical glow -->
+  <circle cx="48" cy="52" r="38" fill="#f5b62b" fill-opacity="0.16"/>
+  <!-- Rising aromatic steam wisps -->
+  <path d="M31 25 Q27 17 33 10 Q37 5 34 2" fill="none" stroke="#fff2cc" stroke-width="2.6" stroke-linecap="round" stroke-opacity="0.8"/>
+  <path d="M48 22 Q44 13 50 7 Q54 3 51 0" fill="none" stroke="#ffeb99" stroke-width="2.8" stroke-linecap="round" stroke-opacity="0.85"/>
+  <path d="M65 26 Q61 18 66 11" fill="none" stroke="#fff2cc" stroke-width="2.4" stroke-linecap="round" stroke-opacity="0.75"/>
+  <!-- Wooden Ladle / Spoon handle sticking out on right -->
+  <path d="M66 40 L85 20 Q89 18 90 22 L73 43 Z" fill="#a8703a" stroke="#4d3016" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- Cauldron / Bowl Side Handles -->
+  <path d="M14 48 Q6 48 8 56 Q10 62 17 60" fill="none" stroke="#23282b" stroke-width="4" stroke-linecap="round"/>
+  <path d="M82 48 Q90 48 88 56 Q86 62 79 60" fill="none" stroke="#23282b" stroke-width="4" stroke-linecap="round"/>
+  <!-- Bowl Rim Back -->
+  <ellipse cx="48" cy="44" rx="34" ry="13" fill="#434b4f" stroke="#1e2326" stroke-width="3"/>
+  <!-- Rich Golden Broth Surface -->
+  <ellipse cx="48" cy="45" rx="30" ry="10.5" fill="#d97524"/>
+  <ellipse cx="47" cy="45" rx="26" ry="8.5" fill="#eb8d34"/>
+  <!-- Ingredients in the Stew -->
+  <!-- 1. Mini Roasted Chicken piece (left-center) -->
+  <path d="M22 39 L16 33" stroke="#f5ebd6" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="14" cy="31" r="2.8" fill="#f5ebd6" stroke="#5e4934" stroke-width="1.5"/>
+  <circle cx="17" cy="29" r="2.8" fill="#f5ebd6" stroke="#5e4934" stroke-width="1.5"/>
+  <path d="M21 43 Q22 32 33 33 Q42 34 41 43 Q35 48 21 43 Z" fill="#b84d14" stroke="#4f2006" stroke-width="2.2"/>
+  <path d="M25 38 Q31 34 37 37" fill="none" stroke="#f7b85c" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- 2. Glowing Mushroom slice (center-back) -->
+  <path d="M46 42 L46 34 Q49 33 52 34 L52 42" fill="#edddae" stroke="#6f4333" stroke-width="2"/>
+  <path d="M39 35 Q49 23 59 35 Z" fill="#c17848" stroke="#6f4333" stroke-width="2.2"/>
+  <circle cx="47" cy="31" r="1.8" fill="#fff1c4"/>
+  <circle cx="52" cy="32" r="1.4" fill="#fff1c4"/>
+  <!-- 3. Wild Berries (Blueberry, Raspberry, Golden Berry) -->
+  <circle cx="62" cy="42" r="5.5" fill="#385499" stroke="#1c2b52" stroke-width="2"/>
+  <circle cx="60.5" cy="40.5" r="1.6" fill="#99b6ff"/>
+  <circle cx="52" cy="46" r="5.2" fill="#d93c5e" stroke="#630f1e" stroke-width="2"/>
+  <circle cx="50.5" cy="44.5" r="1.6" fill="#ffaec0"/>
+  <circle cx="37" cy="47" r="5" fill="#f5b62b" stroke="#6e4606" stroke-width="2"/>
+  <circle cx="35.5" cy="45.5" r="1.6" fill="#ffffff"/>
+  <!-- Herb leaves in broth -->
+  <path d="M65 46 Q71 42 74 46 Q69 50 65 46 Z" fill="#68a347" stroke="#2d4a1e" stroke-width="1.5"/>
+  <path d="M26 47 Q31 44 33 48 Q29 51 26 47 Z" fill="#68a347" stroke="#2d4a1e" stroke-width="1.5"/>
+  <!-- Cauldron / Bowl Lower Body (Front) -->
+  <path d="M14 44 Q14 82 48 84 Q82 82 82 44 Q82 57 48 57 Q14 57 14 44 Z" fill="#32393d" stroke="#1b2022" stroke-width="3" stroke-linejoin="round"/>
+  <!-- Metallic/Ceramic Rim Front Highlight & Gold Trim -->
+  <path d="M18 52 Q48 63 78 52" fill="none" stroke="#546066" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M21 66 Q48 76 75 66" fill="none" stroke="#d9ba7c" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Healing Sparkle Star on Front of Bowl -->
+  <path d="M48 64 L50 69 L55 71 L50 73 L48 78 L46 73 L41 71 L46 69 Z" fill="#fff6cc"/>
+</svg>

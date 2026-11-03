@@ -1,0 +1,7 @@
+[gd_scene format=3 uid="uid://cve62jbek6xur"]
+
+[ext_resource type="PackedScene" uid="uid://cdbvdrh5c0do" path="res://assets/environment/world/tile_20_lisiere_des_dunes.glb" id="1_7a5mq"]
+
+[node name="Tile_20_lisiere_des_dunes" type="Node3D" unique_id=424917462]
+
+[node name="Model" parent="." unique_id=1946853333 instance=ExtResource("1_7a5mq")]

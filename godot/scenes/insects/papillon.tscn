@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://dpap01morpho"]
+
+[ext_resource type="Script" path="res://scripts/papillon.gd" id="1_papillon"]
+
+[node name="Papillon" type="Node3D"]
+script = ExtResource("1_papillon")
+roam_radius = 2.4
+flight_speed = 1.2

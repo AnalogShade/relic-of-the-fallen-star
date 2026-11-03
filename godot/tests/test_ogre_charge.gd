@@ -1,0 +1,40 @@
+extends "res://tests/test_nael_dodge.gd"
+
+func run() -> void:
+	level = Node3D.new()
+	root.add_child(level)
+	current_scene = level
+	box(Vector3(0, -0.5, 0), Vector3(80, 1, 80))
+	actor = load("res://scenes/player.tscn").instantiate()
+	actor.position.y = 0.425
+	level.add_child(actor)
+	var guardian = load("res://scripts/ogre_guardian.gd").new()
+	guardian.position = Vector3(0, 0, -2.0)
+	level.add_child(guardian)
+	await frames(15)
+	# Exercise the actual double-tap input and the charge's swept hit detection.
+	await key(KEY_W, true)
+	await key(KEY_W, false)
+	await key(KEY_W, true)
+	await key(KEY_W, false)
+	check(actor.dodge.active and actor.dodge.charging, "Double forward tap starts charge")
+	await frames(24)
+	check(guardian.state == "kick", "Charge impact triggers guardian retaliation")
+	check(actor.dodge.hit_ids.has(guardian.get_instance_id()), "Charge registers guardian impact")
+	check(guardian.health == guardian.max_health, "Charge preserves guardian health")
+	check(not guardian.has_meta("hit_recoil"), "Static guardian is not pushed by charge")
+	await frames(55)
+	check(actor.health == 75.0, "Guardian kick deals its expected nonlethal damage")
+	check(not actor.dodge.active, "Kick cancels charge and gameplay continues")
+	await frames(100)
+	check(guardian.state == "guard", "Guardian returns to guard after charge encounter")
+	# Existing two-argument melee/projectile callers must remain supported.
+	await frames(70)
+	actor.global_position = guardian.global_position + Vector3(0, 0.425, 2.5)
+	guardian.take_damage(35.0, actor.global_position)
+	check(guardian.state == "kick", "Two-argument attacks still trigger retaliation")
+	await frames(240)
+	print("OGRE_CHARGE_RESULT: ", failures.size(), " failures")
+	level.free()
+	await frames(2)
+	quit(0 if failures.is_empty() else 1)

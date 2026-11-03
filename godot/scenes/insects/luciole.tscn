@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://b2v8luci01sol"]
+
+[ext_resource type="Script" path="res://scripts/luciole.gd" id="1_luciole"]
+
+[node name="Luciole" type="Node3D"]
+script = ExtResource("1_luciole")
+
+[node name="OmniLight3D" type="OmniLight3D" parent="."]
+visible = false
+light_color = Color(0.92, 1, 0.35, 1)
+light_energy = 0.85
+shadow_enabled = false
+omni_range = 3.2
+omni_attenuation = 1.4

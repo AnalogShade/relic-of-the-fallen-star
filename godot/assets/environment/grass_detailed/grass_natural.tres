@@ -1,0 +1,11 @@
+[gd_resource type="ShaderMaterial" load_steps=3 format=3]
+
+[ext_resource type="Shader" path="res://shaders/grass_natural.gdshader" id="1"]
+[ext_resource type="Texture2D" path="res://assets/environment/grass_detailed/grass_blades_atlas.png" id="2"]
+
+[resource]
+resource_name = "Herbe naturelle · texture et teintes désaturées"
+shader = ExtResource("1")
+shader_parameter/blade_atlas = ExtResource("2")
+shader_parameter/saturation = 0.42
+shader_parameter/brightness = 0.92

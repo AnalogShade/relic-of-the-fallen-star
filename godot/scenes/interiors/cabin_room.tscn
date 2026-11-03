@@ -1,0 +1,42 @@
+[gd_scene format=3 uid="uid://b26sr0m0g0l87"]
+
+[ext_resource type="Script" uid="uid://c7y8wxnsd3ogj" path="res://scripts/cabin_room.gd" id="1_pl7hx"]
+[ext_resource type="PackedScene" uid="uid://dgdtix23ob458" path="res://assets/environment/world/cabin_interior.glb" id="2_lryh8"]
+[ext_resource type="PackedScene" uid="uid://cko685chwdxm1" path="res://assets/environment/world/cabin_shell.glb" id="3_afcok"]
+[ext_resource type="PackedScene" uid="uid://cjfllj7muyx27" path="res://assets/environment/world/cabin_door.glb" id="3_brey6"]
+[ext_resource type="PackedScene" uid="uid://cmh3h5he1vgru" path="res://scenes/player.tscn" id="4_6my6f"]
+[ext_resource type="Script" uid="uid://b6t7762d50lnh" path="res://scripts/cozy_fire.gd" id="5_8b3j7"]
+[ext_resource type="Script" uid="uid://c13ktb6okynxj" path="res://scripts/cabin_door_art.gd" id="5_gc5un"]
+[ext_resource type="Script" uid="uid://yl3etu8tm1te" path="res://scripts/cabin_portal.gd" id="8_p8vyp"]
+[ext_resource type="Script" path="res://scripts/cabin_chair.gd" id="chair"]
+
+[node name="CabinRoom" type="Node3D" unique_id=1842711433]
+script = ExtResource("1_pl7hx")
+
+[node name="Architecture" type="Node3D" parent="." unique_id=1247578510]
+transform = Transform3D(1.25, 0, 0, 0, 1, 0, 0, 0, 1.25, 70, -12.237393, 1.25)
+
+[node name="Interior" parent="Architecture" unique_id=1565417366 instance=ExtResource("2_lryh8")]
+
+[node name="Shell" parent="Architecture" unique_id=1521591401 instance=ExtResource("3_afcok")]
+
+[node name="CabinDoorArt" parent="." unique_id=1576264728 instance=ExtResource("3_brey6")]
+transform = Transform3D(1.25, 0, 0, 0, 1, 0, 0, 0, 1.25, -1.5625, 0.02, 3.475)
+script = ExtResource("5_gc5un")
+
+[node name="Player" parent="." unique_id=1358194691 instance=ExtResource("4_6my6f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.6875, 0.46, 1.65)
+
+[node name="HearthFire" type="Node3D" parent="." unique_id=1361891222]
+transform = Transform3D(1.25, 0, 0, 0, 1, 0, 0, 0, 1.25, 2.5625, 0.39, -1.375)
+script = ExtResource("5_8b3j7")
+
+[node name="ArmchairSeat" type="Node3D" parent="."]
+position = Vector3(-1.6643, 0.72999, -0.63427)
+script = ExtResource("chair")
+
+[node name="CabinExit" type="Node3D" parent="." unique_id=354425403]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.6875, 0.8, 2.75)
+script = ExtResource("8_p8vyp")
+exit_to_forest = true
+reach = 2.2

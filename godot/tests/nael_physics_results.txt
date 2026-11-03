@@ -1,0 +1,18 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+
+PASS: Scene loads
+PASS: Cube lands on imported terrain
+PASS: Spawn remains above the riverbed
+PASS: Terrain, wood, rocks and shrine have collisions
+PASS: Physical key W moves relative to camera
+PASS: Physical key S moves relative to camera
+PASS: Physical key A moves relative to camera
+PASS: Physical key D moves relative to camera
+PASS: Space jumps
+PASS: Cube lands after jump
+PASS: No penetration on landing
+PASS: Fall recovery returns to spawn
+PASS: Terrain raycast hits collision mesh
+PASS: Spring arm retracts against obstacles
+PASS: Spring arm extends after obstruction clears
+TEST_RESULT: 0 failure(s)

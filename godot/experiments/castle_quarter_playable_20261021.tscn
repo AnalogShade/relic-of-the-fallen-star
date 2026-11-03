@@ -1,0 +1,9 @@
+[gd_scene format=3 uid="uid://b6soea57k8x62"]
+
+[ext_resource type="Script" uid="uid://bg25r3fgibews" path="res://experiments/castle_quarter_playable_20261021.gd" id="1_p73rf"]
+[ext_resource type="PackedScene" uid="uid://bbcte6fxoyjyg" path="res://scenes/world/open_world.tscn" id="2_no4x4"]
+
+[node name="CastleQuarterPreview" type="Node3D" unique_id=1924353150]
+script = ExtResource("1_p73rf")
+
+[node name="OpenWorld" parent="." unique_id=1454694496 instance=ExtResource("2_no4x4")]

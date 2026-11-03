@@ -1,0 +1,21 @@
+[gd_scene format=3 uid="uid://cjk1f05wh0ina"]
+
+[ext_resource type="PackedScene" uid="uid://dicdbx6gntnj4" path="res://assets/environment/trails_20261021/tile_07_meandres_du_sud.glb" id="1_ki6ee"]
+[ext_resource type="ArrayMesh" uid="uid://d3mjecq8shftv" path="res://assets/environment/shrine_bank_relief/terrain.res" id="2_s74qu"]
+[ext_resource type="Shape3D" uid="uid://cvt6nhrwaht52" path="res://assets/environment/shrine_bank_relief/terrain_collision.res" id="3_vfk1h"]
+[ext_resource type="ArrayMesh" uid="uid://bvcold4nhpnnd" path="res://assets/environment/shrine_bank_relief/undergrowth.res" id="4_6bacg"]
+
+[node name="Tile_07_meandres_du_sud" type="Node3D" unique_id=502229304]
+
+[node name="Art" parent="." unique_id=1382259130 instance=ExtResource("1_ki6ee")]
+
+[node name="Terrain" parent="Art" index="0" unique_id=93570764]
+mesh = ExtResource("2_s74qu")
+
+[node name="CollisionShape3D" parent="Art/Terrain/StaticBody3D" parent_id_path=PackedInt32Array(1382259130, 988950932) index="0" unique_id=259509851]
+shape = ExtResource("3_vfk1h")
+
+[node name="Undergrowth" parent="Art" index="5" unique_id=373716713]
+mesh = ExtResource("4_6bacg")
+
+[editable path="Art"]

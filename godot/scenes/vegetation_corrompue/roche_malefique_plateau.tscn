@@ -1,0 +1,17 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://assets/environment/vegetation_corrompue/roche_malefique_plateau.glb" id="1_ppud1"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_0yuu4"]
+size = Vector3(3.2, 1.4, 2.8)
+
+[node name="RocheMalefiquePlateau" type="Node3D" unique_id=1076637270]
+
+[node name="Visual" type="Node3D" parent="." unique_id=784735590 instance=ExtResource("1_ppud1")]
+
+[node name="CollisionBody" type="StaticBody3D" parent="." unique_id=241776409]
+collision_mask = 0
+
+[node name="Shape" type="CollisionShape3D" parent="CollisionBody" unique_id=1252948848]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.7, 0)
+shape = SubResource("BoxShape3D_0yuu4")

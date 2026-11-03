@@ -1,0 +1,15 @@
+{
+	"initially_enabled": true,
+	"renderer": "gl_compatibility",
+	"samples": {
+		"off": {
+			"median_frame_ms": 7.806,
+			"p95_frame_ms": 8.605
+		},
+		"on": {
+			"median_frame_ms": 8.157,
+			"p95_frame_ms": 9.795
+		}
+	},
+	"scene": "res://experiments/arbres_20261014/playable_world.tscn"
+}

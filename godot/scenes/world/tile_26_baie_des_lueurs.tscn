@@ -1,0 +1,7 @@
+[gd_scene format=3 uid="uid://72ee5j2jwqfx"]
+
+[ext_resource type="PackedScene" uid="uid://cpm0apfvw53b7" path="res://assets/environment/world/tile_26_baie_des_lueurs.glb" id="1_uhg2l"]
+
+[node name="Tile_26_baie_des_lueurs" type="Node3D" unique_id=285713112]
+
+[node name="Model" parent="." unique_id=631949468 instance=ExtResource("1_uhg2l")]

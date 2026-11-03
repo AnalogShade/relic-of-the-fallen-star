@@ -1,0 +1,92 @@
+[
+	{
+		"local_position": "(-2.299997, -0.483638, 1.399998)",
+		"name": "GroundedMushroom00",
+		"world_ground_y": 2.49136161804199
+	},
+	{
+		"local_position": "(-2.699999, -0.529205, 1.700001)",
+		"name": "GroundedMushroom01",
+		"world_ground_y": 2.4457950592041
+	},
+	{
+		"local_position": "(-3.1, -0.352014, 1.200001)",
+		"name": "GroundedMushroom02",
+		"world_ground_y": 2.62298583984375
+	},
+	{
+		"local_position": "(-4.399998, -0.512924, 2.400005)",
+		"name": "GroundedMushroom03",
+		"world_ground_y": 2.46207618713379
+	},
+	{
+		"local_position": "(-3.999996, -0.682903, 2.899998)",
+		"name": "GroundedMushroom04",
+		"world_ground_y": 2.2920970916748
+	},
+	{
+		"local_position": "(-4.599997, -0.675851, 3.100002)",
+		"name": "GroundedMushroom05",
+		"world_ground_y": 2.29914855957031
+	},
+	{
+		"local_position": "(-2.0, -0.930675, 3.399998)",
+		"name": "GroundedMushroom06",
+		"world_ground_y": 2.04432487487793
+	},
+	{
+		"local_position": "(-2.4, -1.000522, 3.799999)",
+		"name": "GroundedMushroom07",
+		"world_ground_y": 1.97447776794434
+	},
+	{
+		"local_position": "(-3.1, -1.143673, 4.600002)",
+		"name": "GroundedMushroom08",
+		"world_ground_y": 1.83132743835449
+	},
+	{
+		"local_position": "(2.5, -0.490516, 1.299999)",
+		"name": "GroundedMushroom09",
+		"world_ground_y": 2.48448371887207
+	},
+	{
+		"local_position": "(2.900002, -0.526811, 1.5)",
+		"name": "GroundedMushroom10",
+		"world_ground_y": 2.44818878173828
+	},
+	{
+		"local_position": "(3.4, -0.387327, 1.200001)",
+		"name": "GroundedMushroom11",
+		"world_ground_y": 2.58767318725586
+	},
+	{
+		"local_position": "(4.300005, -0.599647, 2.5)",
+		"name": "GroundedMushroom12",
+		"world_ground_y": 2.37535285949707
+	},
+	{
+		"local_position": "(4.700005, -0.595562, 2.799999)",
+		"name": "GroundedMushroom13",
+		"world_ground_y": 2.37943840026855
+	},
+	{
+		"local_position": "(3.799999, -0.740039, 3.100002)",
+		"name": "GroundedMushroom14",
+		"world_ground_y": 2.23496055603027
+	},
+	{
+		"local_position": "(2.200005, -1.009271, 4.0)",
+		"name": "GroundedMushroom15",
+		"world_ground_y": 1.96572875976563
+	},
+	{
+		"local_position": "(2.599998, -1.057073, 4.399998)",
+		"name": "GroundedMushroom16",
+		"world_ground_y": 1.91792678833008
+	},
+	{
+		"local_position": "(4.099998, -0.990236, 4.700001)",
+		"name": "GroundedMushroom17",
+		"world_ground_y": 1.98476409912109
+	}
+]

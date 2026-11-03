@@ -1,0 +1,7 @@
+[gd_scene format=3 uid="uid://b5st7t2lhjh5r"]
+
+[ext_resource type="PackedScene" uid="uid://cklfahvb5cyk7" path="res://assets/environment/world/tile_21_descente_des_marees.glb" id="1_5fhgj"]
+
+[node name="Tile_21_descente_des_marees" type="Node3D" unique_id=123089896]
+
+[node name="Model" parent="." unique_id=1313746849 instance=ExtResource("1_5fhgj")]

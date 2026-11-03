@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://tests/nova_visual_trials/nova_showcase.gd" id="1"]
+
+[node name="NovaShowcase" type="Node3D"]
+script = ExtResource("1")

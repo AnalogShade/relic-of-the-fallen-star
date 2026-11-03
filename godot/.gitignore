@@ -1,0 +1,4 @@
+.godot/
+addons/godot_mcp/cache/
+tests/*.png
+tests/*.log

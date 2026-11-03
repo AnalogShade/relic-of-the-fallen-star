@@ -1,0 +1,315 @@
+{
+  "source": "C:\\Users\\Utilisateur\\Documents\\Dev\\Jeux\\Relic of the fallen star\\environments\\DIVERS ROCHES\\DIVERS ROCHES_002.blend",
+  "models": [
+    {
+      "name": "Roche_Bloc_Anguleux_Moyen_01",
+      "style": 1,
+      "dimensions_blender": [
+        1.7873055934906006,
+        1.2344205379486084,
+        0.8245447278022766
+      ],
+      "vertices": 327
+    },
+    {
+      "name": "Roche_Bloc_Anguleux_Petit_01",
+      "style": 1,
+      "dimensions_blender": [
+        1.3154566287994385,
+        1.272557020187378,
+        0.6577284932136536
+      ],
+      "vertices": 155
+    },
+    {
+      "name": "Roche_Bloc_Arrondi_Grand_01",
+      "style": 1,
+      "dimensions_blender": [
+        2.831083297729492,
+        3.0360262393951416,
+        0.9389246106147766
+      ],
+      "vertices": 827
+    },
+    {
+      "name": "Roche_Bloc_Massif_Grand_01",
+      "style": 1,
+      "dimensions_blender": [
+        3.1599526405334473,
+        2.8739829063415527,
+        1.6824429035186768
+      ],
+      "vertices": 1328
+    },
+    {
+      "name": "Roche_Bloc_Pointu_Moyen_01",
+      "style": 1,
+      "dimensions_blender": [
+        2.0399117469787598,
+        2.3687708377838135,
+        1.110504150390625
+      ],
+      "vertices": 758
+    },
+    {
+      "name": "Roche_Dalle_Etagee_Grande_01",
+      "style": 1,
+      "dimensions_blender": [
+        2.764357089996338,
+        2.349698066711426,
+        0.6386650800704956
+      ],
+      "vertices": 921
+    },
+    {
+      "name": "Roche_Dalle_Fissuree_Grande_01",
+      "style": 1,
+      "dimensions_blender": [
+        3.5650744438171387,
+        3.0550894737243652,
+        0.9770609140396118
+      ],
+      "vertices": 1408
+    },
+    {
+      "name": "Roche_Dalle_Irreguliere_Moyenne_01",
+      "style": 1,
+      "dimensions_blender": [
+        2.139991521835327,
+        1.8635587692260742,
+        0.5862287878990173
+      ],
+      "vertices": 569
+    },
+    {
+      "name": "Roche_Dalle_Polygonale_Moyenne_01",
+      "style": 1,
+      "dimensions_blender": [
+        1.9016855955123901,
+        1.6633796691894531,
+        0.44801241159439087
+      ],
+      "vertices": 437
+    },
+    {
+      "name": "Roche_Dalle_Triangulaire_Moyenne_01",
+      "style": 1,
+      "dimensions_blender": [
+        1.9398220777511597,
+        1.8349590301513672,
+        0.6148287057876587
+      ],
+      "vertices": 506
+    },
+    {
+      "name": "Roche_Galet_Allonge_Petit_01",
+      "style": 1,
+      "dimensions_blender": [
+        1.386946678161621,
+        0.7435182332992554,
+        0.47661224007606506
+      ],
+      "vertices": 124
+    },
+    {
+      "name": "Roche_Galet_Anguleux_Petit_01",
+      "style": 1,
+      "dimensions_blender": [
+        0.8245348930358887,
+        0.7339816093444824,
+        0.4337221682071686
+      ],
+      "vertices": 106
+    },
+    {
+      "name": "Roche_Galet_Arrondi_Petit_01",
+      "style": 1,
+      "dimensions_blender": [
+        0.7482913732528687,
+        0.7768814563751221,
+        0.4909024238586426
+      ],
+      "vertices": 101
+    },
+    {
+      "name": "Roche_Galet_Double_Petit_01",
+      "style": 1,
+      "dimensions_blender": [
+        0.8722078800201416,
+        1.0866773128509521,
+        0.36222270131111145
+      ],
+      "vertices": 180
+    },
+    {
+      "name": "Roche_Galet_Plat_Petit_01",
+      "style": 1,
+      "dimensions_blender": [
+        0.652955174446106,
+        0.7482914924621582,
+        0.3193325102329254
+      ],
+      "vertices": 90
+    },
+    {
+      "name": "Roche_Moussue_Amas_Galets_Allonge_Moyen_01",
+      "style": 2,
+      "dimensions_blender": [
+        2.5956430435180664,
+        1.4430499076843262,
+        0.7422690987586975
+      ],
+      "vertices": 580
+    },
+    {
+      "name": "Roche_Moussue_Bloc_Allonge_Grand_01",
+      "style": 2,
+      "dimensions_blender": [
+        2.1945343017578125,
+        3.024406671524048,
+        1.369278907775879
+      ],
+      "vertices": 519
+    },
+    {
+      "name": "Roche_Moussue_Bloc_Anguleux_Petit_01",
+      "style": 2,
+      "dimensions_blender": [
+        1.230971336364746,
+        1.0373427867889404,
+        0.46103718876838684
+      ],
+      "vertices": 335
+    },
+    {
+      "name": "Roche_Moussue_Bloc_Arrondi_Moyen_01",
+      "style": 2,
+      "dimensions_blender": [
+        1.8257179260253906,
+        1.6781760454177856,
+        0.7330536842346191
+      ],
+      "vertices": 475
+    },
+    {
+      "name": "Roche_Moussue_Bloc_Massif_Grand_01",
+      "style": 2,
+      "dimensions_blender": [
+        3.360978126525879,
+        3.1857717037200928,
+        1.3738961219787598
+      ],
+      "vertices": 1294
+    },
+    {
+      "name": "Roche_Moussue_Bloc_Oblong_Moyen_01",
+      "style": 2,
+      "dimensions_blender": [
+        2.226816177368164,
+        1.6228549480438232,
+        0.8390880227088928
+      ],
+      "vertices": 652
+    },
+    {
+      "name": "Roche_Moussue_Bloc_Pointu_Moyen_01",
+      "style": 2,
+      "dimensions_blender": [
+        1.5260353088378906,
+        1.7749948501586914,
+        0.9774048328399658
+      ],
+      "vertices": 366
+    },
+    {
+      "name": "Roche_Moussue_Bloc_Rectangulaire_Moyen_01",
+      "style": 2,
+      "dimensions_blender": [
+        1.8026599884033203,
+        1.5398595333099365,
+        0.7099961042404175
+      ],
+      "vertices": 476
+    },
+    {
+      "name": "Roche_Moussue_Dalle_Bosselee_Grande_01",
+      "style": 2,
+      "dimensions_blender": [
+        2.978301525115967,
+        2.2175920009613037,
+        0.8990262746810913
+      ],
+      "vertices": 748
+    },
+    {
+      "name": "Roche_Moussue_Dalle_Echancree_Grande_01",
+      "style": 2,
+      "dimensions_blender": [
+        2.9321956634521484,
+        1.996288776397705,
+        0.7422690987586975
+      ],
+      "vertices": 756
+    },
+    {
+      "name": "Roche_Moussue_Dalle_Ovale_Moyenne_01",
+      "style": 2,
+      "dimensions_blender": [
+        2.4020142555236816,
+        1.6781854629516602,
+        0.7053883671760559
+      ],
+      "vertices": 714
+    },
+    {
+      "name": "Roche_Moussue_Galet_Allonge_Petit_01",
+      "style": 2,
+      "dimensions_blender": [
+        0.9912281036376953,
+        0.7561017274856567,
+        0.45642945170402527
+      ],
+      "vertices": 136
+    },
+    {
+      "name": "Roche_Moussue_Galet_Arrondi_Petit_01",
+      "style": 2,
+      "dimensions_blender": [
+        1.078831672668457,
+        0.9405146837234497,
+        0.43798911571502686
+      ],
+      "vertices": 199
+    },
+    {
+      "name": "Roche_Moussue_Galet_Ovale_Moyen_01",
+      "style": 2,
+      "dimensions_blender": [
+        1.6412954330444336,
+        1.2217559814453125,
+        0.5302002429962158
+      ],
+      "vertices": 230
+    },
+    {
+      "name": "Roche_Moussue_Galet_Plat_Petit_01",
+      "style": 2,
+      "dimensions_blender": [
+        1.1940908432006836,
+        0.9866202473640442,
+        0.45642945170402527
+      ],
+      "vertices": 267
+    },
+    {
+      "name": "Roche_Moussue_Galet_Triangulaire_Petit_01",
+      "style": 2,
+      "dimensions_blender": [
+        1.09727144241333,
+        0.9589645266532898,
+        0.4103238582611084
+      ],
+      "vertices": 156
+    }
+  ]
+}

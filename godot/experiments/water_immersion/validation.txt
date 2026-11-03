@@ -1,0 +1,7 @@
+Z=-15: submerged legs difference from dry: before=27.06; after=27.06. Background max delta=1/255 (frame rounding).
+Z=-8: submerged legs difference from dry: before=0.59; after=26.46. Background max delta=1/255 (frame rounding).
+Z=0: submerged legs difference from dry: before=0.60; after=26.89. Background max delta=1/255 (frame rounding).
+Z=8: submerged legs difference from dry: before=0.61; after=27.00. Background max delta=1/255 (frame rounding).
+UNCHANGED shaders/stream_water.gdshader
+UNCHANGED shaders/lake_water.gdshader
+UNCHANGED scripts/stream_water.gd

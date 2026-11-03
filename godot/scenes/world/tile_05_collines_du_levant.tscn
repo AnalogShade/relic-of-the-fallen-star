@@ -1,0 +1,7 @@
+[gd_scene format=3 uid="uid://c52amutmko6ii"]
+
+[ext_resource type="PackedScene" path="res://assets/environment/trails_20261021/tile_05_collines_du_levant.glb" id="1_ncip5"]
+
+[node name="Tile_05_collines_du_levant" type="Node3D" unique_id=235140456]
+
+[node name="Art" parent="." unique_id=411416239 instance=ExtResource("1_ncip5")]

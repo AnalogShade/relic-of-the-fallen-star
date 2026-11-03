@@ -1,0 +1,15 @@
+{
+  "enabled": true,
+  "rect": [
+    -2,
+    -6,
+    22,
+    22
+  ],
+  "seed": 3102026,
+  "spacing": 0.3,
+  "density_map": "res://assets/environment/stream_grass_trial/maps/density.png",
+  "size_map": "res://assets/environment/stream_grass_trial/maps/size.png",
+  "field_map": "res://assets/environment/stream_grass_trial/maps/field_region.png",
+  "suitability_map": "res://assets/environment/stream_grass_trial/maps/allowed_ground.png"
+}

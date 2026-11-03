@@ -1,0 +1,18 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://assets/environment/vegetation_corrompue/souche_evidee_dechiquetee.glb" id="1_1wsfb"]
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_hdqu5"]
+height = 1.6
+radius = 0.95
+
+[node name="SoucheEvideeDechiquetee" type="Node3D" unique_id=591672257]
+
+[node name="Visual" type="Node3D" parent="." unique_id=252575021 instance=ExtResource("1_1wsfb")]
+
+[node name="CollisionBody" type="StaticBody3D" parent="." unique_id=139442386]
+collision_mask = 0
+
+[node name="Shape" type="CollisionShape3D" parent="CollisionBody" unique_id=2026364424]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.8, 0)
+shape = SubResource("CylinderShape3D_hdqu5")

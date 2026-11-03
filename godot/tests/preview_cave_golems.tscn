@@ -1,0 +1,6 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://tests/preview_cave_golems.gd" id="1"]
+
+[node name="PreviewCaveGolems" type="Node3D"]
+script = ExtResource("1")

@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://df7k8w9x2m1q4"]
+
+[ext_resource type="Script" path="res://scripts/truite.gd" id="1_script"]
+[ext_resource type="PackedScene" path="res://assets/animals/truite.glb" id="2_model"]
+
+[node name="Truite" type="Node3D"]
+script = ExtResource("1_script")
+
+[node name="Model" parent="." instance=ExtResource("2_model")]
+transform = Transform3D(0, 0, -1, 0, 1, 0, 1, 0, 0, 0, 0, 0)

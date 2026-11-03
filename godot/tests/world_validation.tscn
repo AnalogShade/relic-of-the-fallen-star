@@ -1,0 +1,9 @@
+[gd_scene format=3 uid="uid://c14752r024vh0"]
+
+[ext_resource type="Script" uid="uid://b87lsp7on6hcx" path="res://tests/world_validation.gd" id="1_sf1ji"]
+[ext_resource type="PackedScene" uid="uid://bbcte6fxoyjyg" path="res://scenes/world/open_world.tscn" id="2_xdg5e"]
+
+[node name="WorldValidation" type="Node3D" unique_id=515157369]
+script = ExtResource("1_sf1ji")
+
+[node name="World" parent="." unique_id=1454694496 instance=ExtResource("2_xdg5e")]

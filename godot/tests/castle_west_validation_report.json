@@ -1,0 +1,11 @@
+{
+	"bridge_errors": 0,
+	"coverage_points": 4608,
+	"failures": [],
+	"final_player_position": "(-207.6239, 12.37083, -8.092059)",
+	"holes": 0,
+	"maximum_seam_height_difference": 0.042327880859375,
+	"route_walked": true,
+	"seam_errors": 0,
+	"seam_pairs": 1053
+}

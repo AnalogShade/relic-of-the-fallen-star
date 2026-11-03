@@ -1,0 +1,12 @@
+{
+	"coverage_points": 4096,
+	"failures": [],
+	"fishing_points": 5124,
+	"holes": 0,
+	"maximum_seam": 0.01080322265625,
+	"pier_errors": 0,
+	"player_position": "(18.23314, 6.895933, -212.9969)",
+	"route_walked": true,
+	"seam_errors": 0,
+	"seam_pairs": 951
+}

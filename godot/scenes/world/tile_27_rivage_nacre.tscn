@@ -1,0 +1,7 @@
+[gd_scene format=3 uid="uid://b1purujmpp6h4"]
+
+[ext_resource type="PackedScene" uid="uid://cgysv77b7oghy" path="res://assets/environment/world/tile_27_rivage_nacre.glb" id="1_8pi5r"]
+
+[node name="Tile_27_rivage_nacre" type="Node3D" unique_id=687757658]
+
+[node name="Model" parent="." unique_id=643570609 instance=ExtResource("1_8pi5r")]

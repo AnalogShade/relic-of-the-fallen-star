@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://dn0s7xhpb2tf7"]
+
+[ext_resource type="Script" path="res://tests/coast_validation.gd" id="1_lbh46"]
+
+[node name="CoastValidation" type="Node3D" unique_id=1314747398]
+script = ExtResource("1_lbh46")

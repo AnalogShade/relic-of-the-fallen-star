@@ -1,0 +1,21 @@
+[gd_scene format=3 uid="uid://cmn55dsx0knxl"]
+
+[ext_resource type="Script" uid="uid://crb45q84lpkto" path="res://scripts/forest_rabbit.gd" id="1_xc7gb"]
+[ext_resource type="PackedScene" uid="uid://diex3tqao6hpq" path="res://assets/animals/forest_rabbit.glb" id="2_5sd7n"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_5sd7n"]
+radius = 0.14
+height = 0.42
+
+[node name="ForestRabbit" type="CharacterBody3D" unique_id=656368037]
+collision_layer = 4
+floor_max_angle = 0.65
+floor_snap_length = 0.3
+script = ExtResource("1_xc7gb")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1868333990]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.21, 0)
+shape = SubResource("CapsuleShape3D_5sd7n")
+
+[node name="Model" parent="." unique_id=35889669 instance=ExtResource("2_5sd7n")]
+transform = Transform3D(0.85, 0, 0, 0, 0.85, 0, 0, 0, 0.85, 0, 0, 0)

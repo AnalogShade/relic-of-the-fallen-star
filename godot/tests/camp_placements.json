@@ -1,0 +1,317 @@
+[
+	{
+		"name": "Camp_Feu_Camp_Rotissoire",
+		"position": [
+			22.0,
+			2.26625967025757,
+			-59.0
+		],
+		"slope_degrees": 0.470826390551841
+	},
+	{
+		"name": "Camp_Banniere_Socle_Rocheux",
+		"position": [
+			18.5,
+			2.0050368309021,
+			-55.0
+		],
+		"slope_degrees": 11.3035293593588
+	},
+	{
+		"name": "Camp_Caisse_Tonneau_Provisions",
+		"position": [
+			25.8,
+			4.39231252670288,
+			-63.8
+		],
+		"slope_degrees": 16.321259531217
+	},
+	{
+		"name": "Camp_Billot_Hache_Rochers",
+		"position": [
+			26.3,
+			2.30677938461304,
+			-55.9
+		],
+		"slope_degrees": 9.96892234836936
+	},
+	{
+		"name": "Camp_Banc_Bois_01",
+		"position": [
+			19.2,
+			2.02597951889038,
+			-59.0
+		],
+		"slope_degrees": 9.24707551348386
+	},
+	{
+		"name": "Camp_Banc_Bois_02",
+		"position": [
+			24.9,
+			2.52153158187866,
+			-58.9
+		],
+		"slope_degrees": 21.1192744703069
+	},
+	{
+		"name": "Camp_Banc_Bois_03",
+		"position": [
+			22.0,
+			2.24852895736694,
+			-56.7
+		],
+		"slope_degrees": 6.76423643650028
+	},
+	{
+		"name": "Camp_Rochers_01",
+		"position": [
+			27.0,
+			4.25961446762085,
+			-61.1
+		],
+		"slope_degrees": 24.4329219631183
+	},
+	{
+		"name": "Camp_Caisse_Rochers",
+		"position": [
+			24.8,
+			3.83576345443726,
+			-63.0
+		],
+		"slope_degrees": 29.610485391744
+	},
+	{
+		"name": "Camp_Caisse_Chope",
+		"position": [
+			25.4,
+			3.75103139877319,
+			-61.8
+		],
+		"slope_degrees": 31.5982377798524
+	},
+	{
+		"name": "Camp_Buches_Empilees",
+		"position": [
+			26.7,
+			2.69603109359741,
+			-57.2
+		],
+		"slope_degrees": 26.2027674110412
+	},
+	{
+		"name": "Camp_Plante_01",
+		"position": [
+			27.2,
+			3.99790334701538,
+			-60.0
+		],
+		"slope_degrees": 28.9750284970281
+	},
+	{
+		"name": "Camp_Buche_Debout",
+		"position": [
+			25.4,
+			2.26340627670288,
+			-55.7
+		],
+		"slope_degrees": 1.20678589036647
+	},
+	{
+		"name": "Camp_Torche_Sur_Piquet",
+		"position": [
+			18.5,
+			1.90368807315826,
+			-57.0
+		],
+		"slope_degrees": 5.2738281147878
+	},
+	{
+		"name": "Camp_Sac_Provisions",
+		"position": [
+			25.3,
+			4.34221792221069,
+			-64.7
+		],
+		"slope_degrees": 14.4906356449647
+	},
+	{
+		"name": "Camp_Accessoire_Provisions",
+		"position": [
+			26.8,
+			4.60535573959351,
+			-64.0
+		],
+		"slope_degrees": 9.75528342264147
+	},
+	{
+		"name": "Camp_Plante_02",
+		"position": [
+			18.1690670043625,
+			2.03451681137085,
+			-55.6723184869617
+		],
+		"slope_degrees": 12.4580866074112
+	},
+	{
+		"name": "Camp_Plante_03",
+		"position": [
+			22.4446336988708,
+			3.5690016746521,
+			-66.376560731888
+		],
+		"slope_degrees": 24.7920345266574
+	},
+	{
+		"name": "Camp_Plante_04",
+		"position": [
+			25.1757938002619,
+			2.30058431625366,
+			-54.9322288567013
+		],
+		"slope_degrees": 4.56566812522535
+	},
+	{
+		"name": "Camp_Rocher_02",
+		"position": [
+			26.8,
+			4.40143728256226,
+			-62.0
+		],
+		"slope_degrees": 20.1556269859719
+	},
+	{
+		"name": "Camp_Plante_05",
+		"position": [
+			16.8760381254506,
+			1.9578720331192,
+			-61.0904745324208
+		],
+		"slope_degrees": 3.08183663535335
+	},
+	{
+		"name": "Camp_Plante_06",
+		"position": [
+			26.3740348972766,
+			4.50101613998413,
+			-63.4610269636245
+		],
+		"slope_degrees": 13.9287467177991
+	},
+	{
+		"name": "Camp_Plante_07_Centre",
+		"position": [
+			20.6791024083776,
+			1.78267061710358,
+			-53.80992454691
+		],
+		"slope_degrees": 4.24195942036223
+	},
+	{
+		"name": "Camp_Plante_08",
+		"position": [
+			19.5722228594944,
+			2.45894765853882,
+			-65.6596516128095
+		],
+		"slope_degrees": 7.74496835838361
+	},
+	{
+		"name": "Camp_Plante_09",
+		"position": [
+			26.8980712660907,
+			3.01216268539429,
+			-57.8509423348881
+		],
+		"slope_degrees": 30.9453092612396
+	},
+	{
+		"name": "Camp_Piquet_Provisions",
+		"position": [
+			17.2107837450246,
+			2.09751272201538,
+			-57.5068468175001
+		],
+		"slope_degrees": 14.4917165224009
+	},
+	{
+		"name": "Camp_Plante_07_Droite",
+		"position": [
+			24.1585312625358,
+			4.11757802963257,
+			-65.8225587381956
+		],
+		"slope_degrees": 15.9094264450219
+	},
+	{
+		"name": "Camp_Plante_07_Gauche",
+		"position": [
+			23.608759087374,
+			2.28006887435913,
+			-53.9139868789649
+		],
+		"slope_degrees": 9.3783756549936
+	},
+	{
+		"name": "Camp_Pierre_Foyer",
+		"position": [
+			17.4710655567515,
+			2.21460103988647,
+			-63.1447906761337
+		],
+		"slope_degrees": 10.4381418301973
+	},
+	{
+		"name": "Camp_Pierre_Isolee",
+		"position": [
+			27.0643349102105,
+			4.36801290512085,
+			-61.4523660573529
+		],
+		"slope_degrees": 21.6399158850749
+	},
+	{
+		"name": "Camp_Petit_Accessoire_Provisions",
+		"position": [
+			19.0669622476776,
+			1.91562044620514,
+			-54.7152412273828
+		],
+		"slope_degrees": 8.58366692336334
+	},
+	{
+		"name": "Camp_Pierre_Provisions_01",
+		"position": [
+			21.2573078216443,
+			3.03679037094116,
+			-66.3343865411102
+		],
+		"slope_degrees": 25.1409718158804
+	},
+	{
+		"name": "Camp_Pierre_Provisions_02",
+		"position": [
+			26.0273469721935,
+			2.28412771224976,
+			-55.9514470774398
+		],
+		"slope_degrees": 6.93819537824499
+	},
+	{
+		"name": "Camp_Pierre_Buches",
+		"position": [
+			16.80865510118,
+			1.98199617862701,
+			-59.6308961418208
+		],
+		"slope_degrees": 7.9335174379691
+	},
+	{
+		"name": "Tente_Toile_Rapiecee",
+		"position": [
+			20.8,
+			2.45836019515991,
+			-64.0
+		],
+		"slope_degrees": 11.9917989842845
+	}
+]

@@ -1,0 +1,95 @@
+extends Node3D
+## Drives the imported skeleton; CharacterBody3D owns world movement and jump height.
+@export_range(0.1, 3.0, 0.05) var claw_playback_speed := 2.0
+@export_range(0.1, 3.0, 0.05) var left_claw_playback_speed := 1.6
+@onready var body: CharacterBody3D = get_parent()
+@onready var animator: AnimationPlayer = find_child("AnimationPlayer", true, false) as AnimationPlayer
+var was_airborne := false
+var grounded_model_y := 0.0
+
+func play_air_jump() -> void:
+	var flight_time: float = 2.0 * body.air_jump_speed / body.gravity
+	animator.speed_scale = 1.0
+	animator.play("Nael_FrontFlip_InPlace", 0.06, animator.get_animation("Nael_FrontFlip_InPlace").length / flight_time)
+
+const PRIMARY_CLAW_CLIPS := ["Nael_Claw_1", "Nael_Claw_2", "Nael_Claw_3"]
+var last_primary_claw := ""
+
+func choose_primary_claw() -> String:
+	var choices: Array[String] = []
+	for clip in PRIMARY_CLAW_CLIPS:
+		if animator.has_animation(clip) and clip != last_primary_claw:
+			choices.append(clip)
+	if choices.is_empty():
+		return "Nael_Claw"
+	last_primary_claw = choices.pick_random()
+	return last_primary_claw
+
+func play_claw(left: bool = false, primary_clip: String = "Nael_Claw") -> void:
+	animator.speed_scale = left_claw_playback_speed if left else claw_playback_speed
+	animator.play("Nael_Claw_Left" if left else primary_clip, 0.12 if left else 0.06)
+	animator.advance(0.0)
+
+func cancel_claw() -> void:
+	animator.speed_scale = 1.0
+	animator.play("Nael_Idle_Breathe", 0.1)
+
+func _ready() -> void:
+	preload("res://scripts/nael_materials.gd").apply(self)
+	var source: Node = load("res://assets/characters/nael_seated.glb").instantiate()
+	var source_player := source.find_child("AnimationPlayer", true, false) as AnimationPlayer
+	var library := animator.get_animation_library("")
+	for clip in source_player.get_animation_list():
+		if clip.begins_with("Nael_"):
+			var name := "Nael_Seated_Idle_Loop" if clip == "Nael_Seated_Idle" else clip
+			library.add_animation(name, source_player.get_animation(clip).duplicate())
+	source.free()
+	grounded_model_y = position.y
+	rotation.y = body.get_node("CameraPivot").rotation.y + PI
+	for clip in ["Nael_Seated_Idle_Loop", "Nael_Idle_Breathe", "Nael_Walk", "Nael_Run", "Nael_Glide", "Nael_Fall", "Nael_Float", "Nael_Swim"]:
+		if animator.has_animation(clip):
+			animator.get_animation(clip).loop_mode = Animation.LOOP_LINEAR
+	animator.play("Nael_Idle_Breathe")
+
+func _process(delta: float) -> void:
+	if body.rest_state != "":
+		return
+	var swim_moving: bool = body.swimming and Vector2(body.velocity.x, body.velocity.z).length() > 0.15
+	position.y = move_toward(position.y, grounded_model_y + (0.35 if swim_moving else 0.0), delta * 2.0)
+	if body.dodge and body.dodge.active:
+		was_airborne = false
+		return
+	if body.is_attacking:
+		was_airborne = not body.is_on_floor()
+		return
+	var horizontal := Vector2(body.velocity.x, body.velocity.z).length()
+	if horizontal > 0.15 and not (body.dodge and body.dodge.holds_backstep_facing()):
+		rotation.y = lerp_angle(rotation.y, atan2(body.velocity.x, body.velocity.z), minf(12.0 * delta, 1.0))
+	if body.swimming:
+		var water_clip := "Nael_Swim" if swim_moving else "Nael_Float"
+		if animator.current_animation != water_clip:
+			animator.play(water_clip, 0.25)
+		animator.speed_scale = clampf(horizontal / body.swim_speed, 0.65, 1.3) if swim_moving else 1.0
+		was_airborne = false
+		return
+	var airborne := not body.is_on_floor()
+	if airborne:
+		if body.gliding:
+			if animator.current_animation != "Nael_Glide":
+				animator.play("Nael_Glide", 0.15)
+		elif not body.air_jump_used or animator.current_animation != "Nael_FrontFlip_InPlace" or animator.current_animation_position >= animator.current_animation_length - 0.04:
+			if animator.current_animation != "Nael_Fall":
+				animator.play("Nael_Fall", 0.14)
+	elif horizontal > 0.15:
+		var running := horizontal > 3.0
+		var clip := "Nael_Run" if running else "Nael_Walk"
+		var rate := horizontal / (5.0 if running else 2.0)
+		if animator.current_animation != clip:
+			animator.play(clip, 0.14)
+		animator.speed_scale = rate
+	else:
+		if animator.current_animation != "Nael_Idle_Breathe":
+			animator.play("Nael_Idle_Breathe", 0.18)
+	if airborne or horizontal <= 0.15:
+		animator.speed_scale = 1.0
+	was_airborne = airborne

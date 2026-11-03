@@ -1,0 +1,184 @@
+[
+	{
+		"caps_removed": 0,
+		"count": 44,
+		"path": "Sectors/Tile_01_cretes_des_brumes/Art/Rocks",
+		"retained_collision": "res://assets/environment/rocks_blender/retained/Sectors_Tile_01_cretes_des_brumes_Art_Rocks_collision.res",
+		"retained_mesh": "res://assets/environment/rocks_blender/retained/Sectors_Tile_01_cretes_des_brumes_Art_Rocks.res"
+	},
+	{
+		"caps_removed": 0,
+		"count": 36,
+		"path": "Sectors/Tile_02_vallee_des_sources/Art/Rocks",
+		"retained_collision": "",
+		"retained_mesh": ""
+	},
+	{
+		"caps_removed": 0,
+		"count": 35,
+		"path": "Sectors/Tile_03_monts_de_schiste/Art/Rocks",
+		"retained_collision": "res://assets/environment/rocks_blender/retained/Sectors_Tile_03_monts_de_schiste_Art_Rocks_collision.res",
+		"retained_mesh": "res://assets/environment/rocks_blender/retained/Sectors_Tile_03_monts_de_schiste_Art_Rocks.res"
+	},
+	{
+		"caps_removed": 0,
+		"count": 39,
+		"path": "Sectors/Tile_04_bois_du_foyer/Art/Rocks",
+		"retained_collision": "res://assets/environment/rocks_blender/retained/Sectors_Tile_04_bois_du_foyer_Art_Rocks_collision.res",
+		"retained_mesh": "res://assets/environment/rocks_blender/retained/Sectors_Tile_04_bois_du_foyer_Art_Rocks.res"
+	},
+	{
+		"caps_removed": 0,
+		"count": 38,
+		"path": "Sectors/Tile_05_collines_du_levant/Art/Rocks",
+		"retained_collision": "res://assets/environment/rocks_blender/retained/Sectors_Tile_05_collines_du_levant_Art_Rocks_collision.res",
+		"retained_mesh": "res://assets/environment/rocks_blender/retained/Sectors_Tile_05_collines_du_levant_Art_Rocks.res"
+	},
+	{
+		"caps_removed": 0,
+		"count": 50,
+		"path": "Sectors/Tile_06_vallons_des_fougeres/Art/Rocks",
+		"retained_collision": "",
+		"retained_mesh": ""
+	},
+	{
+		"caps_removed": 0,
+		"count": 36,
+		"path": "Sectors/Tile_07_meandres_du_sud/Art/Rocks",
+		"retained_collision": "",
+		"retained_mesh": ""
+	},
+	{
+		"caps_removed": 0,
+		"count": 47,
+		"path": "Sectors/Tile_08_hauts_pres/Art/Rocks",
+		"retained_collision": "res://assets/environment/rocks_blender/retained/Sectors_Tile_08_hauts_pres_Art_Rocks_collision.res",
+		"retained_mesh": "res://assets/environment/rocks_blender/retained/Sectors_Tile_08_hauts_pres_Art_Rocks.res"
+	},
+	{
+		"caps_removed": 0,
+		"count": 11,
+		"path": "Sectors/WesternPlains/Tile_33_dunes_des_pres_1/Rocks",
+		"retained_collision": "",
+		"retained_mesh": ""
+	},
+	{
+		"caps_removed": 0,
+		"count": 11,
+		"path": "Sectors/WesternPlains/Tile_34_dunes_des_pres_2/Rocks",
+		"retained_collision": "",
+		"retained_mesh": ""
+	},
+	{
+		"caps_removed": 0,
+		"count": 12,
+		"path": "Sectors/WesternPlains/Tile_35_dunes_des_pres_3/Rocks",
+		"retained_collision": "",
+		"retained_mesh": ""
+	},
+	{
+		"caps_removed": 0,
+		"count": 14,
+		"path": "Sectors/WesternPlains/Tile_36_prairies_du_sud_1/Rocks",
+		"retained_collision": "res://assets/environment/rocks_blender/retained/Sectors_WesternPlains_Tile_36_prairies_du_sud_1_Rocks_collision.res",
+		"retained_mesh": "res://assets/environment/rocks_blender/retained/Sectors_WesternPlains_Tile_36_prairies_du_sud_1_Rocks.res"
+	},
+	{
+		"caps_removed": 0,
+		"count": 15,
+		"path": "Sectors/WesternPlains/Tile_37_prairies_du_sud_2/Rocks",
+		"retained_collision": "",
+		"retained_mesh": ""
+	},
+	{
+		"caps_removed": 0,
+		"count": 15,
+		"path": "Sectors/WesternPlains/Tile_38_prairies_du_sud_3/Rocks",
+		"retained_collision": "",
+		"retained_mesh": ""
+	},
+	{
+		"caps_removed": 0,
+		"count": 5,
+		"path": "Sectors/WesternPlains/Tile_39_plaine_du_chateau_1/Rocks",
+		"retained_collision": "",
+		"retained_mesh": ""
+	},
+	{
+		"caps_removed": 0,
+		"count": 4,
+		"path": "Sectors/WesternPlains/Tile_40_plaine_du_chateau_2/Rocks",
+		"retained_collision": "",
+		"retained_mesh": ""
+	},
+	{
+		"caps_removed": 0,
+		"count": 13,
+		"path": "Sectors/WesternPlains/Tile_41_plaine_du_chateau_3/Rocks",
+		"retained_collision": "",
+		"retained_mesh": ""
+	},
+	{
+		"caps_removed": 0,
+		"count": 8,
+		"path": "Sectors/WesternPlains/Tile_42_pres_des_hauteurs_1/Rocks",
+		"retained_collision": "",
+		"retained_mesh": ""
+	},
+	{
+		"caps_removed": 0,
+		"count": 10,
+		"path": "Sectors/WesternPlains/Tile_43_pres_des_hauteurs_2/Rocks",
+		"retained_collision": "",
+		"retained_mesh": ""
+	},
+	{
+		"caps_removed": 0,
+		"count": 15,
+		"path": "Sectors/WesternPlains/Tile_44_pres_des_hauteurs_3/Rocks",
+		"retained_collision": "",
+		"retained_mesh": ""
+	},
+	{
+		"caps_removed": 0,
+		"count": 15,
+		"path": "Sectors/WesternPlains/Tile_45_collines_occidentales_1/Rocks",
+		"retained_collision": "",
+		"retained_mesh": ""
+	},
+	{
+		"caps_removed": 0,
+		"count": 13,
+		"path": "Sectors/WesternPlains/Tile_46_collines_occidentales_2/Rocks",
+		"retained_collision": "res://assets/environment/rocks_blender/retained/Sectors_WesternPlains_Tile_46_collines_occidentales_2_Rocks_collision.res",
+		"retained_mesh": "res://assets/environment/rocks_blender/retained/Sectors_WesternPlains_Tile_46_collines_occidentales_2_Rocks.res"
+	},
+	{
+		"caps_removed": 0,
+		"count": 15,
+		"path": "Sectors/WesternPlains/Tile_47_collines_occidentales_3/Rocks",
+		"retained_collision": "",
+		"retained_mesh": ""
+	},
+	{
+		"caps_removed": 3,
+		"count": 128,
+		"path": "Original/EnvironmentArt/OriginalGeometry/Rocks",
+		"retained_collision": "",
+		"retained_mesh": ""
+	},
+	{
+		"caps_removed": 0,
+		"count": 1,
+		"path": "Original/EnvironmentArt/TreeVariants/TEST_Rock_Bloc ancien_002",
+		"retained_collision": "",
+		"retained_mesh": ""
+	},
+	{
+		"caps_removed": 1,
+		"count": 0,
+		"path": "Original/EnvironmentArt/TreeVariants/TEST_Rock_Mousse • chapeau de roche_002",
+		"retained_collision": "",
+		"retained_mesh": ""
+	}
+]

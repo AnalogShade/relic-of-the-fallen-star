@@ -1,0 +1,18 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://assets/environment/vegetation_corrompue/arbre_mort_penche.glb" id="1_2ag6t"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_tfybl"]
+radius = 0.42
+height = 3.8
+
+[node name="ArbreMortPenche" type="Node3D" unique_id=504887012]
+
+[node name="Visual" type="Node3D" parent="." unique_id=967832191 instance=ExtResource("1_2ag6t")]
+
+[node name="CollisionBody" type="StaticBody3D" parent="." unique_id=1084753809]
+collision_mask = 0
+
+[node name="Shape" type="CollisionShape3D" parent="CollisionBody" unique_id=1315061826]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.9, 0)
+shape = SubResource("CapsuleShape3D_tfybl")

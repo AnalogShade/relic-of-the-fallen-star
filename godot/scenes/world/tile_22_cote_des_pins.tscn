@@ -1,0 +1,7 @@
+[gd_scene format=3 uid="uid://ckidmppegv18u"]
+
+[ext_resource type="PackedScene" uid="uid://djg2o1jglmym0" path="res://assets/environment/world/tile_22_cote_des_pins.glb" id="1_me5m4"]
+
+[node name="Tile_22_cote_des_pins" type="Node3D" unique_id=37534989]
+
+[node name="Model" parent="." unique_id=1777434876 instance=ExtResource("1_me5m4")]

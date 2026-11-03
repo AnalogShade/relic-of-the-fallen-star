@@ -1,0 +1,7 @@
+[gd_scene format=3 uid="uid://me2odfeadhce"]
+
+[ext_resource type="PackedScene" uid="uid://bim0aha62ahqy" path="res://assets/environment/world/tile_29_plage_doree.glb" id="1_1wlq3"]
+
+[node name="Tile_29_plage_doree" type="Node3D" unique_id=1458670936]
+
+[node name="Model" parent="." unique_id=964477634 instance=ExtResource("1_1wlq3")]

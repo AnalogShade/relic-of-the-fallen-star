@@ -1,0 +1,7 @@
+[gd_scene format=3 uid="uid://coopds486eas2"]
+
+[ext_resource type="PackedScene" uid="uid://i6jgrfrxkrtg" path="res://assets/environment/world/tile_25_plage_des_brises.glb" id="1_88d37"]
+
+[node name="Tile_25_plage_des_brises" type="Node3D" unique_id=1969452896]
+
+[node name="Model" parent="." unique_id=1826143081 instance=ExtResource("1_88d37")]

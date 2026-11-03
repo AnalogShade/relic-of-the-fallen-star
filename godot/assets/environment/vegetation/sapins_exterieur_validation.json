@@ -1,0 +1,128 @@
+[
+	{
+		"name": "SapinExterieur_01",
+		"position": "(-173.0919, 11.05472, -55.06853)",
+		"scale": "(0.897929, 1.05436, 0.957819)",
+		"terrain": "/root/OpenWorld/Sectors/WesternPlains/Tile_43_pres_des_hauteurs_2/Terrain_43_Pres_des_hauteurs_2/StaticBody3D",
+		"trail_clearance": 10.3126430511475
+	},
+	{
+		"name": "SapinExterieur_02",
+		"position": "(-173.8118, 10.87881, -64.62906)",
+		"scale": "(0.693986, 0.768186, 0.722688)",
+		"terrain": "/root/OpenWorld/Sectors/WesternPlains/Tile_43_pres_des_hauteurs_2/Terrain_43_Pres_des_hauteurs_2/StaticBody3D",
+		"trail_clearance": 5.20883989334106
+	},
+	{
+		"name": "SapinExterieur_03",
+		"position": "(-164.6137, 8.404328, -50.94005)",
+		"scale": "(0.663414, 0.73157, 0.691417)",
+		"terrain": "/root/OpenWorld/Sectors/WesternPlains/Tile_43_pres_des_hauteurs_2/Terrain_43_Pres_des_hauteurs_2/StaticBody3D",
+		"trail_clearance": 5.94859886169434
+	},
+	{
+		"name": "SapinExterieur_04",
+		"position": "(-171.8446, 11.40066, 16.16163)",
+		"scale": "(1.006896, 0.985931, 0.912557)",
+		"terrain": "/root/OpenWorld/Sectors/WesternPlains/Tile_40_plaine_du_chateau_2/Terrain_40_Plaine_du_chateau_2/StaticBody3D",
+		"trail_clearance": 24.4659614562988
+	},
+	{
+		"name": "SapinExterieur_05",
+		"position": "(-161.4472, 11.07416, 26.2637)",
+		"scale": "(0.809238, 0.861107, 0.752282)",
+		"terrain": "/root/OpenWorld/Sectors/WesternPlains/Tile_37_prairies_du_sud_2/Terrain_37_Prairies_du_sud_2/StaticBody3D",
+		"trail_clearance": 36.6594352722168
+	},
+	{
+		"name": "SapinExterieur_06",
+		"position": "(-158.974, 11.28769, 16.48546)",
+		"scale": "(0.761902, 0.793837, 0.778196)",
+		"terrain": "/root/OpenWorld/Sectors/WesternPlains/Tile_41_plaine_du_chateau_3/Terrain_41_Plaine_du_chateau_3/StaticBody3D",
+		"trail_clearance": 27.8085918426514
+	},
+	{
+		"name": "SapinExterieur_07",
+		"position": "(-231.0822, 10.2197, 29.91858)",
+		"scale": "(0.876765, 1.091753, 0.872765)",
+		"terrain": "/root/OpenWorld/Sectors/WesternPlains/Tile_36_prairies_du_sud_1/Terrain_36_Prairies_du_sud_1/StaticBody3D",
+		"trail_clearance": 67.7541809082031
+	},
+	{
+		"name": "SapinExterieur_08",
+		"position": "(-227.5618, 9.490006, 35.2646)",
+		"scale": "(0.71537, 0.781821, 0.674489)",
+		"terrain": "/root/OpenWorld/Sectors/WesternPlains/Tile_36_prairies_du_sud_1/Terrain_36_Prairies_du_sud_1/StaticBody3D",
+		"trail_clearance": 68.141242980957
+	},
+	{
+		"name": "SapinExterieur_09",
+		"position": "(-215.021, 10.16785, 35.32362)",
+		"scale": "(0.939992, 1.029419, 0.888498)",
+		"terrain": "/root/OpenWorld/Sectors/WesternPlains/Tile_37_prairies_du_sud_2/Terrain_37_Prairies_du_sud_2/StaticBody3D",
+		"trail_clearance": 59.0532646179199
+	},
+	{
+		"name": "SapinExterieur_10",
+		"position": "(-269.488, 8.962319, 17.17358)",
+		"scale": "(0.689898, 0.81195, 0.612988)",
+		"terrain": "/root/OpenWorld/Sectors/WesternPlains/Tile_39_plaine_du_chateau_1/Terrain_39_Plaine_du_chateau_1/StaticBody3D",
+		"trail_clearance": 97.8097305297852
+	},
+	{
+		"name": "SapinExterieur_11",
+		"position": "(-272.1514, 8.839555, 10.74983)",
+		"scale": "(0.93851, 0.951861, 0.969414)",
+		"terrain": "/root/OpenWorld/Sectors/WesternPlains/Tile_39_plaine_du_chateau_1/Terrain_39_Plaine_du_chateau_1/StaticBody3D",
+		"trail_clearance": 98.9631423950195
+	},
+	{
+		"name": "SapinExterieur_12",
+		"position": "(-267.4286, 10.28782, 5.79493)",
+		"scale": "(0.705515, 0.768674, 0.750295)",
+		"terrain": "/root/OpenWorld/Sectors/WesternPlains/Tile_39_plaine_du_chateau_1/Terrain_39_Plaine_du_chateau_1/StaticBody3D",
+		"trail_clearance": 93.4672393798828
+	},
+	{
+		"name": "SapinExterieur_13",
+		"position": "(-268.8079, 11.72915, -77.60658)",
+		"scale": "(0.783849, 0.895118, 0.784373)",
+		"terrain": "/root/OpenWorld/Sectors/WesternPlains/Tile_42_pres_des_hauteurs_1/Terrain_42_Pres_des_hauteurs_1/StaticBody3D",
+		"trail_clearance": 78.7904739379883
+	},
+	{
+		"name": "SapinExterieur_14",
+		"position": "(-278.5844, 11.18794, -66.77652)",
+		"scale": "(0.662143, 0.713849, 0.628035)",
+		"terrain": "/root/OpenWorld/Sectors/WesternPlains/Tile_42_pres_des_hauteurs_1/Terrain_42_Pres_des_hauteurs_1/StaticBody3D",
+		"trail_clearance": 92.6520614624023
+	},
+	{
+		"name": "SapinExterieur_15",
+		"position": "(-274.5537, 11.54058, -74.85341)",
+		"scale": "(0.654403, 0.731222, 0.71557)",
+		"terrain": "/root/OpenWorld/Sectors/WesternPlains/Tile_42_pres_des_hauteurs_1/Terrain_42_Pres_des_hauteurs_1/StaticBody3D",
+		"trail_clearance": 85.1451568603516
+	},
+	{
+		"name": "SapinExterieur_16",
+		"position": "(-215.76, 11.69318, -89.52946)",
+		"scale": "(0.721506, 0.715692, 0.642551)",
+		"terrain": "/root/OpenWorld/Sectors/WesternPlains/Tile_43_pres_des_hauteurs_2/Terrain_43_Pres_des_hauteurs_2/StaticBody3D",
+		"trail_clearance": 26.8166122436523
+	},
+	{
+		"name": "SapinExterieur_17",
+		"position": "(-205.8621, 10.56571, -90.7682)",
+		"scale": "(0.816266, 0.820715, 0.755047)",
+		"terrain": "/root/OpenWorld/Sectors/WesternPlains/Tile_43_pres_des_hauteurs_2/Terrain_43_Pres_des_hauteurs_2/StaticBody3D",
+		"trail_clearance": 17.7149810791016
+	},
+	{
+		"name": "SapinExterieur_18",
+		"position": "(-207.9334, 11.67519, -84.6116)",
+		"scale": "(0.94448, 0.999731, 0.880085)",
+		"terrain": "/root/OpenWorld/Sectors/WesternPlains/Tile_43_pres_des_hauteurs_2/Terrain_43_Pres_des_hauteurs_2/StaticBody3D",
+		"trail_clearance": 22.7481670379639
+	}
+]

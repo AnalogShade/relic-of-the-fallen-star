@@ -1,0 +1,222 @@
+{
+  "source": "Original/EnvironmentArt/OriginalGeometry/Undergrowth",
+  "description": "Existing jade fern clumps along the starting stream; harvested fronds never hide their source geometry. Anchors extracted from connected nearby fern vertices.",
+  "patches": [
+    {
+      "id": "stream_00",
+      "position": [
+        -7.715,
+        1.3784,
+        9.4204
+      ]
+    },
+    {
+      "id": "stream_01",
+      "position": [
+        1.7501,
+        1.289,
+        9.1269
+      ]
+    },
+    {
+      "id": "stream_02",
+      "position": [
+        -6.4212,
+        1.9316,
+        2.7765
+      ]
+    },
+    {
+      "id": "stream_03",
+      "position": [
+        2.4967,
+        1.099,
+        5.6343
+      ]
+    },
+    {
+      "id": "stream_04",
+      "position": [
+        6.3432,
+        1.6289,
+        9.5372
+      ]
+    },
+    {
+      "id": "stream_05",
+      "position": [
+        3.147,
+        1.2738,
+        2.3543
+      ]
+    },
+    {
+      "id": "stream_06",
+      "position": [
+        7.5194,
+        1.9348,
+        6.4881
+      ]
+    },
+    {
+      "id": "stream_07",
+      "position": [
+        -3.7665,
+        1.6258,
+        -4.8741
+      ]
+    },
+    {
+      "id": "stream_08",
+      "position": [
+        8.0496,
+        2.3852,
+        3.5068
+      ]
+    },
+    {
+      "id": "stream_09",
+      "position": [
+        5.2557,
+        1.7914,
+        -0.3038
+      ]
+    },
+    {
+      "id": "stream_10",
+      "position": [
+        7.615,
+        2.045,
+        0.3168
+      ]
+    },
+    {
+      "id": "stream_11",
+      "position": [
+        -6.4217,
+        2.4779,
+        -7.2201
+      ]
+    },
+    {
+      "id": "stream_12",
+      "position": [
+        -8.9425,
+        3.0559,
+        -8.893
+      ]
+    },
+    {
+      "id": "stream_13",
+      "position": [
+        -1.066,
+        1.2271,
+        -8.1302
+      ]
+    },
+    {
+      "id": "stream_14",
+      "position": [
+        -4.8036,
+        2.3068,
+        -8.882
+      ]
+    },
+    {
+      "id": "stream_15",
+      "position": [
+        -4.1715,
+        2.3838,
+        -11.8344
+      ]
+    },
+    {
+      "id": "stream_16",
+      "position": [
+        -6.5701,
+        2.5325,
+        -13.3966
+      ]
+    },
+    {
+      "id": "stream_17",
+      "position": [
+        -2.023,
+        2.182,
+        -13.4319
+      ]
+    },
+    {
+      "id": "stream_18",
+      "position": [
+        5.4103,
+        1.4994,
+        -10.844
+      ]
+    },
+    {
+      "id": "stream_19",
+      "position": [
+        -4.1151,
+        2.2777,
+        -16.676
+      ]
+    },
+    {
+      "id": "stream_20",
+      "position": [
+        8.6472,
+        2.5414,
+        -12.8389
+      ]
+    },
+    {
+      "id": "stream_21",
+      "position": [
+        -3.1083,
+        1.3932,
+        -19.6797
+      ]
+    },
+    {
+      "id": "stream_22",
+      "position": [
+        3.7966,
+        1.2862,
+        -18.5636
+      ]
+    },
+    {
+      "id": "stream_23",
+      "position": [
+        3.5787,
+        1.2819,
+        -20.9473
+      ]
+    },
+    {
+      "id": "stream_24",
+      "position": [
+        -8.3967,
+        1.8341,
+        -24.4959
+      ]
+    },
+    {
+      "id": "stream_25",
+      "position": [
+        3.6869,
+        1.4319,
+        -23.08
+      ]
+    },
+    {
+      "id": "stream_26",
+      "position": [
+        8.2408,
+        3.0508,
+        -23.3947
+      ]
+    }
+  ]
+}

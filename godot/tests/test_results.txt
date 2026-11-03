@@ -1,0 +1,15 @@
+SFX_TEST_SUMMARY: 14 failures
+FAIL: voice_attack_sounds loaded (0 sounds)
+FAIL: voice_damage_sounds loaded (0 sounds)
+FAIL: voice_jump_sounds loaded (0 sounds)
+FAIL: voice_land_sounds loaded (0 sounds)
+FAIL: jump_sound loaded
+FAIL: land_twigs loaded
+FAIL: land_grass loaded
+FAIL: land_gravel loaded
+FAIL: Jump sound triggered successfully
+FAIL: Jump voice grunt triggered successfully
+FAIL: Landing sound triggered successfully
+FAIL: Landing voice grunt triggered successfully
+FAIL: Damage voice grunt triggered on take_damage
+FAIL: Attack voice grunt triggered on start_claw

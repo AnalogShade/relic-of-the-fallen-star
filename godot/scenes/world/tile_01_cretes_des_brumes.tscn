@@ -1,0 +1,7 @@
+[gd_scene format=3 uid="uid://ducf11s5x3wfm"]
+
+[ext_resource type="PackedScene" path="res://assets/environment/trails_20261021/tile_01_cretes_des_brumes.glb" id="1_4247m"]
+
+[node name="Tile_01_cretes_des_brumes" type="Node3D" unique_id=341158200]
+
+[node name="Art" parent="." unique_id=26413416 instance=ExtResource("1_4247m")]

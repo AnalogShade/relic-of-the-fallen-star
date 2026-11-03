@@ -1,0 +1,482 @@
+[gd_scene format=3 uid="uid://bbcte6fxoyjyg"]
+
+[ext_resource type="Script" uid="uid://bevor5yjrxa3" path="res://scripts/open_world.gd" id="1_hpeg1"]
+[ext_resource type="PackedScene" path="res://experiments/arbres_20261014/playable_forest.tscn" id="1_v3cxo"]
+[ext_resource type="PackedScene" uid="uid://ducf11s5x3wfm" path="res://scenes/world/tile_01_cretes_des_brumes.tscn" id="2_gwyit"]
+[ext_resource type="PackedScene" uid="uid://cr40fgq3nc20q" path="res://scenes/world/tile_02_vallee_des_sources.tscn" id="3_s48dp"]
+[ext_resource type="PackedScene" uid="uid://d3dnd5h4olu55" path="res://scenes/world/tile_03_monts_de_schiste.tscn" id="4_hyvm7"]
+[ext_resource type="PackedScene" uid="uid://d3tun8w1qfdhw" path="res://scenes/world/tile_04_bois_du_foyer.tscn" id="5_issxo"]
+[ext_resource type="PackedScene" uid="uid://c52amutmko6ii" path="res://scenes/world/tile_05_collines_du_levant.tscn" id="6_osb05"]
+[ext_resource type="PackedScene" uid="uid://dr4es8qlqwwss" path="res://scenes/world/tile_06_vallons_des_fougeres.tscn" id="7_83gve"]
+[ext_resource type="PackedScene" uid="uid://cjk1f05wh0ina" path="res://scenes/world/tile_07_meandres_du_sud.tscn" id="8_kvd2w"]
+[ext_resource type="PackedScene" uid="uid://hq15p7n6vib0" path="res://scenes/world/tile_08_hauts_pres.tscn" id="9_jexir"]
+[ext_resource type="PackedScene" uid="uid://bwib53tsm8ra0" path="res://scenes/world/vigie.tscn" id="11_70n4x"]
+[ext_resource type="PackedScene" uid="uid://d4kmrhqq145kt" path="res://scenes/world/grotte_entree.tscn" id="12_grotte"]
+[ext_resource type="PackedScene" uid="uid://cve62jbek6xur" path="res://scenes/world/tile_20_lisiere_des_dunes.tscn" id="21_e3476"]
+[ext_resource type="PackedScene" uid="uid://b5st7t2lhjh5r" path="res://scenes/world/tile_21_descente_des_marees.tscn" id="22_ne1pn"]
+[ext_resource type="PackedScene" uid="uid://ckidmppegv18u" path="res://scenes/world/tile_22_cote_des_pins.tscn" id="23_btsfg"]
+[ext_resource type="PackedScene" uid="uid://bwtk0y2cf8oqt" path="res://scenes/world/tile_23_criques_du_levant.tscn" id="24_5ci8q"]
+[ext_resource type="PackedScene" uid="uid://c0fnbsvj4pxg5" path="res://scenes/world/tile_24_sables_du_soleil.tscn" id="25_v0dcx"]
+[ext_resource type="PackedScene" uid="uid://coopds486eas2" path="res://scenes/world/tile_25_plage_des_brises.tscn" id="26_8ukw7"]
+[ext_resource type="PackedScene" uid="uid://72ee5j2jwqfx" path="res://scenes/world/tile_26_baie_des_lueurs.tscn" id="27_vjg5l"]
+[ext_resource type="PackedScene" uid="uid://b1purujmpp6h4" path="res://scenes/world/tile_27_rivage_nacre.tscn" id="28_j00cp"]
+[ext_resource type="PackedScene" uid="uid://c54i8nr400gq5" path="res://scenes/world/tile_28_lagon_du_levant.tscn" id="29_sa602"]
+[ext_resource type="PackedScene" uid="uid://me2odfeadhce" path="res://scenes/world/tile_29_plage_doree.tscn" id="30_s060n"]
+[ext_resource type="PackedScene" uid="uid://d2txughe52def" path="res://assets/environment/world/ocean.glb" id="31_jkjm3"]
+[ext_resource type="PackedScene" path="res://scenes/world/western_plains.tscn" id="32_si82q"]
+[ext_resource type="PackedScene" path="res://scenes/world/tile_09_piemont_du_levant.tscn" id="desert_09"]
+[ext_resource type="PackedScene" path="res://scenes/world/tile_10_col_des_cendres.tscn" id="desert_10"]
+[ext_resource type="PackedScene" path="res://scenes/world/tile_11_aiguilles_grises.tscn" id="desert_11"]
+[ext_resource type="PackedScene" path="res://scenes/world/tile_12_mer_de_sable.tscn" id="desert_12"]
+[ext_resource type="PackedScene" path="res://scenes/world/tile_13_dunes_du_passage.tscn" id="desert_13"]
+[ext_resource type="PackedScene" path="res://scenes/world/tile_14_mesas_dorees.tscn" id="desert_14"]
+[ext_resource type="PackedScene" path="res://scenes/world/tile_15_cretes_du_nord.tscn" id="desert_15"]
+[ext_resource type="PackedScene" path="res://scenes/world/tile_16_porte_des_sources.tscn" id="desert_16"]
+[ext_resource type="PackedScene" path="res://scenes/world/tile_17_hauts_plateaux.tscn" id="desert_17"]
+[ext_resource type="PackedScene" path="res://scenes/world/tile_18_marches_arides.tscn" id="desert_18"]
+[ext_resource type="PackedScene" path="res://scenes/world/tile_19_horizon_ocre.tscn" id="desert_19"]
+
+[ext_resource type="PackedScene" path="res://scenes/world/oasis_du_nord.tscn" id="oasis_12"]
+[ext_resource type="PackedScene" path="res://scenes/world/camp_bandits.tscn" id="camp_bandits"]
+[ext_resource type="PackedScene" path="res://scenes/bandit.tscn" id="bandit_guard"]
+[ext_resource type="NavigationMesh" path="res://assets/navigation/bandit_camp.tres" id="camp_navigation"]
+[ext_resource type="PackedScene" path="res://scenes/world/vegetation_first_pass.tscn" id="vegetation_first_pass"]
+[ext_resource type="PackedScene" path="res://scenes/world/rosettes_forestieres.tscn" id="rosettes_forestieres"]
+[ext_resource type="PackedScene" path="res://scenes/world/arbustes_a_baies.tscn" id="arbustes_a_baies"]
+[ext_resource type="PackedScene" path="res://scenes/world/foret_malefique.tscn" id="foret_malefique"]
+
+[ext_resource type="PackedScene" path="res://scenes/herbalist.tscn" id="maelor_herbalist"]
+[ext_resource type="PackedScene" path="res://scenes/tortue.tscn" id="tortue_animal"]
+
+[ext_resource type="PackedScene" path="res://scenes/araignee.tscn" id="forest_spider"]
+
+[node name="OpenWorld" type="Node3D" unique_id=1454694496]
+script = ExtResource("1_hpeg1")
+
+[node name="Tortue" parent="." instance=ExtResource("tortue_animal")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14, 2.39, 72)
+
+[node name="MaelorHerboriste" parent="." instance=ExtResource("maelor_herbalist")]
+
+[node name="VegetationFirstPass" parent="." instance=ExtResource("vegetation_first_pass")]
+
+[node name="RosettesForestieres" parent="." instance=ExtResource("rosettes_forestieres")]
+
+[node name="ArbustesABaies" parent="." instance=ExtResource("arbustes_a_baies")]
+
+[node name="ForetMalefique" parent="." instance=ExtResource("foret_malefique")]
+
+[node name="Sectors" type="Node3D" parent="." unique_id=1135608710]
+
+[node name="CampBandits" parent="Sectors" instance=ExtResource("camp_bandits")]
+
+[node name="Bandit_Garde" parent="Sectors" instance=ExtResource("bandit_guard")]
+position = Vector3(17, 2.35, -56)
+temperament = "equilibre"
+
+[node name="BanditsForestiers" type="Node3D" parent="Sectors"]
+
+[node name="Bandit_Prudent_Bois" parent="Sectors/BanditsForestiers" instance=ExtResource("bandit_guard")]
+position = Vector3(-30, 1.59, -18)
+temperament = "prudent"
+use_navigation = false
+detection_radius = 7.0
+leash_radius = 12.0
+
+[node name="Bandit_Agressif_Est" parent="Sectors/BanditsForestiers" instance=ExtResource("bandit_guard")]
+position = Vector3(32, 1.53, 20)
+temperament = "agressif"
+use_navigation = false
+detection_radius = 8.0
+leash_radius = 13.0
+
+[node name="Bandit_Peureux_Fougeres" parent="Sectors/BanditsForestiers" instance=ExtResource("bandit_guard")]
+position = Vector3(-50, 5.64, 40)
+temperament = "peureux"
+use_navigation = false
+detection_radius = 6.0
+leash_radius = 13.0
+
+[node name="Bandit_Eclaireur_HautsPres" parent="Sectors/BanditsForestiers" instance=ExtResource("bandit_guard")]
+position = Vector3(45, 9.89, 35)
+temperament = "auto"
+behavior_seed = 734
+use_navigation = false
+detection_radius = 7.0
+leash_radius = 11.0
+
+[node name="Bandit_Renfort_01" parent="Sectors/BanditsForestiers" instance=ExtResource("bandit_guard")]
+position = Vector3(-27.1161, 1.6491, -8.1161)
+temperament = "equilibre"
+behavior_seed = 261026
+use_navigation = false
+detection_radius = 7.0
+leash_radius = 11.0
+
+[node name="Bandit_Renfort_02" parent="Sectors/BanditsForestiers" instance=ExtResource("bandit_guard")]
+position = Vector3(-34.3484, 1.7515, -2.6517)
+temperament = "prudent"
+behavior_seed = 261027
+use_navigation = false
+detection_radius = 7.0
+leash_radius = 11.0
+
+[node name="Bandit_Renfort_03" parent="Sectors/BanditsForestiers" instance=ExtResource("bandit_guard")]
+position = Vector3(-31.2500, 1.7171, 11.0000)
+temperament = "agressif"
+behavior_seed = 261028
+use_navigation = false
+detection_radius = 7.0
+leash_radius = 11.0
+
+[node name="Bandit_Renfort_04" parent="Sectors/BanditsForestiers" instance=ExtResource("bandit_guard")]
+position = Vector3(-56.0000, 11.5772, 6.0000)
+temperament = "equilibre"
+behavior_seed = 261029
+use_navigation = false
+detection_radius = 7.0
+leash_radius = 11.0
+
+[node name="Bandit_Renfort_05" parent="Sectors/BanditsForestiers" instance=ExtResource("bandit_guard")]
+position = Vector3(-62.0000, 7.0415, 40.0000)
+temperament = "auto"
+behavior_seed = 261030
+use_navigation = false
+detection_radius = 7.0
+leash_radius = 11.0
+
+[node name="Bandit_Renfort_06" parent="Sectors/BanditsForestiers" instance=ExtResource("bandit_guard")]
+position = Vector3(-76.0000, 5.9203, 35.7500)
+temperament = "equilibre"
+behavior_seed = 261031
+use_navigation = false
+detection_radius = 7.0
+leash_radius = 11.0
+
+[node name="Bandit_Renfort_07" parent="Sectors/BanditsForestiers" instance=ExtResource("bandit_guard")]
+position = Vector3(-98.2500, 8.6950, 8.0000)
+temperament = "prudent"
+behavior_seed = 261032
+use_navigation = false
+detection_radius = 7.0
+leash_radius = 11.0
+
+[node name="Bandit_Renfort_08" parent="Sectors/BanditsForestiers" instance=ExtResource("bandit_guard")]
+position = Vector3(-114.7500, 9.8520, -8.0000)
+temperament = "agressif"
+behavior_seed = 261033
+use_navigation = false
+detection_radius = 7.0
+leash_radius = 11.0
+
+[node name="Bandit_Renfort_09" parent="Sectors/BanditsForestiers" instance=ExtResource("bandit_guard")]
+position = Vector3(-108.1161, 10.1544, -13.1161)
+temperament = "equilibre"
+behavior_seed = 261034
+use_navigation = false
+detection_radius = 7.0
+leash_radius = 11.0
+
+[node name="Bandit_Renfort_10" parent="Sectors/BanditsForestiers" instance=ExtResource("bandit_guard")]
+position = Vector3(-122.8839, 9.5544, -17.8839)
+temperament = "auto"
+behavior_seed = 261035
+use_navigation = false
+detection_radius = 7.0
+leash_radius = 11.0
+
+[node name="Bandit_Renfort_11" parent="Sectors/BanditsForestiers" instance=ExtResource("bandit_guard")]
+position = Vector3(-136.0000, 9.6704, -18.0000)
+temperament = "equilibre"
+behavior_seed = 261036
+use_navigation = false
+detection_radius = 7.0
+leash_radius = 11.0
+
+[node name="Bandit_Renfort_12" parent="Sectors/BanditsForestiers" instance=ExtResource("bandit_guard")]
+position = Vector3(-151.0000, 10.2317, -14.0000)
+temperament = "prudent"
+behavior_seed = 261037
+use_navigation = false
+detection_radius = 7.0
+leash_radius = 11.0
+
+[node name="Bandit_Renfort_13" parent="Sectors/BanditsForestiers" instance=ExtResource("bandit_guard")]
+position = Vector3(-164.0000, 10.8670, -10.0000)
+temperament = "agressif"
+behavior_seed = 261038
+use_navigation = false
+detection_radius = 7.0
+leash_radius = 11.0
+
+[node name="Bandit_Renfort_14" parent="Sectors/BanditsForestiers" instance=ExtResource("bandit_guard")]
+position = Vector3(-56.7500, 11.5776, -8.0000)
+temperament = "equilibre"
+behavior_seed = 261039
+use_navigation = false
+detection_radius = 7.0
+leash_radius = 11.0
+
+[node name="Bandit_Renfort_15" parent="Sectors/BanditsForestiers" instance=ExtResource("bandit_guard")]
+position = Vector3(-73.0451, 18.5976, -18.0450)
+temperament = "auto"
+behavior_seed = 261040
+use_navigation = false
+detection_radius = 7.0
+leash_radius = 11.0
+
+[node name="Bandit_Renfort_16" parent="Sectors/BanditsForestiers" instance=ExtResource("bandit_guard")]
+position = Vector3(-102.0000, 6.6986, 21.2500)
+temperament = "equilibre"
+behavior_seed = 261041
+use_navigation = false
+detection_radius = 7.0
+leash_radius = 11.0
+
+[node name="Bandit_Renfort_17" parent="Sectors/BanditsForestiers" instance=ExtResource("bandit_guard")]
+position = Vector3(-121.2500, 9.3843, 5.0000)
+temperament = "prudent"
+behavior_seed = 261042
+use_navigation = false
+detection_radius = 7.0
+leash_radius = 11.0
+
+[node name="Bandit_Renfort_18" parent="Sectors/BanditsForestiers" instance=ExtResource("bandit_guard")]
+position = Vector3(-139.0000, 10.7611, 5.0000)
+temperament = "agressif"
+behavior_seed = 261043
+use_navigation = false
+detection_radius = 7.0
+leash_radius = 11.0
+
+[node name="Bandit_Renfort_19" parent="Sectors/BanditsForestiers" instance=ExtResource("bandit_guard")]
+position = Vector3(-29.5000, 1.8431, -29.0000)
+temperament = "equilibre"
+behavior_seed = 261044
+use_navigation = false
+detection_radius = 7.0
+leash_radius = 11.0
+
+[node name="Bandit_Renfort_20" parent="Sectors/BanditsForestiers" instance=ExtResource("bandit_guard")]
+position = Vector3(-112.0000, 7.3592, -36.0000)
+temperament = "auto"
+behavior_seed = 261045
+use_navigation = false
+detection_radius = 7.0
+leash_radius = 11.0
+
+[node name="AraigneesForestieres" type="Node3D" parent="Sectors"]
+
+[node name="Araignee_Forestiere_01" parent="Sectors/AraigneesForestieres" instance=ExtResource("forest_spider")]
+position = Vector3(-47.0000, 6.1130, 30.7500)
+enemy_name = "Araignée Rôdeuse"
+behavior_seed = 261046
+max_health = 70.0
+damage = 12.0
+spider_scale = 1.4
+walk_speed = 2.0
+chase_speed = 3.4
+detection_radius = 10.0
+attack_range = 2.2
+leash_radius = 14.0
+patrol_radius = 3.0
+
+[node name="Araignee_Forestiere_02" parent="Sectors/AraigneesForestieres" instance=ExtResource("forest_spider")]
+position = Vector3(-188.0000, 11.9583, -180.0000)
+enemy_name = "Araignée Rôdeuse"
+behavior_seed = 261047
+max_health = 70.0
+damage = 12.0
+spider_scale = 1.4
+walk_speed = 2.0
+chase_speed = 3.4
+detection_radius = 10.0
+attack_range = 2.2
+leash_radius = 14.0
+patrol_radius = 3.0
+
+[node name="Araignee_Forestiere_03" parent="Sectors/AraigneesForestieres" instance=ExtResource("forest_spider")]
+position = Vector3(-249.6967, 8.6961, -234.6967)
+enemy_name = "Araignée Rôdeuse"
+behavior_seed = 261048
+max_health = 70.0
+damage = 12.0
+spider_scale = 1.4
+walk_speed = 2.0
+chase_speed = 3.4
+detection_radius = 10.0
+attack_range = 2.2
+leash_radius = 14.0
+patrol_radius = 3.0
+
+[node name="Araignee_Forestiere_04" parent="Sectors/AraigneesForestieres" instance=ExtResource("forest_spider")]
+position = Vector3(-141.0000, 10.8170, 25.0000)
+enemy_name = "Araignée Rôdeuse"
+behavior_seed = 261049
+max_health = 70.0
+damage = 12.0
+spider_scale = 1.4
+walk_speed = 2.0
+chase_speed = 3.4
+detection_radius = 10.0
+attack_range = 2.2
+leash_radius = 14.0
+patrol_radius = 3.0
+
+[node name="Araignee_Forestiere_05" parent="Sectors/AraigneesForestieres" instance=ExtResource("forest_spider")]
+position = Vector3(-148.0000, 8.3833, -39.5000)
+enemy_name = "Araignée Rôdeuse"
+behavior_seed = 261050
+max_health = 70.0
+damage = 12.0
+spider_scale = 1.4
+walk_speed = 2.0
+chase_speed = 3.4
+detection_radius = 10.0
+attack_range = 2.2
+leash_radius = 14.0
+patrol_radius = 3.0
+
+[node name="Araignee_Forestiere_06" parent="Sectors/AraigneesForestieres" instance=ExtResource("forest_spider")]
+position = Vector3(-160.0000, 8.0612, -65.0000)
+enemy_name = "Araignée Rôdeuse"
+behavior_seed = 261051
+max_health = 70.0
+damage = 12.0
+spider_scale = 1.4
+walk_speed = 2.0
+chase_speed = 3.4
+detection_radius = 10.0
+attack_range = 2.2
+leash_radius = 14.0
+patrol_radius = 3.0
+
+[node name="Araignee_Forestiere_07" parent="Sectors/AraigneesForestieres" instance=ExtResource("forest_spider")]
+position = Vector3(-193.0000, 10.8146, -119.0000)
+enemy_name = "Araignée Rôdeuse"
+behavior_seed = 261052
+max_health = 70.0
+damage = 12.0
+spider_scale = 1.4
+walk_speed = 2.0
+chase_speed = 3.4
+detection_radius = 10.0
+attack_range = 2.2
+leash_radius = 14.0
+patrol_radius = 3.0
+
+[node name="Araignee_Forestiere_08" parent="Sectors/AraigneesForestieres" instance=ExtResource("forest_spider")]
+position = Vector3(-219.3033, 9.0821, -185.3033)
+enemy_name = "Araignée Rôdeuse"
+behavior_seed = 261053
+max_health = 70.0
+damage = 12.0
+spider_scale = 1.4
+walk_speed = 2.0
+chase_speed = 3.4
+detection_radius = 10.0
+attack_range = 2.2
+leash_radius = 14.0
+patrol_radius = 3.0
+
+[node name="Araignee_Forestiere_09" parent="Sectors/AraigneesForestieres" instance=ExtResource("forest_spider")]
+position = Vector3(-254.8839, 9.3603, -162.8839)
+enemy_name = "Araignée Rôdeuse"
+behavior_seed = 261054
+max_health = 70.0
+damage = 12.0
+spider_scale = 1.4
+walk_speed = 2.0
+chase_speed = 3.4
+detection_radius = 10.0
+attack_range = 2.2
+leash_radius = 14.0
+patrol_radius = 3.0
+
+[node name="Araignee_Forestiere_10" parent="Sectors/AraigneesForestieres" instance=ExtResource("forest_spider")]
+position = Vector3(-177.2500, 4.8095, -246.0000)
+enemy_name = "Araignée Rôdeuse"
+behavior_seed = 261055
+max_health = 70.0
+damage = 12.0
+spider_scale = 1.4
+walk_speed = 2.0
+chase_speed = 3.4
+detection_radius = 10.0
+attack_range = 2.2
+leash_radius = 14.0
+patrol_radius = 3.0
+
+[node name="CampNavigation" type="NavigationRegion3D" parent="Sectors"]
+navigation_mesh = ExtResource("camp_navigation")
+
+[node name="OasisDuNord" parent="Sectors" instance=ExtResource("oasis_12")]
+
+[node name="Tile_01_cretes_des_brumes" parent="Sectors" unique_id=341158200 instance=ExtResource("2_gwyit")]
+
+[node name="Tile_02_vallee_des_sources" parent="Sectors" unique_id=1961524963 instance=ExtResource("3_s48dp")]
+
+[node name="Tile_03_monts_de_schiste" parent="Sectors" unique_id=463630828 instance=ExtResource("4_hyvm7")]
+
+[node name="Tile_04_bois_du_foyer" parent="Sectors" unique_id=521634769 instance=ExtResource("5_issxo")]
+
+[node name="Tile_05_collines_du_levant" parent="Sectors" unique_id=235140456 instance=ExtResource("6_osb05")]
+
+[node name="Tile_06_vallons_des_fougeres" parent="Sectors" unique_id=153490282 instance=ExtResource("7_83gve")]
+
+[node name="Tile_07_meandres_du_sud" parent="Sectors" unique_id=502229304 instance=ExtResource("8_kvd2w")]
+
+[node name="Tile_08_hauts_pres" parent="Sectors" unique_id=117544405 instance=ExtResource("9_jexir")]
+
+[node name="Tile_09_Piemont_du_levant" parent="Sectors" unique_id=2057360316 instance=ExtResource("desert_09")]
+
+[node name="Tile_10_Col_des_cendres" parent="Sectors" unique_id=1100793271 instance=ExtResource("desert_10")]
+
+[node name="Tile_11_Aiguilles_grises" parent="Sectors" unique_id=1349438423 instance=ExtResource("desert_11")]
+
+[node name="Tile_12_Mer_de_sable" parent="Sectors" unique_id=161114699 instance=ExtResource("desert_12")]
+
+[node name="Tile_13_Dunes_du_passage" parent="Sectors" unique_id=1627459344 instance=ExtResource("desert_13")]
+
+[node name="Tile_14_Mesas_dorees" parent="Sectors" unique_id=1560420491 instance=ExtResource("desert_14")]
+
+[node name="Tile_15_Cretes_du_nord" parent="Sectors" unique_id=1362215908 instance=ExtResource("desert_15")]
+
+[node name="Tile_16_Porte_des_sources" parent="Sectors" unique_id=975655300 instance=ExtResource("desert_16")]
+
+[node name="Tile_17_Hauts_plateaux" parent="Sectors" unique_id=642301262 instance=ExtResource("desert_17")]
+
+[node name="Tile_18_Marches_arides" parent="Sectors" unique_id=494215866 instance=ExtResource("desert_18")]
+
+[node name="Tile_19_Horizon_ocre" parent="Sectors" unique_id=969767731 instance=ExtResource("desert_19")]
+
+[node name="Tile_20_lisiere_des_dunes" parent="Sectors" unique_id=424917462 instance=ExtResource("21_e3476")]
+
+[node name="Tile_21_descente_des_marees" parent="Sectors" unique_id=123089896 instance=ExtResource("22_ne1pn")]
+
+[node name="Tile_22_cote_des_pins" parent="Sectors" unique_id=37534989 instance=ExtResource("23_btsfg")]
+
+[node name="Tile_23_criques_du_levant" parent="Sectors" unique_id=88102622 instance=ExtResource("24_5ci8q")]
+
+[node name="Tile_24_sables_du_soleil" parent="Sectors" unique_id=1936356330 instance=ExtResource("25_v0dcx")]
+
+[node name="Tile_25_plage_des_brises" parent="Sectors" unique_id=1969452896 instance=ExtResource("26_8ukw7")]
+
+[node name="Tile_26_baie_des_lueurs" parent="Sectors" unique_id=285713112 instance=ExtResource("27_vjg5l")]
+
+[node name="Tile_27_rivage_nacre" parent="Sectors" unique_id=687757658 instance=ExtResource("28_j00cp")]
+
+[node name="Tile_28_lagon_du_levant" parent="Sectors" unique_id=1077229169 instance=ExtResource("29_sa602")]
+
+[node name="Tile_29_plage_doree" parent="Sectors" unique_id=1458670936 instance=ExtResource("30_s060n")]
+
+[node name="Ocean" parent="Sectors" unique_id=1958822174 instance=ExtResource("31_jkjm3")]
+
+[node name="WesternPlains" parent="Sectors" unique_id=1141189565 instance=ExtResource("32_si82q")]
+
+[node name="Original" parent="." unique_id=112705212 instance=ExtResource("1_v3cxo")]
+
+[node name="Vigie" parent="." unique_id=697600887 instance=ExtResource("11_70n4x")]
+
+[node name="GrotteEntree" parent="." unique_id=984321074 instance=ExtResource("12_grotte")]
+transform = Transform3D(0.6427878, 0, -0.7660446, 0, 1, 0, 0.7660446, 0, 0.6427878, 39.42, 2.95, -48.26)

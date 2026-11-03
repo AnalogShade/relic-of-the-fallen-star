@@ -1,0 +1,86 @@
+[gd_scene format=3 uid="uid://ctt0apvufsnw3"]
+
+[ext_resource type="Script" uid="uid://d2sweah63qv52" path="res://scripts/castle_chimney_smoke.gd" id="21_3mnxq"]
+[ext_resource type="PackedScene" uid="uid://b1ytr60vcoxky" path="res://assets/environment/world/chateau_des_plaines.glb" id="castle"]
+[ext_resource type="PackedScene" path="res://scenes/merchant.tscn" id="merchant"]
+[ext_resource type="PackedScene" uid="uid://bskxuxp4s8s57" path="res://assets/environment/world/tile_30_rivage_occidental_1.glb" id="tile_0"]
+[ext_resource type="PackedScene" uid="uid://dmkiq01ajug6e" path="res://assets/environment/world/tile_31_rivage_occidental_2.glb" id="tile_1"]
+[ext_resource type="PackedScene" uid="uid://12vr41774ouu" path="res://assets/environment/world/tile_32_rivage_occidental_3.glb" id="tile_2"]
+[ext_resource type="PackedScene" uid="uid://cqvqj7gbn1mvv" path="res://assets/environment/world/tile_33_dunes_des_pres_1.glb" id="tile_3"]
+[ext_resource type="PackedScene" uid="uid://b50r3y42kdnej" path="res://assets/environment/world/tile_34_dunes_des_pres_2.glb" id="tile_4"]
+[ext_resource type="PackedScene" uid="uid://bdkcls3f8bqh7" path="res://assets/environment/world/tile_35_dunes_des_pres_3.glb" id="tile_5"]
+[ext_resource type="PackedScene" uid="uid://bq3816da73xc0" path="res://assets/environment/world/tile_36_prairies_du_sud_1.glb" id="tile_6"]
+[ext_resource type="PackedScene" uid="uid://ba81qrmj5rs5w" path="res://assets/environment/world/tile_37_prairies_du_sud_2.glb" id="tile_7"]
+[ext_resource type="PackedScene" uid="uid://bu6tfic5k0qdq" path="res://assets/environment/world/tile_38_prairies_du_sud_3.glb" id="tile_8"]
+[ext_resource type="PackedScene" uid="uid://c2wt5uj6efecd" path="res://assets/environment/world/tile_39_plaine_du_chateau_1.glb" id="tile_9"]
+[ext_resource type="PackedScene" uid="uid://wodb30mg43ri" path="res://assets/environment/world/tile_40_plaine_du_chateau_2.glb" id="tile_10"]
+[ext_resource type="PackedScene" uid="uid://dlr8mj1id3sm6" path="res://assets/environment/world/tile_41_plaine_du_chateau_3.glb" id="tile_11"]
+[ext_resource type="PackedScene" uid="uid://dcnchcgldehjf" path="res://assets/environment/world/tile_42_pres_des_hauteurs_1.glb" id="tile_12"]
+[ext_resource type="PackedScene" uid="uid://bcm51ml0l4bh1" path="res://assets/environment/world/tile_43_pres_des_hauteurs_2.glb" id="tile_13"]
+[ext_resource type="PackedScene" uid="uid://c3p045c8piowq" path="res://assets/environment/world/tile_44_pres_des_hauteurs_3.glb" id="tile_14"]
+[ext_resource type="PackedScene" uid="uid://dj511yoboyawj" path="res://assets/environment/world/tile_45_collines_occidentales_1.glb" id="tile_15"]
+[ext_resource type="PackedScene" uid="uid://d16wkcna3f4at" path="res://assets/environment/world/tile_46_collines_occidentales_2.glb" id="tile_16"]
+[ext_resource type="PackedScene" uid="uid://c68kujefehlij" path="res://assets/environment/world/tile_47_collines_occidentales_3.glb" id="tile_17"]
+
+[ext_resource type="PackedScene" path="res://scenes/world/maison_colombages_01.tscn" id="townhouse_01"]
+
+[node name="WesternPlains" type="Node3D" unique_id=1649142048]
+
+[node name="Tile_30_rivage_occidental_1" parent="." unique_id=597924595 instance=ExtResource("tile_0")]
+
+[node name="Tile_31_rivage_occidental_2" parent="." unique_id=1388040491 instance=ExtResource("tile_1")]
+
+[node name="Tile_32_rivage_occidental_3" parent="." unique_id=2078961747 instance=ExtResource("tile_2")]
+
+[node name="Tile_33_dunes_des_pres_1" parent="." unique_id=1202426223 instance=ExtResource("tile_3")]
+
+[node name="Tile_34_dunes_des_pres_2" parent="." unique_id=1114027122 instance=ExtResource("tile_4")]
+
+[node name="Tile_35_dunes_des_pres_3" parent="." unique_id=1011178332 instance=ExtResource("tile_5")]
+
+[node name="Tile_36_prairies_du_sud_1" parent="." unique_id=1742609055 instance=ExtResource("tile_6")]
+
+[node name="Tile_37_prairies_du_sud_2" parent="." unique_id=758679119 instance=ExtResource("tile_7")]
+
+[node name="Tile_38_prairies_du_sud_3" parent="." unique_id=626455721 instance=ExtResource("tile_8")]
+
+[node name="Tile_39_plaine_du_chateau_1" parent="." unique_id=1119894043 instance=ExtResource("tile_9")]
+
+[node name="Tile_40_plaine_du_chateau_2" parent="." unique_id=339395580 instance=ExtResource("tile_10")]
+
+[node name="Tile_41_plaine_du_chateau_3" parent="." unique_id=219248675 instance=ExtResource("tile_11")]
+
+[node name="Tile_42_pres_des_hauteurs_1" parent="." unique_id=229749229 instance=ExtResource("tile_12")]
+
+[node name="Tile_43_pres_des_hauteurs_2" parent="." unique_id=81128556 instance=ExtResource("tile_13")]
+
+[node name="Tile_44_pres_des_hauteurs_3" parent="." unique_id=876961758 instance=ExtResource("tile_14")]
+
+[node name="Tile_45_collines_occidentales_1" parent="." unique_id=1742058489 instance=ExtResource("tile_15")]
+
+[node name="Tile_46_collines_occidentales_2" parent="." unique_id=1231437713 instance=ExtResource("tile_16")]
+
+[node name="Tile_47_collines_occidentales_3" parent="." unique_id=1795714073 instance=ExtResource("tile_17")]
+
+[node name="ChateauDesPlaines" parent="." unique_id=1535563174 instance=ExtResource("castle")]
+
+[node name="Merrick" parent="." unique_id=2027606250 instance=ExtResource("merchant")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -203.7836, 12.08, -34.5358)
+
+[node name="ChimneySmoke" type="Node3D" parent="." unique_id=229755891]
+script = ExtResource("21_3mnxq")
+
+[node name="MaisonColombages_02" parent="." instance=ExtResource("townhouse_01")]
+position = Vector3(-228.494537, 11.93, -4.691285)
+rotation = Vector3(0, 2.8915925, 0)
+scale = Vector3(0.85, 0.85, 0.85)
+
+[node name="MaisonColombages_04" parent="." instance=ExtResource("townhouse_01")]
+position = Vector3(-246.031189, 11.93, -15.639783)
+rotation = Vector3(0, 3.0403826, 0)
+scale = Vector3(0.92, 0.92, 0.92)
+
+[node name="MaisonColombages_05" parent="." instance=ExtResource("townhouse_01")]
+position = Vector3(-218.273605, 11.93, -18.760777)
+rotation = Vector3(0, -0.4755198, 0)
+scale = Vector3(0.82, 0.82, 0.82)

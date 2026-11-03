@@ -1,0 +1,26 @@
+[
+	{
+		"base_y": 11.9300003051758,
+		"collision": true,
+		"ground_y": 11.9449987411499,
+		"house": "MaisonColombages_02",
+		"roof_y": 18.0973281860352,
+		"scale": 0.850000023841858
+	},
+	{
+		"base_y": 11.9300003051758,
+		"collision": true,
+		"ground_y": 11.9449987411499,
+		"house": "MaisonColombages_04",
+		"roof_y": 18.6052265167236,
+		"scale": 0.920000016689301
+	},
+	{
+		"base_y": 11.9300003051758,
+		"collision": true,
+		"ground_y": 11.9449987411499,
+		"house": "MaisonColombages_05",
+		"roof_y": 17.8796577453613,
+		"scale": 0.819999992847443
+	}
+]

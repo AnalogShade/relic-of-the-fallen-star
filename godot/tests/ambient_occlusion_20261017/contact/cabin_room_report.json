@@ -1,0 +1,15 @@
+{
+	"initially_enabled": true,
+	"renderer": "gl_compatibility",
+	"samples": {
+		"off": {
+			"median_frame_ms": 1.696,
+			"p95_frame_ms": 11.617
+		},
+		"on": {
+			"median_frame_ms": 1.955,
+			"p95_frame_ms": 11.116
+		}
+	},
+	"scene": "res://scenes/interiors/cabin_room.tscn"
+}

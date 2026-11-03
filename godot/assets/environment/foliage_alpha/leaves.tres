@@ -1,0 +1,15 @@
+[gd_resource type="StandardMaterial3D" format=3]
+
+[ext_resource type="Texture2D" path="res://experiments/arbres_20261014/arbres_patch_feuillage_alpha.png" id="1_v71nh"]
+
+[resource]
+resource_name = "Feuilles alpha — quatre essences, teintes par arbre"
+transparency = 2
+alpha_scissor_threshold = 0.45
+alpha_antialiasing_mode = 0
+cull_mode = 2
+vertex_color_use_as_albedo = true
+albedo_color = Color(1.32, 1.32, 1.32, 1)
+albedo_texture = ExtResource("1_v71nh")
+metallic_specular = 0.18
+roughness = 0.93

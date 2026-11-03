@@ -1,0 +1,19 @@
+Godot Engine v4.6.1.stable.official.14d19694e - https://godotengine.org
+
+PASS: Imported Rabbit_Idle
+PASS: Skeletal tracks Rabbit_Idle
+PASS: Imported Rabbit_Hop
+PASS: Skeletal tracks Rabbit_Hop
+PASS: Imported Rabbit_Sniff
+PASS: Skeletal tracks Rabbit_Sniff
+PASS: Imported Rabbit_Graze
+PASS: Skeletal tracks Rabbit_Graze
+PASS: Autonomous state idle
+PASS: Autonomous state hop
+PASS: Autonomous state sniff
+PASS: Autonomous state graze
+PASS: Rabbit travels through the forest
+PASS: Rabbit stays in safe roaming area
+PASS: Ground contact maintained
+RABBIT_DISTANCE: 1.69164299964905
+RABBIT_TEST_RESULT: 0 failure(s)

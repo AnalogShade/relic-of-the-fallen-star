@@ -1,0 +1,419 @@
+{
+  "source_blend": "C:\\Users\\Utilisateur\\Documents\\Dev\\Jeux\\Relic of the fallen star\\3D MODELS\\Végétation\\Végétation_005.blend",
+  "variants": [
+    {
+      "id": "Touffe_dherbe__foret__01",
+      "source_object": "Touffe d’herbe — forêt · 01",
+      "family": "tuft",
+      "file": "res://assets/environment/stream_grass_trial/Touffe_dherbe__foret__01.glb",
+      "source_height": 0.2802581787109375,
+      "radius_per_height": 0.9428410394453483,
+      "photo": {
+        "saturation": 0.41999998688697815,
+        "brightness": 0.9200000166893005
+      },
+      "height_min": 0.17,
+      "height_max": 0.29,
+      "weight": 0.047619047619047616,
+      "probability_map": "res://assets/environment/stream_grass_trial/maps/probability_Touffe_dherbe__foret__01.png"
+    },
+    {
+      "id": "Touffe_dherbe__foret__02",
+      "source_object": "Touffe d’herbe — forêt · 02",
+      "family": "tuft",
+      "file": "res://assets/environment/stream_grass_trial/Touffe_dherbe__foret__02.glb",
+      "source_height": 0.2804308533668518,
+      "radius_per_height": 1.046486853238664,
+      "photo": {
+        "saturation": 0.41999998688697815,
+        "brightness": 0.9200000166893005
+      },
+      "height_min": 0.17,
+      "height_max": 0.29,
+      "weight": 0.047619047619047616,
+      "probability_map": "res://assets/environment/stream_grass_trial/maps/probability_Touffe_dherbe__foret__02.png"
+    },
+    {
+      "id": "Touffe_dherbe__foret__03",
+      "source_object": "Touffe d’herbe — forêt · 03",
+      "family": "tuft",
+      "file": "res://assets/environment/stream_grass_trial/Touffe_dherbe__foret__03.glb",
+      "source_height": 0.31081774830818176,
+      "radius_per_height": 0.9375801930309398,
+      "photo": {
+        "saturation": 0.41999998688697815,
+        "brightness": 0.9200000166893005
+      },
+      "height_min": 0.17,
+      "height_max": 0.29,
+      "weight": 0.047619047619047616,
+      "probability_map": "res://assets/environment/stream_grass_trial/maps/probability_Touffe_dherbe__foret__03.png"
+    },
+    {
+      "id": "Touffe_dherbe__foret__04",
+      "source_object": "Touffe d’herbe — forêt · 04",
+      "family": "tuft",
+      "file": "res://assets/environment/stream_grass_trial/Touffe_dherbe__foret__04.glb",
+      "source_height": 0.2674402594566345,
+      "radius_per_height": 0.9062673590843573,
+      "photo": {
+        "saturation": 0.41999998688697815,
+        "brightness": 0.9200000166893005
+      },
+      "height_min": 0.17,
+      "height_max": 0.29,
+      "weight": 0.047619047619047616,
+      "probability_map": "res://assets/environment/stream_grass_trial/maps/probability_Touffe_dherbe__foret__04.png"
+    },
+    {
+      "id": "Touffe_dherbe__foret__05",
+      "source_object": "Touffe d’herbe — forêt · 05",
+      "family": "tuft",
+      "file": "res://assets/environment/stream_grass_trial/Touffe_dherbe__foret__05.glb",
+      "source_height": 0.33334246277809143,
+      "radius_per_height": 0.939628388859318,
+      "photo": {
+        "saturation": 0.41999998688697815,
+        "brightness": 0.9200000166893005
+      },
+      "height_min": 0.17,
+      "height_max": 0.29,
+      "weight": 0.047619047619047616,
+      "probability_map": "res://assets/environment/stream_grass_trial/maps/probability_Touffe_dherbe__foret__05.png"
+    },
+    {
+      "id": "Touffe_dherbe__foret__06",
+      "source_object": "Touffe d’herbe — forêt · 06",
+      "family": "tuft",
+      "file": "res://assets/environment/stream_grass_trial/Touffe_dherbe__foret__06.glb",
+      "source_height": 0.3573959469795227,
+      "radius_per_height": 0.9064192039164979,
+      "photo": {
+        "saturation": 0.41999998688697815,
+        "brightness": 0.9200000166893005
+      },
+      "height_min": 0.17,
+      "height_max": 0.29,
+      "weight": 0.047619047619047616,
+      "probability_map": "res://assets/environment/stream_grass_trial/maps/probability_Touffe_dherbe__foret__06.png"
+    },
+    {
+      "id": "Touffe_dherbe__foret__07",
+      "source_object": "Touffe d’herbe — forêt · 07",
+      "family": "tuft",
+      "file": "res://assets/environment/stream_grass_trial/Touffe_dherbe__foret__07.glb",
+      "source_height": 0.35500943660736084,
+      "radius_per_height": 0.9773924493797562,
+      "photo": {
+        "saturation": 0.41999998688697815,
+        "brightness": 0.9200000166893005
+      },
+      "height_min": 0.17,
+      "height_max": 0.29,
+      "weight": 0.047619047619047616,
+      "probability_map": "res://assets/environment/stream_grass_trial/maps/probability_Touffe_dherbe__foret__07.png"
+    },
+    {
+      "id": "Touffe_dherbe__foret__08",
+      "source_object": "Touffe d’herbe — forêt · 08",
+      "family": "tuft",
+      "file": "res://assets/environment/stream_grass_trial/Touffe_dherbe__foret__08.glb",
+      "source_height": 0.3715432286262512,
+      "radius_per_height": 0.9098045305422843,
+      "photo": {
+        "saturation": 0.41999998688697815,
+        "brightness": 0.9200000166893005
+      },
+      "height_min": 0.17,
+      "height_max": 0.29,
+      "weight": 0.047619047619047616,
+      "probability_map": "res://assets/environment/stream_grass_trial/maps/probability_Touffe_dherbe__foret__08.png"
+    },
+    {
+      "id": "Touffe_dherbe__foret__09",
+      "source_object": "Touffe d’herbe — forêt · 09",
+      "family": "tuft",
+      "file": "res://assets/environment/stream_grass_trial/Touffe_dherbe__foret__09.glb",
+      "source_height": 0.36418581008911133,
+      "radius_per_height": 0.9373254265016489,
+      "photo": {
+        "saturation": 0.41999998688697815,
+        "brightness": 0.9200000166893005
+      },
+      "height_min": 0.17,
+      "height_max": 0.29,
+      "weight": 0.047619047619047616,
+      "probability_map": "res://assets/environment/stream_grass_trial/maps/probability_Touffe_dherbe__foret__09.png"
+    },
+    {
+      "id": "Touffe_dherbe__foret__10",
+      "source_object": "Touffe d’herbe — forêt · 10",
+      "family": "tuft",
+      "file": "res://assets/environment/stream_grass_trial/Touffe_dherbe__foret__10.glb",
+      "source_height": 0.3662574589252472,
+      "radius_per_height": 0.9176573240855882,
+      "photo": {
+        "saturation": 0.41999998688697815,
+        "brightness": 0.9200000166893005
+      },
+      "height_min": 0.17,
+      "height_max": 0.29,
+      "weight": 0.047619047619047616,
+      "probability_map": "res://assets/environment/stream_grass_trial/maps/probability_Touffe_dherbe__foret__10.png"
+    },
+    {
+      "id": "Touffe_dherbe__foret__11",
+      "source_object": "Touffe d’herbe — forêt · 11",
+      "family": "tuft",
+      "file": "res://assets/environment/stream_grass_trial/Touffe_dherbe__foret__11.glb",
+      "source_height": 0.36339157819747925,
+      "radius_per_height": 0.9601193008383997,
+      "photo": {
+        "saturation": 0.41999998688697815,
+        "brightness": 0.9200000166893005
+      },
+      "height_min": 0.17,
+      "height_max": 0.29,
+      "weight": 0.047619047619047616,
+      "probability_map": "res://assets/environment/stream_grass_trial/maps/probability_Touffe_dherbe__foret__11.png"
+    },
+    {
+      "id": "Touffe_dherbe__foret__12",
+      "source_object": "Touffe d’herbe — forêt · 12",
+      "family": "tuft",
+      "file": "res://assets/environment/stream_grass_trial/Touffe_dherbe__foret__12.glb",
+      "source_height": 0.2859622836112976,
+      "radius_per_height": 0.9407619545041199,
+      "photo": {
+        "saturation": 0.41999998688697815,
+        "brightness": 0.9200000166893005
+      },
+      "height_min": 0.17,
+      "height_max": 0.29,
+      "weight": 0.047619047619047616,
+      "probability_map": "res://assets/environment/stream_grass_trial/maps/probability_Touffe_dherbe__foret__12.png"
+    },
+    {
+      "id": "Touffe_dherbe__foret__13",
+      "source_object": "Touffe d’herbe — forêt · 13",
+      "family": "tuft",
+      "file": "res://assets/environment/stream_grass_trial/Touffe_dherbe__foret__13.glb",
+      "source_height": 0.3004290461540222,
+      "radius_per_height": 0.9397116955451705,
+      "photo": {
+        "saturation": 0.41999998688697815,
+        "brightness": 0.9200000166893005
+      },
+      "height_min": 0.17,
+      "height_max": 0.29,
+      "weight": 0.047619047619047616,
+      "probability_map": "res://assets/environment/stream_grass_trial/maps/probability_Touffe_dherbe__foret__13.png"
+    },
+    {
+      "id": "Touffe_dherbe__foret__14",
+      "source_object": "Touffe d’herbe — forêt · 14",
+      "family": "tuft",
+      "file": "res://assets/environment/stream_grass_trial/Touffe_dherbe__foret__14.glb",
+      "source_height": 0.36952507495880127,
+      "radius_per_height": 0.9033937817676232,
+      "photo": {
+        "saturation": 0.41999998688697815,
+        "brightness": 0.9200000166893005
+      },
+      "height_min": 0.17,
+      "height_max": 0.29,
+      "weight": 0.047619047619047616,
+      "probability_map": "res://assets/environment/stream_grass_trial/maps/probability_Touffe_dherbe__foret__14.png"
+    },
+    {
+      "id": "Touffe_dherbe__foret__15",
+      "source_object": "Touffe d’herbe — forêt · 15",
+      "family": "tuft",
+      "file": "res://assets/environment/stream_grass_trial/Touffe_dherbe__foret__15.glb",
+      "source_height": 0.32768714427948,
+      "radius_per_height": 1.0056334401005074,
+      "photo": {
+        "saturation": 0.41999998688697815,
+        "brightness": 0.9200000166893005
+      },
+      "height_min": 0.17,
+      "height_max": 0.29,
+      "weight": 0.047619047619047616,
+      "probability_map": "res://assets/environment/stream_grass_trial/maps/probability_Touffe_dherbe__foret__15.png"
+    },
+    {
+      "id": "Touffe_dherbe__foret__16",
+      "source_object": "Touffe d’herbe — forêt · 16",
+      "family": "tuft",
+      "file": "res://assets/environment/stream_grass_trial/Touffe_dherbe__foret__16.glb",
+      "source_height": 0.3152320981025696,
+      "radius_per_height": 0.9077058339564243,
+      "photo": {
+        "saturation": 0.41999998688697815,
+        "brightness": 0.9200000166893005
+      },
+      "height_min": 0.17,
+      "height_max": 0.29,
+      "weight": 0.047619047619047616,
+      "probability_map": "res://assets/environment/stream_grass_trial/maps/probability_Touffe_dherbe__foret__16.png"
+    },
+    {
+      "id": "Touffe_dherbe__foret__17",
+      "source_object": "Touffe d’herbe — forêt · 17",
+      "family": "tuft",
+      "file": "res://assets/environment/stream_grass_trial/Touffe_dherbe__foret__17.glb",
+      "source_height": 0.34845277667045593,
+      "radius_per_height": 0.9036659300288249,
+      "photo": {
+        "saturation": 0.41999998688697815,
+        "brightness": 0.9200000166893005
+      },
+      "height_min": 0.17,
+      "height_max": 0.29,
+      "weight": 0.047619047619047616,
+      "probability_map": "res://assets/environment/stream_grass_trial/maps/probability_Touffe_dherbe__foret__17.png"
+    },
+    {
+      "id": "Touffe_dherbe__foret__18",
+      "source_object": "Touffe d’herbe — forêt · 18",
+      "family": "tuft",
+      "file": "res://assets/environment/stream_grass_trial/Touffe_dherbe__foret__18.glb",
+      "source_height": 0.3613298535346985,
+      "radius_per_height": 0.871427512571608,
+      "photo": {
+        "saturation": 0.41999998688697815,
+        "brightness": 0.9200000166893005
+      },
+      "height_min": 0.17,
+      "height_max": 0.29,
+      "weight": 0.047619047619047616,
+      "probability_map": "res://assets/environment/stream_grass_trial/maps/probability_Touffe_dherbe__foret__18.png"
+    },
+    {
+      "id": "Touffe_dherbe__foret__19",
+      "source_object": "Touffe d’herbe — forêt · 19",
+      "family": "tuft",
+      "file": "res://assets/environment/stream_grass_trial/Touffe_dherbe__foret__19.glb",
+      "source_height": 0.2546696662902832,
+      "radius_per_height": 0.9280137602822832,
+      "photo": {
+        "saturation": 0.41999998688697815,
+        "brightness": 0.9200000166893005
+      },
+      "height_min": 0.17,
+      "height_max": 0.29,
+      "weight": 0.047619047619047616,
+      "probability_map": "res://assets/environment/stream_grass_trial/maps/probability_Touffe_dherbe__foret__19.png"
+    },
+    {
+      "id": "Touffe_dherbe__foret__20",
+      "source_object": "Touffe d’herbe — forêt · 20",
+      "family": "tuft",
+      "file": "res://assets/environment/stream_grass_trial/Touffe_dherbe__foret__20.glb",
+      "source_height": 0.3657102882862091,
+      "radius_per_height": 0.8679460035336483,
+      "photo": {
+        "saturation": 0.41999998688697815,
+        "brightness": 0.9200000166893005
+      },
+      "height_min": 0.17,
+      "height_max": 0.29,
+      "weight": 0.047619047619047616,
+      "probability_map": "res://assets/environment/stream_grass_trial/maps/probability_Touffe_dherbe__foret__20.png"
+    },
+    {
+      "id": "Touffe_dherbe__foret__21",
+      "source_object": "Touffe d’herbe — forêt · 21",
+      "family": "tuft",
+      "file": "res://assets/environment/stream_grass_trial/Touffe_dherbe__foret__21.glb",
+      "source_height": 0.34245380759239197,
+      "radius_per_height": 0.9881098623102101,
+      "photo": {
+        "saturation": 0.41999998688697815,
+        "brightness": 0.9200000166893005
+      },
+      "height_min": 0.17,
+      "height_max": 0.29,
+      "weight": 0.047619047619047616,
+      "probability_map": "res://assets/environment/stream_grass_trial/maps/probability_Touffe_dherbe__foret__21.png"
+    },
+    {
+      "id": "herbe_courte_dense__edition",
+      "source_object": "herbe courte dense · édition",
+      "family": "base",
+      "file": "res://assets/environment/stream_grass_trial/herbe_courte_dense__edition.glb",
+      "source_height": 1.1562550067901611,
+      "radius_per_height": 1.7371697708861904,
+      "photo": null,
+      "height_min": 0.08,
+      "height_max": 0.14,
+      "weight": 0.3333333333333333,
+      "probability_map": "res://assets/environment/stream_grass_trial/maps/probability_herbe_courte_dense__edition.png"
+    },
+    {
+      "id": "herbe_courte_fine__edition",
+      "source_object": "herbe courte fine · édition",
+      "family": "base",
+      "file": "res://assets/environment/stream_grass_trial/herbe_courte_fine__edition.glb",
+      "source_height": 1.0270429849624634,
+      "radius_per_height": 1.9574555639426259,
+      "photo": null,
+      "height_min": 0.08,
+      "height_max": 0.14,
+      "weight": 0.3333333333333333,
+      "probability_map": "res://assets/environment/stream_grass_trial/maps/probability_herbe_courte_fine__edition.png"
+    },
+    {
+      "id": "herbe_courte_rampante__edition",
+      "source_object": "herbe courte rampante · édition",
+      "family": "base",
+      "file": "res://assets/environment/stream_grass_trial/herbe_courte_rampante__edition.glb",
+      "source_height": 0.7708529829978943,
+      "radius_per_height": 2.7965177452391354,
+      "photo": null,
+      "height_min": 0.08,
+      "height_max": 0.14,
+      "weight": 0.3333333333333333,
+      "probability_map": "res://assets/environment/stream_grass_trial/maps/probability_herbe_courte_rampante__edition.png"
+    },
+    {
+      "id": "herbe_haute_balayee__edition",
+      "source_object": "herbe haute balayee · édition",
+      "family": "tall",
+      "file": "res://assets/environment/stream_grass_trial/herbe_haute_balayee__edition.glb",
+      "source_height": 2.317206859588623,
+      "radius_per_height": 0.9181503379853241,
+      "photo": null,
+      "height_min": 0.45,
+      "height_max": 0.7,
+      "weight": 0.3333333333333333,
+      "probability_map": "res://assets/environment/stream_grass_trial/maps/probability_herbe_haute_balayee__edition.png"
+    },
+    {
+      "id": "herbe_haute_epis__edition",
+      "source_object": "herbe haute epis · édition",
+      "family": "tall",
+      "file": "res://assets/environment/stream_grass_trial/herbe_haute_epis__edition.glb",
+      "source_height": 3.049999952316284,
+      "radius_per_height": 0.5456495771352647,
+      "photo": null,
+      "height_min": 0.45,
+      "height_max": 0.7,
+      "weight": 0.3333333333333333,
+      "probability_map": "res://assets/environment/stream_grass_trial/maps/probability_herbe_haute_epis__edition.png"
+    },
+    {
+      "id": "herbe_haute_prairie__edition",
+      "source_object": "herbe haute prairie · édition",
+      "family": "tall",
+      "file": "res://assets/environment/stream_grass_trial/herbe_haute_prairie__edition.glb",
+      "source_height": 2.252009153366089,
+      "radius_per_height": 0.9366643501198066,
+      "photo": null,
+      "height_min": 0.45,
+      "height_max": 0.7,
+      "weight": 0.3333333333333333,
+      "probability_map": "res://assets/environment/stream_grass_trial/maps/probability_herbe_haute_prairie__edition.png"
+    }
+  ]
+}

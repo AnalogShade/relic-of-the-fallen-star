@@ -1,0 +1,9 @@
+[gd_scene format=3 uid="uid://dpi1n2chu22jb"]
+
+[ext_resource type="Script" uid="uid://cnjawsk4s1vyr" path="res://tests/glide_world_preview.gd" id="1_wn7eq"]
+[ext_resource type="PackedScene" uid="uid://bbcte6fxoyjyg" path="res://scenes/world/open_world.tscn" id="2_o1hey"]
+
+[node name="GlideWorldPreview" type="Node3D" unique_id=704912782]
+script = ExtResource("1_wn7eq")
+
+[node name="World" parent="." unique_id=1454694496 instance=ExtResource("2_o1hey")]

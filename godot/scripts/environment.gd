@@ -1,0 +1,35 @@
+@tool
+extends Node3D
+const GROUND = preload("res://shaders/ground.gdshader")
+const WATER = preload("res://shaders/water.gdshader")
+
+func _ready() -> void:
+	var ground := ShaderMaterial.new()
+	ground.shader = GROUND
+	preload("res://scripts/hybrid_grass_material.gd").configure(ground)
+	var water := ShaderMaterial.new()
+	water.shader = WATER
+	for child in find_children("*", "MeshInstance3D", true, false):
+		if str(child.name) == "Ripples":
+			# Legacy Blender strokes; the water shader now provides moving reflections.
+			child.visible = false
+		elif str(child.name).begins_with("Terrain") or str(child.name).begins_with("DistantHills"):
+			child.material_override = ground
+		elif str(child.name).begins_with("Water"):
+			child.material_override = water
+			if str(child.name) == "Water":
+				preload("res://scripts/stream_water.gd").apply(child)
+
+	if not Engine.is_editor_hint() and get_parent() == get_tree().root:
+		if get_parent().get_node_or_null("InsectManager") == null:
+			var insects := preload("res://scripts/insect_manager.gd").new()
+			insects.name = "InsectManager"
+			get_parent().call_deferred("add_child", insects)
+		if get_parent().get_node_or_null("StreamAudioEmitter") == null:
+			var stream_audio := preload("res://scripts/stream_audio_emitter.gd").new()
+			stream_audio.name = "StreamAudioEmitter"
+			get_parent().call_deferred("add_child", stream_audio)
+		if get_parent().get_node_or_null("ForestBirdsAmbience") == null:
+			var birds_audio := preload("res://scripts/forest_birds_ambience.gd").new()
+			birds_audio.name = "ForestBirdsAmbience"
+			get_parent().call_deferred("add_child", birds_audio)
