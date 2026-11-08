@@ -1,64 +1,35 @@
-# Forêt des lueurs — prototype Godot
+# Relic of the Fallen Star — projet Godot
 
-## Écran d’accueil
+Le projet utilise **Godot 4.6.1** et le moteur de rendu **Compatibility (OpenGL)**. Après avoir récupéré les ressources avec Git LFS, importe [project.godot](project.godot) et appuie sur **F5**. Les étapes d’installation et les [commandes principales](../README.md#commandes-principales) figurent dans le README à la racine.
 
-Le lancement (F5) ouvre désormais `scenes/main_menu.tscn` : paysage 3D avec caméra lente, titre médiéval, étoile et parchemin orné. Souris, flèches et Entrée permettent de choisir **Nouvelle partie**, **Charger une partie**, **Options** ou **Quitter**. Les options audio et les commandes réutilisent le menu existant. Une nouvelle partie réinitialise la progression de la session et conserve les sauvegardes sur disque.
+## Lancement et sauvegardes
 
-Le décor d’accueil utilise une copie visuelle du monde, débarrassée de ses acteurs, scripts de jeu, collisions et interfaces. Les polices Cinzel sont fournies avec leurs licences OFL dans `assets/ui/title/`.
+**F5** ouvre le menu principal. **Nouvelle partie** démarre dans le monde jouable. **Charger une partie** reprend une sauvegarde existante. Une nouvelle partie réinitialise la progression en cours et conserve les sauvegardes déjà enregistrées.
 
-Validation : `godot --headless --path godot --script res://tests/test_main_menu.gd` depuis la racine du dépôt. Sans `--headless`, ce test enregistre également trois aperçus PNG dans `godot/tests/`.
-
-Projet créé avec **Godot 4.6.1**, moteur de rendu Compatibility (OpenGL), testé sur la RTX 2060 de ce poste.
-
-## Ouvrir et jouer
-
-Dans le gestionnaire de projets Godot : **Importer** → sélectionner `project.godot` dans ce dossier → ouvrir le projet. Appuyer sur **F5** pour lancer la scène principale. Aucune extension externe ni installation Blender n'est nécessaire pour jouer.
-
-| Contrôle | Action |
-|---|---|
-| W, A, S, D | Déplacement par rapport à l'orientation de la caméra |
-| Espace | Saut |
-| Souris | Orbite de caméra à la troisième personne |
-| Molette | Distance de caméra |
-| Maj | Course |
-| Échap | Libérer la souris |
-| Clic gauche | Reprendre la caméra |
-| R | Revenir au départ |
-
-Les touches utilisent leur position physique WASD. Le cube revient automatiquement au départ s'il tombe hors du décor ou dépasse les limites de la zone de test. La rivière est peu profonde : on marche sur son lit ; la nage n'est pas implémentée.
+En jeu, **Échap → Sauvegarder la partie** permet de nommer et d’enregistrer une sauvegarde sur disque. Le jeu les stocke dans `user://saves`, le dossier de sauvegarde propre au projet sur chaque machine. Le menu **Options → Commandes / Raccourcis clavier** présente les commandes de déplacement, de combat et de magie.
 
 ## Organisation
 
-- `scenes/forest_test.tscn` : scène principale, décor importé, ciel, lumières et interface.
-- `scenes/player.tscn` : cube, collision et caméra avec SpringArm3D.
-- `scripts/player.gd` : déplacement, saut avec petite tolérance de bord et de saisie, caméra, réapparition.
-- `assets/environment/forest.glb` : export glTF 2.0 du décor Blender.
-- `shaders/` : sol procédural et eau animée propres à Godot.
-- `addons/godot_mcp/` : extension MCP déjà disponible sur ce poste, copiée avec sa licence pour permettre de poursuivre le travail. Le serveur n'est pas nécessaire au jeu.
-- `tests/test_playground.gd` : vérification du contrôleur et des collisions.
+| Emplacement | Rôle |
+| --- | --- |
+| [scenes/main_menu.tscn](scenes/main_menu.tscn) | Scène de démarrage et menu principal |
+| [scenes/world/open_world.tscn](scenes/world/open_world.tscn) | Monde jouable, dont la Forêt des lueurs |
+| [scenes/interiors/](scenes/interiors/) | Intérieurs de la cabane et de la grotte |
+| [scenes/player.tscn](scenes/player.tscn) et [scripts/player.gd](scripts/player.gd) | Personnage de Nael, déplacements, caméra et commandes de combat |
+| [scripts/](scripts/) | Systèmes de jeu, dont l’inventaire, la progression, les quêtes et les sauvegardes |
+| [assets/](assets/) et [shaders/](shaders/) | Modèles, textures, sons, interface et effets de rendu |
+| [addons/godot_mcp/](addons/godot_mcp/) | Extension de développement fournie avec sa licence. Le jeu se lance sans serveur MCP |
+| [tests/](tests/) | Scripts de vérification et scènes de test |
 
-## Conservation de l'original
+[scenes/forest_test.tscn](scenes/forest_test.tscn) correspond au prototype historique de la forêt. Le parcours de jeu actuel passe par le menu principal et `open_world.tscn`.
 
-Le fichier `../environments/foret_des_lueurs/Foret_des_lueurs.blend` est intact. Son SHA-256 avant conversion est `3B307F857377911E65E4D40DDD3C8FE45F744809B20DC42E5AAAB926CDDBC730`.
+## Vérification locale
 
-La copie adaptée est `../environments/foret_des_lueurs/export/Foret_des_lueurs_game.blend`. Elle simplifie les matériaux pour glTF, retire les volumes et couronnes masqués ainsi que la subdivision du terrain, applique les petits biseaux des pierres, et regroupe les objets statiques en dix maillages. Les suffixes `-col` produisent les collisions du terrain, du bois, des roches et du sanctuaire à l'importation Godot.
+Depuis la racine du dépôt, remplace `godot` par le chemin de ton exécutable Godot 4.6.1 s’il est absent du `PATH`.
 
-Le sol, les reflets de l'eau, la brume et la lumière sont adaptés dans Godot : le résultat n'est pas une reproduction exacte du rendu Cycles. La scène reste un prototype, sans optimisation LOD ou système de nage.
-
-## Réexporter
-
-Pour repartir du décor source, recopier l'original vers `Foret_des_lueurs_game.blend`, puis exécuter Blender en arrière-plan **sur cette copie** avec le script `../environments/foret_des_lueurs/export/export_godot.py`. Le script réécrit la copie et `assets/environment/forest.glb`. Ne pas exécuter ce script dans le fichier original. Godot réimporte le GLB ; le personnage et la scène de jeu restent séparés.
-
-## Vérification
-
-Depuis ce dossier, avec l'exécutable Godot 4.6 :
-
-```text
-godot --headless --editor --import
-godot --headless --fixed-fps 60 --script res://tests/test_playground.gd
-godot --fixed-fps 60 --script res://tests/test_playground.gd
+```sh
+godot --headless --path godot --editor --import
+godot --headless --path godot --script res://tests/test_save_system.gd
 ```
 
-La dernière commande teste aussi la souris et enregistre une capture dans `tests/godot_playground.png`, puis ferme sa fenêtre automatiquement.
-
-Références : [import GLB](https://docs.godotengine.org/en/stable/tutorials/assets_pipeline/importing_3d_scenes/available_formats.html) et [caméra SpringArm3D](https://docs.godotengine.org/en/stable/tutorials/3d/spring_arm.html).
+La première commande importe les ressources. Le test de sauvegarde crée une partie temporaire, vérifie la restauration de l’inventaire, de la progression et de l’état du joueur, puis supprime la sauvegarde de test.
