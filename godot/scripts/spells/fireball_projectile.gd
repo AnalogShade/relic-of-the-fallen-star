@@ -1,5 +1,5 @@
 extends Area3D
-## Projectile magique : Boule de Feu vivante ultra-fluide (préchargée, zéro lag)
+## Projectile magique avec une traînée animée et des tisons 3D.
 ## Déplacement en ligne droite dans la direction du personnage avec tisons 3D légers.
 
 const FireballModelScene: PackedScene = preload("res://assets/spells/fireball.glb")
@@ -7,6 +7,7 @@ const ShardScene: PackedScene = preload("res://assets/spells/fireball_shard.glb"
 const ImpactScene: PackedScene = preload("res://scenes/spells/fireball_impact.tscn")
 
 static var _cached_shard_mesh: Mesh = null
+static var _soft_shaders: Dictionary[bool, Shader] = {}
 
 static func get_shard_mesh() -> Mesh:
 	if _cached_shard_mesh != null:
@@ -84,6 +85,27 @@ func _ready() -> void:
 	if not area_entered.is_connected(_on_area_entered):
 		area_entered.connect(_on_area_entered)
 
+func warm_up(parent: Node) -> void:
+	# Compatibility compiles materials on their first actual draw. This viewport
+	# renders the real meshes and particles without displaying them in the game.
+	var viewport := SubViewport.new()
+	viewport.size = Vector2i(64, 64)
+	viewport.own_world_3d = true
+	viewport.render_target_update_mode = SubViewport.UPDATE_ALWAYS
+	parent.add_child(viewport)
+	var camera := Camera3D.new()
+	camera.position = Vector3(0, 0, 4)
+	viewport.add_child(camera)
+	camera.make_current()
+	audio_3d.stream = null
+	viewport.add_child(self)
+	set_physics_process(false)
+	var impact := ImpactScene.instantiate() as Node3D
+	viewport.add_child(impact)
+	for frame in 4:
+		await RenderingServer.frame_post_draw
+	viewport.queue_free()
+
 func _setup_shard_trail() -> void:
 	shard_particles = CPUParticles3D.new()
 	shard_particles.name = "ShardTrail"
@@ -112,7 +134,9 @@ func _setup_shard_trail() -> void:
 	shard_particles.mesh = get_shard_mesh()
 	add_child(shard_particles)
 
-func _soft_material(color: Color, additive: bool = true) -> ShaderMaterial:
+static func _soft_shader(additive: bool) -> Shader:
+	if _soft_shaders.has(additive):
+		return _soft_shaders[additive]
 	var shader := Shader.new()
 	shader.code = """
 shader_type spatial;
@@ -142,8 +166,12 @@ void fragment() {
 	ALPHA = soft * tint.a * COLOR.a;
 }
 """ % ("blend_add" if additive else "blend_mix")
+	_soft_shaders[additive] = shader
+	return shader
+
+func _soft_material(color: Color, additive: bool = true) -> ShaderMaterial:
 	var material := ShaderMaterial.new()
-	material.shader = shader
+	material.shader = _soft_shader(additive)
 	material.set_shader_parameter("tint", color)
 	return material
 

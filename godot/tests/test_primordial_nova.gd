@@ -24,8 +24,8 @@ func run() -> void:
 	check(InputMap.action_get_events("primordial_nova")[0].physical_keycode == KEY_Q, "Q bound to nova")
 	check(not actor.nova_ability.try_cast(), "Ability locked before collecting second fragment")
 	check(not fragment.visible, "Fragment absent before lake boss defeat")
+	boss._begin_emerge()
 	boss.state = "attack"
-	boss.visual.show()
 	boss.mouth_area.global_position = Vector3(7, 9, -213)
 	boss.health = 1
 	boss.take_damage(40, boss.mouth_area.global_position, "fireball")

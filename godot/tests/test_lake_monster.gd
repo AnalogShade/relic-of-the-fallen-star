@@ -19,10 +19,15 @@ func run() -> void:
 		await physics_frame
 	var boss = world.get_node("LakeMonster")
 	var player = world.get_node("Original/Player")
-	check(boss.state == "dormant" and not boss.visual.visible, "Absent avant l'approche")
+	check(boss.state == "dormant" and boss.visual == null, "Modèle absent loin du lac")
+	player.global_position = Vector3(7, 8, -150)
+	for i in range(180):
+		if boss.visual != null: break
+		await physics_frame
+	check(boss.visual != null and not boss.visual.visible and boss.state == "dormant", "Préchargement invisible avant la zone de combat")
 	check(boss.clips.size() == 4, "Quatre animations V3 importées")
 	check(boss.skeleton.get_bone_count() == 26, "Squelette V3 importé avec contrôles cuits")
-	check(boss.Model.resource_path.ends_with("crystalmaw_v003.glb"), "Nouveau modèle utilisé dans le monde principal")
+	check(boss.visual.scene_file_path.ends_with("crystalmaw_v003.glb"), "Nouveau modèle utilisé dans le monde principal")
 	boss.animator.play(boss.clips.Walk)
 	boss.animator.seek(0.0, true)
 	var foot_index: int = boss.skeleton.find_bone("foot.R")
@@ -31,6 +36,10 @@ func run() -> void:
 	var foot_lift: Vector3 = boss.skeleton.get_bone_global_pose(foot_index).origin
 	check(foot_lift.distance_to(foot_rest) > 0.15, "Mouvements IK des pattes réellement cuits dans le GLB")
 	boss.animator.stop()
+	player.global_position = Vector3(7, 8, -50)
+	await physics_frame
+	await physics_frame
+	check(boss.visual == null and not ResourceLoader.has_cached(boss.MODEL_PATH), "Modèle libéré après éloignement")
 	var old_health: float = boss.health
 	boss.take_damage(50000, boss.global_position, "claw")
 	check(boss.health == old_health, "Griffes sans effet sur boss dormant")

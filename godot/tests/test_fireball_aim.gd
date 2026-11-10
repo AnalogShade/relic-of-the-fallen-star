@@ -24,6 +24,8 @@ func run() -> void:
 	player.arm.rotation.x = 0
 	player.pivot.rotation.y = 0.6
 	await frames(2)
+	var prepared: Node3D = player.prepared_fireball
+	check(is_instance_valid(prepared) and not prepared.is_inside_tree(), "Projectile prepared off-tree after unlocking relic")
 	var press := InputEventMouseButton.new()
 	press.button_index = MOUSE_BUTTON_RIGHT
 	press.pressed = true
@@ -100,6 +102,7 @@ func run() -> void:
 	for child in level.get_children():
 		if child is Area3D: projectile = child
 	check(projectile != null, "Release spawns projectile")
+	check(projectile != null and projectile == prepared, "First cast uses prepared projectile")
 	if projectile:
 		var expected := (target - projectile.global_position).normalized()
 		check(projectile.direction.dot(expected) > 0.999, "Flight reaches locked target despite camera moving")

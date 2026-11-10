@@ -91,6 +91,7 @@ func _configure_world() -> void:
 	if not Engine.is_editor_hint() and get_node_or_null("LakeMonster") == null:
 		var lake_monster := preload("res://scripts/lake_monster.gd").new()
 		lake_monster.name = "LakeMonster"
+		lake_monster.stream_model = true
 		lake_monster.position = Vector3(7.0, 5.5, -213.0)
 		add_child(lake_monster)
 

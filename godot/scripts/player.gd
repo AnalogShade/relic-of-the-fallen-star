@@ -67,6 +67,7 @@ var claw_trail: Node3D
 
 # Fireball spell casting
 const FireballScene: PackedScene = preload("res://scenes/spells/fireball_projectile.tscn")
+var prepared_fireball: Node3D
 var fireball_requested := false
 var fireball_aiming := false
 var ranged_item := "" # Locked when aiming starts; darts share the fireball cursor and animation.
@@ -117,6 +118,30 @@ var attack_feedback: Label
 @export var glide_speed := 8.4
 @export var glide_fall_speed := 1.3
 @export var glide_braking := 14.0
+
+func _enter_tree() -> void:
+	Inventory.changed.connect(_on_fireball_inventory_changed)
+	_prepare_fireball.call_deferred()
+
+func _exit_tree() -> void:
+	if Inventory.changed.is_connected(_on_fireball_inventory_changed):
+		Inventory.changed.disconnect(_on_fireball_inventory_changed)
+	if prepared_fireball:
+		prepared_fireball.free()
+		prepared_fireball = null
+
+func _on_fireball_inventory_changed() -> void:
+	_prepare_fireball.call_deferred()
+
+func _prepare_fireball() -> void:
+	if not is_inside_tree():
+		return
+	if Inventory.has_fireball_relic():
+		if prepared_fireball == null:
+			prepared_fireball = FireballScene.instantiate()
+	elif prepared_fireball:
+		prepared_fireball.free()
+		prepared_fireball = null
 
 func _ready() -> void:
 	add_child(preload("res://scripts/progression_hud.gd").new())
@@ -578,7 +603,9 @@ func begin_fireball_aim() -> bool:
 	if not inv:
 		return false
 	ranged_item = "sleep_dart" if inv.equipped == "sleep_dart" and inv.get_item_count("sleep_dart") > 0 else "first_echo"
-	if ranged_item == "first_echo" and not inv.has_fireball_relic(): return false
+	if ranged_item == "first_echo":
+		if not inv.has_fireball_relic(): return false
+		_prepare_fireball.call_deferred()
 	fireball_cursor = get_viewport().get_visible_rect().size * 0.5
 	fireball_aiming = true
 	fireball_target_locked = false
@@ -690,8 +717,10 @@ func spawn_fireball() -> void:
 	spawn_pos += shoot_dir * 0.45
 	fireball_target_locked = false
 
-	# 4. Instanciation instantanée via preload (zéro lag)
-	var fb: Node3D = FireballScene.instantiate() as Node3D
+	var fb := prepared_fireball
+	prepared_fireball = null
+	if fb == null:
+		fb = FireballScene.instantiate()
 	fb.damage *= Progression.magic_multiplier()
 	get_parent().add_child(fb)
 	fb.launch(spawn_pos, shoot_dir)

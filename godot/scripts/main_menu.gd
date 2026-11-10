@@ -88,6 +88,8 @@ func _reveal_menu() -> void:
 	# Keep the loading message until the camera's first 3D frame has been drawn.
 	if DisplayServer.get_name() != "headless":
 		await RenderingServer.frame_post_draw
+		var preview := preload("res://scenes/spells/fireball_projectile.tscn").instantiate()
+		await preview.warm_up(self)
 	else:
 		await get_tree().process_frame
 	loading_label.hide()

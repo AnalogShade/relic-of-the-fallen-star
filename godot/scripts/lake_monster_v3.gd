@@ -1,6 +1,8 @@
 extends CharacterBody3D
 ## Crystalmaw: baked IK clips, slow pursuit near the lake, return to its home.
-const Model = preload("res://assets/enemies/lake_monster/crystalmaw_v003.glb")
+const MODEL_PATH := "res://assets/enemies/lake_monster/crystalmaw_v003.glb"
+const MODEL_PREFETCH_DISTANCE := 90.0
+const MODEL_RELEASE_DISTANCE := 120.0
 const Splash = preload("res://scripts/lake_monster_splash.gd")
 const Projectile = preload("res://scripts/lake_monster_projectile.gd")
 const WaterLookup = preload("res://scripts/lake_water_lookup.gd")
@@ -22,6 +24,8 @@ var state_time := 0.0
 var shots_fired := 0
 var splash_count := 0
 var player: CharacterBody3D
+var stream_model := false
+var model_requested := false
 var visual: Node3D
 var pivot: Node3D
 var animator: AnimationPlayer
@@ -58,25 +62,6 @@ func _ready() -> void:
 	pivot = Node3D.new()
 	pivot.name = "Facing"
 	add_child(pivot)
-	visual = Model.instantiate()
-	visual.name = "Visual"
-	visual.scale = Vector3.ONE * MODEL_SCALE
-	visual.position.y = immersion
-	pivot.add_child(visual)
-	animator = visual.find_child("AnimationPlayer", true, false) as AnimationPlayer
-	skeleton = visual.find_child("Skeleton3D", true, false) as Skeleton3D
-	assert(animator != null and skeleton != null, "Crystalmaw needs its rig and animations")
-	for clip in animator.get_animation_list():
-		for key in ["Idle", "Emerge", "Spit", "Walk"]:
-			if key in clip: clips[key] = clip
-	assert(clips.size() == 4, "Crystalmaw requires four sampled clips")
-	for key in ["Idle", "Walk"]:
-		animator.get_animation(clips[key]).loop_mode = Animation.LOOP_LINEAR
-	for key in ["Emerge", "Spit"]:
-		animator.get_animation(clips[key]).loop_mode = Animation.LOOP_NONE
-	head_index = skeleton.find_bone("head")
-	assert(head_index >= 0)
-	rest_head = skeleton.get_bone_global_rest(head_index)
 	body_collision = CollisionShape3D.new()
 	body_collision.name = "CollisionShape3D"
 	var body_shape := CapsuleShape3D.new()
@@ -119,7 +104,6 @@ func _ready() -> void:
 	health_label.font_size = 42
 	health_label.pixel_size = 0.014
 	add_child(health_label)
-	visual.hide()
 	health_label.hide()
 	var bag := get_node_or_null("/root/Inventory")
 	if bag and bag.collected.has(DEFEATED_FLAG): state = "defeated"
@@ -127,6 +111,54 @@ func _ready() -> void:
 	var fragment := preload("res://scripts/lake_fragment.gd").new()
 	fragment.name = "LakeFragment"
 	add_child(fragment)
+	if not stream_model:
+		_attach_model(load(MODEL_PATH) as PackedScene)
+
+func _attach_model(scene: PackedScene) -> void:
+	visual = scene.instantiate()
+	visual.name = "Visual"
+	visual.scale = Vector3.ONE * MODEL_SCALE
+	visual.position.y = immersion
+	visual.hide()
+	pivot.add_child(visual)
+	animator = visual.find_child("AnimationPlayer", true, false) as AnimationPlayer
+	skeleton = visual.find_child("Skeleton3D", true, false) as Skeleton3D
+	assert(animator != null and skeleton != null, "Crystalmaw needs its rig and animations")
+	for clip in animator.get_animation_list():
+		for key in ["Idle", "Emerge", "Spit", "Walk"]:
+			if key in clip: clips[key] = clip
+	assert(clips.size() == 4, "Crystalmaw requires four sampled clips")
+	for key in ["Idle", "Walk"]:
+		animator.get_animation(clips[key]).loop_mode = Animation.LOOP_LINEAR
+	for key in ["Emerge", "Spit"]:
+		animator.get_animation(clips[key]).loop_mode = Animation.LOOP_NONE
+	head_index = skeleton.find_bone("head")
+	assert(head_index >= 0)
+	rest_head = skeleton.get_bone_global_rest(head_index)
+
+func _take_model_request() -> PackedScene:
+	model_requested = false
+	return ResourceLoader.load_threaded_get(MODEL_PATH) as PackedScene
+
+func _update_model(distance: float) -> void:
+	if model_requested:
+		if ResourceLoader.load_threaded_get_status(MODEL_PATH) == ResourceLoader.THREAD_LOAD_IN_PROGRESS:
+			return
+		var scene := _take_model_request()
+		if scene != null and distance < MODEL_RELEASE_DISTANCE:
+			_attach_model(scene)
+	elif visual == null and distance < MODEL_PREFETCH_DISTANCE:
+		model_requested = ResourceLoader.load_threaded_request(MODEL_PATH) == OK
+	elif visual != null and distance >= MODEL_RELEASE_DISTANCE:
+		visual.free()
+		visual = null
+		animator = null
+		skeleton = null
+
+func _exit_tree() -> void:
+	# Godot requires each threaded request to be collected, even during a scene change.
+	if model_requested:
+		_take_model_request()
 
 func _play(key: String, blend := 0.12) -> void:
 	animator.play(clips[key], blend)
@@ -146,18 +178,25 @@ func _face(point: Vector3, delta: float) -> void:
 func _physics_process(delta: float) -> void:
 	if not is_instance_valid(player):
 		player = get_tree().get_first_node_in_group("player") as CharacterBody3D
-	if not is_instance_valid(player) or state == "defeated": return
-	_prepare_water_lookup()
+	if not is_instance_valid(player): return
 	var bag := get_node_or_null("/root/Inventory")
+	if state == "dormant":
+		var distance := _flat_distance(player.global_position, home_position)
+		if stream_model:
+			_update_model(distance)
+		if distance < trigger_radius and (not bag or not bag.is_open):
+			_begin_emerge()
+		return
+	if state == "defeated":
+		if stream_model:
+			_update_model(INF)
+		return
 	if bag and bag.is_open:
 		if animator.is_playing(): animator.pause()
 		return
 	if not animator.is_playing() and state in ["emerging", "idle", "attack", "walking", "returning"]:
 		animator.play()
 	state_time += delta
-	if state == "dormant":
-		if _flat_distance(player.global_position, home_position) < trigger_radius: _begin_emerge()
-		return
 	if state not in ["sinking", "returning"] and (_distance() > leash_radius or _flat_distance(player.global_position, home_position) > leash_radius):
 		_begin_return()
 	if state == "sinking":
@@ -237,6 +276,13 @@ func _begin_attack() -> void:
 	_play("Spit")
 
 func _begin_emerge() -> void:
+	if visual == null:
+		# A save or teleport can put the player straight inside the encounter.
+		var scene := _take_model_request() if model_requested else load(MODEL_PATH) as PackedScene
+		if scene == null:
+			return
+		_attach_model(scene)
+	_prepare_water_lookup()
 	global_position = home_position
 	var query := PhysicsRayQueryParameters3D.create(home_position + Vector3.UP * 15, home_position - Vector3.UP * 30, 1, [get_rid()])
 	var ground := get_world_3d().direct_space_state.intersect_ray(query)
@@ -314,7 +360,7 @@ func _begin_sink(defeated: bool) -> void:
 	if defeated: health = 0
 
 func _reset_hidden(defeated: bool) -> void:
-	visual.hide()
+	if visual: visual.hide()
 	health_label.hide()
 	collision_layer = 0
 	carapace.collision_layer = 0
@@ -322,11 +368,11 @@ func _reset_hidden(defeated: bool) -> void:
 	velocity = Vector3.ZERO
 	global_position = home_position
 	immersion = water_y - 3.0 - global_position.y
-	visual.position = Vector3(0, immersion, 0)
+	if visual: visual.position = Vector3(0, immersion, 0)
 	state = "defeated" if defeated else "dormant"
 	health = 0.0 if defeated else max_health
 	state_time = 0
-	animator.stop()
+	if animator: animator.stop()
 
 func reset_encounter() -> void:
 	_clear_shots()
@@ -348,7 +394,7 @@ func _splash(point: Vector3, large: bool) -> void:
 	splash_count += 1
 
 func _prepare_water_lookup() -> void:
-	if water_lookup != null or player.water_surface == null or player.water_surface.surfaces.is_empty(): return
+	if water_lookup != null or not is_instance_valid(player) or player.water_surface == null or player.water_surface.surfaces.is_empty(): return
 	water_lookup = WaterLookup.new()
 	water_lookup.build(player.water_surface.surfaces, home_position)
 

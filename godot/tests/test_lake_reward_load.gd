@@ -35,8 +35,8 @@ func run() -> void:
 	var fragment = boss.get_node("LakeFragment")
 	var bag = root.get_node("Inventory")
 	check(not fragment.visible and boss.state == "dormant", "Loaded pre-victory save keeps nova locked")
+	boss._begin_emerge()
 	boss.state = "attack"
-	boss.visual.show()
 	boss.global_position += Vector3(3, 0, 0)
 	boss.mouth_area.global_position = Vector3(10, 10, -213)
 	boss.health = 1
