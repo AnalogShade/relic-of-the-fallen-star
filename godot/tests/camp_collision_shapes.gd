@@ -1,12 +1,22 @@
 extends RefCounted
 ## Authoring helper only. Visual meshes are independent of cheap physics proxies.
 
-static func add_shape(body: StaticBody3D, shape: Shape3D, center: Vector3, label: String) -> void:
+static func add_shape(body: StaticBody3D, shape: Shape3D, center: Vector3, label: String) -> CollisionShape3D:
 	var node := CollisionShape3D.new()
 	node.name = label
 	node.shape = shape
 	node.position = center
 	body.add_child(node)
+	return node
+
+static func add_upright_cylinder(body: StaticBody3D, radius: float, height: float, center: Vector3, label: String) -> void:
+	# Keep the footprint upright even when the visual mesh follows the slope.
+	var counter_rotation := body.get_parent_node_3d().basis.orthonormalized().inverse()
+	var cylinder := CylinderShape3D.new()
+	cylinder.radius = radius
+	cylinder.height = height
+	var collider := add_shape(body, cylinder, counter_rotation * center, label)
+	collider.basis = counter_rotation
 
 static func create(prop: MeshInstance3D) -> void:
 	var body := StaticBody3D.new()
@@ -16,29 +26,12 @@ static func create(prop: MeshInstance3D) -> void:
 	var center := bounds.get_center()
 	var size := bounds.size
 	if "Banniere" in str(prop.name):
-		# The cloth is not an invisible wall: collide with the rock base and mast.
-		var base := BoxShape3D.new()
-		base.size = Vector3(size.x, minf(size.y,.17), size.z)
-		add_shape(body,base,Vector3(center.x,bounds.position.y+base.size.y/2,center.z),"Socle")
-		var pole := CylinderShape3D.new()
-		pole.radius = .016
-		pole.height = size.y
-		var top := AABB()
-		var found := false
-		for s in range(prop.mesh.get_surface_count()):
-			for v in prop.mesh.surface_get_arrays(s)[Mesh.ARRAY_VERTEX]:
-				if v.y < bounds.end.y-.025: continue
-				if not found:
-					top = AABB(v,Vector3.ZERO)
-					found = true
-				else: top = top.expand(v)
-		var mast := top.get_center() if found else center
-		add_shape(body,pole,Vector3(mast.x,center.y,mast.z),"Mat")
-	elif "Feu_Camp" in str(prop.name) or "Torche" in str(prop.name):
-		var cylinder := CylinderShape3D.new()
-		cylinder.radius = maxf(size.x,size.z)*.44
-		cylinder.height = minf(size.y,.10) if "Feu_Camp" in str(prop.name) else size.y
-		add_shape(body,cylinder,Vector3(center.x,bounds.position.y+cylinder.height/2,center.z),"Cylinder")
+		# Fit the main cluster of rocks under the banner.
+		add_upright_cylinder(body, 0.235, 0.135, Vector3(0.016, 0.05, -0.02), "Socle")
+	elif "Feu_Camp" in str(prop.name):
+		add_upright_cylinder(body, 0.158, 0.064, Vector3(-0.003, 0.027, 0.004), "Cylinder")
+	elif "Torche" in str(prop.name):
+		add_upright_cylinder(body, 0.016, 0.09, Vector3(0.0035, 0.035, -0.0007), "Cylinder")
 	elif "Billot" in str(prop.name):
 		# Billot avec hache : cylindre adapté au tronc du billot lui-même (rayon ~0.42m dans le monde),
 		# évitant les murs invisibles au-dessus des petits cailloux au sol.

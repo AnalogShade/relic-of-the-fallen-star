@@ -58,8 +58,8 @@ blend_shape_mode = 0
 shadow_mesh = SubResource("ArrayMesh_by6p2")
 
 [sub_resource type="CylinderShape3D" id="CylinderShape3D_kqfh4"]
-height = 0.1
-radius = 0.17661218
+height = 0.064
+radius = 0.158
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_fjbyn"]
 _surfaces = [{
@@ -95,12 +95,9 @@ _surfaces = [{
 blend_shape_mode = 0
 shadow_mesh = SubResource("ArrayMesh_fjbyn")
 
-[sub_resource type="BoxShape3D" id="BoxShape3D_noh68"]
-size = Vector3(0.5171719, 0.17, 0.43606168)
-
-[sub_resource type="CylinderShape3D" id="CylinderShape3D_1gpo7"]
-height = 0.52665323
-radius = 0.016
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_banniere"]
+height = 0.135
+radius = 0.235
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_qhjw1"]
 _surfaces = [{
@@ -539,8 +536,8 @@ blend_shape_mode = 0
 shadow_mesh = SubResource("ArrayMesh_4qmvq")
 
 [sub_resource type="CylinderShape3D" id="CylinderShape3D_x2q3g"]
-height = 0.26960316
-radius = 0.028999068
+height = 0.09
+radius = 0.016
 
 [sub_resource type="ArrayMesh" id="ArrayMesh_skmty"]
 _surfaces = [{
@@ -1919,7 +1916,7 @@ mesh = SubResource("ArrayMesh_kbfo7")
 [node name="Camp_Feu_Camp_Rotissoire_col" type="StaticBody3D" parent="Camp_Feu_Camp_Rotissoire" unique_id=856424228]
 
 [node name="Cylinder" type="CollisionShape3D" parent="Camp_Feu_Camp_Rotissoire/Camp_Feu_Camp_Rotissoire_col" unique_id=364288054]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.0872564e-05, 0.049668614, 9.5024705e-05)
+transform = Transform3D(0.98005783, -0.004241178, -0.19866755, 0.002758226, 0.99996633, -0.00774064, 0.19869367, 0.007038304, 0.9800364, -0.002070927, 0.027039968, 0.004307151)
 shape = SubResource("CylinderShape3D_kqfh4")
 
 [node name="Chaudron" type="Node3D" parent="Camp_Feu_Camp_Rotissoire"]
@@ -1934,12 +1931,8 @@ mesh = SubResource("ArrayMesh_ao6wq")
 [node name="Camp_Banniere_Socle_Rocheux_col" type="StaticBody3D" parent="Camp_Banniere_Socle_Rocheux" unique_id=785816498]
 
 [node name="Socle" type="CollisionShape3D" parent="Camp_Banniere_Socle_Rocheux/Camp_Banniere_Socle_Rocheux_col" unique_id=1225559421]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9.071827e-05, 0.08509838, -0.000120297074)
-shape = SubResource("BoxShape3D_noh68")
-
-[node name="Mat" type="CollisionShape3D" parent="Camp_Banniere_Socle_Rocheux/Camp_Banniere_Socle_Rocheux_col" unique_id=699268687]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.033116803, 0.263425, 0.1145692)
-shape = SubResource("CylinderShape3D_1gpo7")
+transform = Transform3D(0.90957654, -0.1574231, 0.38456276, 0.19002767, 0.98060256, -0.048042126, -0.3695403, 0.11677556, 0.9218478, 0.031445414, 0.044175847, -0.014686059)
+shape = SubResource("CylinderShape3D_banniere")
 
 [node name="Camp_Caisse_Tonneau_Provisions" type="MeshInstance3D" parent="." unique_id=1295825467]
 transform = Transform3D(4.7153435, -1.3021504, -1.0343769, 1.1471074, 4.7985053, -0.81147444, 1.204025, 0.52796805, 4.8240614, 25.8, 4.3923125, -63.8)
@@ -2050,7 +2043,7 @@ mesh = SubResource("ArrayMesh_hgkri")
 [node name="Camp_Torche_Sur_Piquet_col" type="StaticBody3D" parent="Camp_Torche_Sur_Piquet" unique_id=1116072518]
 
 [node name="Cylinder" type="CollisionShape3D" parent="Camp_Torche_Sur_Piquet/Camp_Torche_Sur_Piquet_col" unique_id=1218544918]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.6438385e-05, 0.13474719, 3.594905e-07)
+transform = Transform3D(0.9960722, -0.08854502, 0, 0.08851787, 0.9957668, -0.024760693, 0.002192436, 0.024663437, 0.9996934, 0.006582843, 0.034524668, -0.00156641)
 shape = SubResource("CylinderShape3D_x2q3g")
 
 [node name="Camp_Sac_Provisions" type="MeshInstance3D" parent="." unique_id=1437874577]
