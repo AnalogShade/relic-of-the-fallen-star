@@ -10,7 +10,7 @@
 [ext_resource type="Script" uid="uid://yl3etu8tm1te" path="res://scripts/cabin_portal.gd" id="8_p8vyp"]
 [ext_resource type="Script" path="res://scripts/cabin_chair.gd" id="chair"]
 
-[node name="CabinRoom" type="Node3D" unique_id=1842711433]
+[node name="CabinRoom" type="Node3D" unique_id=1842711433 groups=["maelor_music"]]
 script = ExtResource("1_pl7hx")
 
 [node name="Architecture" type="Node3D" parent="." unique_id=1247578510]
