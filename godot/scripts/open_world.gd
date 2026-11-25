@@ -3,12 +3,36 @@ extends Node3D
 ## Assembly-only settings; the original forest scene and GLB remain reusable.
 const WATER = preload("res://shaders/water.gdshader")
 const FLOWING_WATER = preload("res://scripts/stream_water.gd")
+const OUTDOOR_MESH_LOD_THRESHOLD := 2.0
+
+var _outdoor_viewport: Viewport
+var _previous_msaa: Viewport.MSAA
+var _previous_mesh_lod_threshold: float
 
 func _enter_tree() -> void:
+	if not Engine.is_editor_hint():
+		_outdoor_viewport = get_viewport()
+		_previous_msaa = _outdoor_viewport.msaa_3d
+		_previous_mesh_lod_threshold = _outdoor_viewport.mesh_lod_threshold
+		if _previous_msaa > Viewport.MSAA_4X:
+			_outdoor_viewport.msaa_3d = Viewport.MSAA_4X
+		_outdoor_viewport.mesh_lod_threshold = maxf(_previous_mesh_lod_threshold, OUTDOOR_MESH_LOD_THRESHOLD)
+		for path in ["Original/Sun", "Original/Moon"]:
+			var light := get_node_or_null(path) as DirectionalLight3D
+			if light:
+				light.directional_shadow_mode = DirectionalLight3D.SHADOW_PARALLEL_2_SPLITS
+
 	# Opt in this outdoor world before its existing cycle enters _ready().
 	var cycle := get_node_or_null("Original/DayNightCycle")
 	if cycle != null:
 		cycle.use_outdoor_sky = true
+
+func _exit_tree() -> void:
+	# The forest shares this viewport with independent interior scenes.
+	if _outdoor_viewport != null:
+		_outdoor_viewport.msaa_3d = _previous_msaa
+		_outdoor_viewport.mesh_lod_threshold = _previous_mesh_lod_threshold
+		_outdoor_viewport = null
 
 func _ready() -> void:
 	call_deferred("_configure_world")
